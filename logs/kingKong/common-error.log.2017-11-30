@@ -1,0 +1,791 @@
+2017-11-25 23:59:59,377 ERROR 2338 nodejs.Error: [egg-logrotator] rename /Users/baixing/kingKong/logs/kingKong/common-error.log, found exception: targetFile /Users/baixing/kingKong/logs/kingKong/common-error.log.2017-11-24 exists!!!
+    at renameOrDelete (/Users/baixing/kingKong/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at renameOrDelete.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at <anonymous>
+
+pid: 2338
+hostname: admindeMacBook-Air.local
+
+2017-11-25 23:59:59,380 ERROR 2338 nodejs.Error: [egg-logrotator] rename /Users/baixing/kingKong/logs/kingKong/kingKong-web.log, found exception: targetFile /Users/baixing/kingKong/logs/kingKong/kingKong-web.log.2017-11-24 exists!!!
+    at renameOrDelete (/Users/baixing/kingKong/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at renameOrDelete.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at <anonymous>
+
+pid: 2338
+hostname: admindeMacBook-Air.local
+
+2017-11-25 23:59:59,380 ERROR 2338 nodejs.Error: [egg-logrotator] rename /Users/baixing/kingKong/logs/kingKong/egg-web.log, found exception: targetFile /Users/baixing/kingKong/logs/kingKong/egg-web.log.2017-11-24 exists!!!
+    at renameOrDelete (/Users/baixing/kingKong/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at renameOrDelete.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at <anonymous>
+
+pid: 2338
+hostname: admindeMacBook-Air.local
+
+2017-11-25 23:59:59,380 ERROR 2338 nodejs.Error: [egg-logrotator] rename /Users/baixing/kingKong/logs/kingKong/egg-agent.log, found exception: targetFile /Users/baixing/kingKong/logs/kingKong/egg-agent.log.2017-11-24 exists!!!
+    at renameOrDelete (/Users/baixing/kingKong/node_modules/egg-logrotator/app/lib/rotator.js:63:17)
+    at renameOrDelete.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at <anonymous>
+
+pid: 2338
+hostname: admindeMacBook-Air.local
+
+2017-11-26 10:46:19,488 ERROR 1300 nodejs.ClusterClientNoResponseError: client no response in 37461486ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 1300
+hostname: admindeMacBook-Air.local
+
+2017-11-28 11:16:06,618 ERROR 16734 [-/127.0.0.1/-/11ms GET /userLog/usage/] nodejs.TypeError: Cannot read property 'getTotalTime' of undefined
+    at UserLogController.usage (/Users/baixing/kingKong/app/controller/userLog.js:9:51)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 16734
+hostname: admindeMacBook-Air.local
+
+2017-11-28 11:16:37,223 ERROR 16751 [-/127.0.0.1/-/14ms GET /userLog/usage/] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserLogService.getTotalTime (/Users/baixing/kingKong/app/service/userLog.js:7:38)
+    at UserLogController.usage (/Users/baixing/kingKong/app/controller/userLog.js:9:45)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 16751
+hostname: admindeMacBook-Air.local
+
+2017-11-29 09:03:51,059 ERROR 26957 nodejs.ClusterClientNoResponseError: client no response in 40494359ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 26957
+hostname: admindeMacBook-Air.local
+
+2017-11-29 09:16:05,365 ERROR 26957 nodejs.ClusterClientNoResponseError: client no response in 694266ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 26957
+hostname: admindeMacBook-Air.local
+
+2017-11-29 09:33:08,571 ERROR 26957 nodejs.ClusterClientNoResponseError: client no response in 104522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 26957
+hostname: admindeMacBook-Air.local
+
+2017-11-29 11:16:55,406 ERROR 29777 [-/::1/-/5ms GET /api/user/register/] nodejs.TypeError: this.service.user.create is not a function
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29777
+hostname: admindeMacBook-Air.local
+
+2017-11-29 11:17:58,329 ERROR 29799 [-/::1/-/15ms GET /api/user/register/] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:14:17)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 29799
+hostname: admindeMacBook-Air.local
+
+2017-11-29 11:23:17,981 ERROR 29948 [-/127.0.0.1/-/35ms POST /api/user/register] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:14:17)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 29948
+hostname: admindeMacBook-Air.local
+
+2017-11-29 11:36:36,757 ERROR 30133 [-/127.0.0.1/-/41ms POST /api/user/register] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:14:17)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 30133
+hostname: admindeMacBook-Air.local
+
+2017-11-29 11:37:30,959 ERROR 30257 [-/127.0.0.1/-/29ms POST /api/user/register] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:14:17)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 30257
+hostname: admindeMacBook-Air.local
+
+2017-11-29 11:37:30,977 ERROR 30257 [-/127.0.0.1/-/3ms POST /api/user/register] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:14:17)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 30257
+hostname: admindeMacBook-Air.local
+
+2017-11-29 12:53:25,044 ERROR 30357 nodejs.ClusterClientNoResponseError: client no response in 3611325ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 30357
+hostname: admindeMacBook-Air.local
+
+2017-11-29 13:04:27,702 ERROR 30357 nodejs.ClusterClientNoResponseError: client no response in 622623ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 30357
+hostname: admindeMacBook-Air.local
+
+2017-11-29 13:16:43,020 ERROR 30739 [-/127.0.0.1/-/29ms POST /api/user/register] nodejs.TypeError: Cannot match against 'undefined' or 'null'.
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:14:17)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 30739
+hostname: admindeMacBook-Air.local
+
+2017-11-29 13:25:52,454 ERROR 30945 [-/127.0.0.1/-/65ms POST /api/user/register] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '教育' for column 'companyType' at row 1
+    at Query.Sequence._packetToError (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Pool.query (/Users/baixing/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/kingKong/node_modules/pify/index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    sql: INSERT INTO `user`(`email`, `name`, `password`, `company`, `mobile`, `companyType`) VALUES('22@qq.com', '22', '1111111', '222', '2222', '教育')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect integer value: \'教育\' for column \'companyType\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`email`, `name`, `password`, `company`, `mobile`, `companyType`) VALUES(\'22@qq.com\', \'22\', \'1111111\', \'222\', \'2222\', \'教育\')'
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 30945
+hostname: admindeMacBook-Air.local
+
+2017-11-29 13:27:39,366 ERROR 30945 [-/127.0.0.1/-/10ms POST /api/user/register] nodejs.ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '教育' for column 'companyType' at row 1
+    at Query.Sequence._packetToError (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Pool.query (/Users/baixing/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/kingKong/node_modules/pify/index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    sql: INSERT INTO `user`(`email`, `name`, `password`, `company`, `mobile`, `companyType`) VALUES('22@qq.com', '22', '1111111', '222', '2222', '教育')
+code: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELD'
+errno: 1366
+sqlMessage: 'Incorrect integer value: \'教育\' for column \'companyType\' at row 1'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`email`, `name`, `password`, `company`, `mobile`, `companyType`) VALUES(\'22@qq.com\', \'22\', \'1111111\', \'222\', \'2222\', \'教育\')'
+name: 'ER_TRUNCATED_WRONG_VALUE_FOR_FIELDError'
+pid: 30945
+hostname: admindeMacBook-Air.local
+
+2017-11-29 13:40:13,001 ERROR 30945 [-/127.0.0.1/-/51ms POST /api/user/register] nodejs.ReferenceError: result is not defined
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:24:51)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 30945
+hostname: admindeMacBook-Air.local
+
+2017-11-29 15:52:38,050 ERROR 34263 [-/127.0.0.1/-/36ms POST /api/user/login] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' `password` = '1111' AND `password` = NULL LIMIT 0, 1' at line 1
+    at Query.Sequence._packetToError (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Pool.query (/Users/baixing/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/kingKong/node_modules/pify/index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    sql: SELECT * FROM `user` WHERE `id` = `email` = 'xxx@qq.com', `password` = '1111' AND `password` = NULL LIMIT 0, 1
+code: 'ER_PARSE_ERROR'
+errno: 1064
+sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \' `password` = \'1111\' AND `password` = NULL LIMIT 0, 1\' at line 1'
+sqlState: '42000'
+index: 0
+sql: 'SELECT * FROM `user` WHERE `id` = `email` = \'xxx@qq.com\', `password` = \'1111\' AND `password` = NULL LIMIT 0, 1'
+name: 'ER_PARSE_ERRORError'
+pid: 34263
+hostname: admindeMacBook-Air.local
+
+2017-11-29 16:40:37,830 ERROR 34974 [-/127.0.0.1/-/46ms POST /api/user/login] nodejs.TypeError: Cannot read property 'id' of null
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:31:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 34974
+hostname: admindeMacBook-Air.local
+
+2017-11-29 17:07:08,598 ERROR 30357 nodejs.ClusterClientNoResponseError: client no response in 755091ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 30357
+hostname: admindeMacBook-Air.local
+
+2017-11-29 17:35:49,521 ERROR 35838 [-/127.0.0.1/-/7ms POST /api/user/login] nodejs.TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:168:26)
+    at crypt (/Users/baixing/kingKong/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/baixing/kingKong/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/baixing/kingKong/node_modules/egg-cookies/lib/cookies.js:101:55)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:31:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 35838
+hostname: admindeMacBook-Air.local
+
+2017-11-29 18:28:45,829 ERROR 36669 [-/127.0.0.1/-/44ms POST /api/user/login] nodejs.TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:168:26)
+    at crypt (/Users/baixing/kingKong/node_modules/egg-cookies/lib/keygrip.js:78:23)
+    at Keygrip.encrypt (/Users/baixing/kingKong/node_modules/egg-cookies/lib/keygrip.js:29:12)
+    at Cookies.set (/Users/baixing/kingKong/node_modules/egg-cookies/lib/cookies.js:101:55)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:31:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 36669
+hostname: admindeMacBook-Air.local
+
+2017-11-29 20:47:49,859 ERROR 36668 nodejs.ClusterClientNoResponseError: client no response in 3870242ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 36668
+hostname: admindeMacBook-Air.local
+
+2017-11-30 09:19:30,702 ERROR 36920 nodejs.ClusterClientNoResponseError: client no response in 44918150ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 36920
+hostname: admindeMacBook-Air.local
+
+2017-11-30 15:09:55,411 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 259704ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-11-30 17:30:37,051 ERROR 46299 [-/::1/-/13ms GET /api/user/loginOut/] nodejs.ReferenceError: ctx is not defined
+    at UserController.loginOut (/Users/baixing/kingKong/app/controller/user.js:47:9)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 46299
+hostname: admindeMacBook-Air.local
+
+2017-11-30 17:31:28,707 ERROR 46320 [-/::1/-/14ms GET /api/user/loginOut/] nodejs.ReferenceError: ctx is not defined
+    at UserController.loginOut (/Users/baixing/kingKong/app/controller/user.js:51:9)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 46320
+hostname: admindeMacBook-Air.local
+
+2017-11-30 17:31:32,220 ERROR 46320 [-/::1/-/2ms GET /api/user/loginOut/] nodejs.ReferenceError: ctx is not defined
+    at UserController.loginOut (/Users/baixing/kingKong/app/controller/user.js:51:9)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 46320
+hostname: admindeMacBook-Air.local
+
+2017-11-30 18:14:21,963 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 113083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-11-30 18:47:48,829 ERROR 48124 [-/127.0.0.1/-/78ms POST /api/user/register] nodejs.ReferenceError: result is not defined
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:24:52)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 48124
+hostname: admindeMacBook-Air.local
+
+2017-11-30 19:01:14,585 ERROR 48555 [-/127.0.0.1/-/15ms GET /api/log/usage/] nodejs.ReferenceError: ctx is not defined
+    at UserService.getUserId (/Users/baixing/kingKong/app/service/user.js:28:9)
+    at LogController.usage (/Users/baixing/kingKong/app/controller/log.js:9:42)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at access (/Users/baixing/kingKong/app/middleware/access.js:3:15)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 48555
+hostname: admindeMacBook-Air.local
+
+2017-12-01 09:16:35,889 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 50914536ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-12-01 11:34:11,067 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 1291480ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-12-01 12:58:10,309 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 2854242ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:35:44,739 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 1414291ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:38:25,794 ERROR 53961 [-/127.0.0.1/-/43ms POST /api/user/register] nodejs.ReferenceError: crypto is not defined
+    at UserService.genPassword (/Users/baixing/kingKong/app/service/user.js:33:29)
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:17:34)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+
+pid: 53961
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:39:24,398 ERROR 53961 [-/127.0.0.1/-/3ms POST /api/user/register] nodejs.ReferenceError: crypto is not defined
+    at UserService.genPassword (/Users/baixing/kingKong/app/service/user.js:33:29)
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:17:34)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+
+pid: 53961
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:42:57,401 ERROR 54117 [-/127.0.0.1/-/53ms POST /api/user/register] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.genPassword (/Users/baixing/kingKong/app/service/user.js:35:58)
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:18:34)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 54117
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:46:09,649 ERROR 54220 [-/127.0.0.1/-/43ms POST /api/user/login] nodejs.TypeError: Cannot read property 'substring' of undefined
+    at UserService.getPassword (/Users/baixing/kingKong/app/service/user.js:38:27)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:31:21)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:24:46)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 54220
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:46:49,633 ERROR 54220 [-/127.0.0.1/-/6ms POST /api/user/login] nodejs.TypeError: Cannot read property 'substring' of undefined
+    at UserService.getPassword (/Users/baixing/kingKong/app/service/user.js:38:27)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:31:21)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:24:46)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 54220
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:46:56,992 ERROR 54237 [-/127.0.0.1/-/48ms POST /api/user/login] nodejs.TypeError: console.lofg is not a function
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:17)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:24:46)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 54237
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:47:12,834 ERROR 54250 [-/127.0.0.1/-/38ms POST /api/user/login] nodejs.TypeError: Cannot read property 'substring' of undefined
+    at UserService.getPassword (/Users/baixing/kingKong/app/service/user.js:39:27)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:32:21)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:16:29)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:24:46)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 54250
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:47:19,799 ERROR 54253 [-/127.0.0.1/-/41ms POST /api/user/login] nodejs.TypeError: Cannot read property 'substring' of undefined
+    at UserService.getPassword (/Users/baixing/kingKong/app/service/user.js:39:27)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:32:21)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:16:29)
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:24:46)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 54253
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:49:15,179 ERROR 54329 [-/127.0.0.1/-/55ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:34:54)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:16:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 54329
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:52:03,934 ERROR 54424 [-/127.0.0.1/-/38ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:34:54)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:16:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 54424
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:53:34,608 ERROR 54456 [-/127.0.0.1/-/50ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:32:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 54456
+hostname: admindeMacBook-Air.local
+
+2017-12-01 13:54:11,077 ERROR 54474 [-/127.0.0.1/-/46ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:33:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 54474
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:08:01,701 ERROR 54768 [-/127.0.0.1/-/39ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:33:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 54768
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:18:37,134 ERROR 54950 [-/127.0.0.1/-/7ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:33:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 54950
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:20:15,528 ERROR 55042 [-/127.0.0.1/-/48ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:33:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55042
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:21:37,643 ERROR 55066 [-/127.0.0.1/-/36ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:33:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55066
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:23:38,602 ERROR 55147 [-/127.0.0.1/-/49ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:33:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:29)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55147
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:24:27,834 ERROR 55164 [-/127.0.0.1/-/44ms POST /api/user/login] nodejs.TypeError: Cannot read property 'toString' of undefined
+    at UserController.login (/Users/baixing/kingKong/app/controller/user.js:31:46)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55164
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:26:24,703 ERROR 55223 [-/127.0.0.1/-/13ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:34:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55223
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:32:50,991 ERROR 55398 [-/127.0.0.1/-/3ms POST /api/user/register] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.genPassword (/Users/baixing/kingKong/app/service/user.js:38:20)
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:21:34)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 55398
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:33:54,232 ERROR 55414 [-/127.0.0.1/-/17ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:34:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55414
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:34:07,293 ERROR 55414 [-/127.0.0.1/-/3ms POST /api/user/login] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.comparePassword (/Users/baixing/kingKong/app/service/user.js:34:53)
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 55414
+hostname: admindeMacBook-Air.local
+
+2017-12-01 14:34:52,319 ERROR 55432 [-/127.0.0.1/-/5ms POST /api/user/register] nodejs.Error: Digest already called
+    at Hash.update (crypto.js:97:16)
+    at UserService.genPassword (/Users/baixing/kingKong/app/service/user.js:38:20)
+    at UserService.create (/Users/baixing/kingKong/app/service/user.js:21:34)
+    at UserController.register (/Users/baixing/kingKong/app/controller/user.js:9:48)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 55432
+hostname: admindeMacBook-Air.local
+

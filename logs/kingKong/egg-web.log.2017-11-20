@@ -1,0 +1,1586 @@
+2017-11-18 08:27:20,758 INFO 11238 [egg-logrotator] app logger reload: got log-reload message
+2017-11-18 08:58:36,032 INFO 12602 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 08:58:36,079 INFO 12602 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 08:58:36,079 INFO 12602 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 08:58:36,098 INFO 12602 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 08:58:36,309 INFO 12602 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 08:58:36,317 INFO 12602 [egg-security] use csrf middleware
+2017-11-18 08:58:36,318 INFO 12602 [egg-security] use methodnoallow middleware
+2017-11-18 08:58:36,319 INFO 12602 [egg-security] use noopen middleware
+2017-11-18 08:58:36,320 INFO 12602 [egg-security] use nosniff middleware
+2017-11-18 08:58:36,321 INFO 12602 [egg-security] use xssProtection middleware
+2017-11-18 08:58:36,322 INFO 12602 [egg-security] use xframe middleware
+2017-11-18 08:58:36,323 INFO 12602 [egg-security] use dta middleware
+2017-11-18 08:58:36,323 INFO 12602 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 08:58:36,391 INFO 12602 [egg-watcher:app] watcher start success
+2017-11-18 08:58:36,394 INFO 12602 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 08:58:36 GMT+0800 (CST)
+2017-11-18 08:59:12,213 INFO 12613 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 08:59:12,267 INFO 12613 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 08:59:12,267 INFO 12613 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 08:59:12,288 INFO 12613 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 08:59:12,492 INFO 12613 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 08:59:12,496 INFO 12613 [egg-security] use csrf middleware
+2017-11-18 08:59:12,498 INFO 12613 [egg-security] use methodnoallow middleware
+2017-11-18 08:59:12,499 INFO 12613 [egg-security] use noopen middleware
+2017-11-18 08:59:12,499 INFO 12613 [egg-security] use nosniff middleware
+2017-11-18 08:59:12,501 INFO 12613 [egg-security] use xssProtection middleware
+2017-11-18 08:59:12,502 INFO 12613 [egg-security] use xframe middleware
+2017-11-18 08:59:12,502 INFO 12613 [egg-security] use dta middleware
+2017-11-18 08:59:12,503 INFO 12613 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 08:59:12,587 INFO 12613 [egg-watcher:app] watcher start success
+2017-11-18 08:59:12,590 INFO 12613 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 08:59:12 GMT+0800 (CST)
+2017-11-18 08:59:56,721 INFO 12645 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 08:59:56,791 INFO 12645 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 08:59:56,791 INFO 12645 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 08:59:56,865 INFO 12645 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 08:59:57,073 INFO 12645 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 08:59:57,080 INFO 12645 [egg-security] use csrf middleware
+2017-11-18 08:59:57,082 INFO 12645 [egg-security] use methodnoallow middleware
+2017-11-18 08:59:57,083 INFO 12645 [egg-security] use noopen middleware
+2017-11-18 08:59:57,084 INFO 12645 [egg-security] use nosniff middleware
+2017-11-18 08:59:57,086 INFO 12645 [egg-security] use xssProtection middleware
+2017-11-18 08:59:57,087 INFO 12645 [egg-security] use xframe middleware
+2017-11-18 08:59:57,088 INFO 12645 [egg-security] use dta middleware
+2017-11-18 08:59:57,088 INFO 12645 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 08:59:57,149 INFO 12645 [egg-watcher:app] watcher start success
+2017-11-18 08:59:57,160 INFO 12645 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 08:59:57 GMT+0800 (CST)
+2017-11-18 09:00:21,868 INFO 12680 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 09:00:21,929 INFO 12680 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 09:00:21,929 INFO 12680 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 09:00:21,950 INFO 12680 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 09:00:22,169 INFO 12680 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 09:00:22,179 INFO 12680 [egg-security] use csrf middleware
+2017-11-18 09:00:22,182 INFO 12680 [egg-security] use methodnoallow middleware
+2017-11-18 09:00:22,183 INFO 12680 [egg-security] use noopen middleware
+2017-11-18 09:00:22,185 INFO 12680 [egg-security] use nosniff middleware
+2017-11-18 09:00:22,187 INFO 12680 [egg-security] use xssProtection middleware
+2017-11-18 09:00:22,188 INFO 12680 [egg-security] use xframe middleware
+2017-11-18 09:00:22,189 INFO 12680 [egg-security] use dta middleware
+2017-11-18 09:00:22,189 INFO 12680 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 09:00:22,256 INFO 12680 [egg-watcher:app] watcher start success
+2017-11-18 09:00:22,375 INFO 12680 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 09:00:22 GMT+0800 (CST)
+2017-11-18 09:00:34,067 INFO 12682 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 09:00:34,129 INFO 12682 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 09:00:34,129 INFO 12682 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 09:00:34,165 INFO 12682 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 09:00:34,334 INFO 12682 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 09:00:34,338 INFO 12682 [egg-security] use csrf middleware
+2017-11-18 09:00:34,339 INFO 12682 [egg-security] use methodnoallow middleware
+2017-11-18 09:00:34,340 INFO 12682 [egg-security] use noopen middleware
+2017-11-18 09:00:34,341 INFO 12682 [egg-security] use nosniff middleware
+2017-11-18 09:00:34,342 INFO 12682 [egg-security] use xssProtection middleware
+2017-11-18 09:00:34,343 INFO 12682 [egg-security] use xframe middleware
+2017-11-18 09:00:34,344 INFO 12682 [egg-security] use dta middleware
+2017-11-18 09:00:34,344 INFO 12682 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 09:00:34,411 INFO 12682 [egg-watcher:app] watcher start success
+2017-11-18 09:00:34,420 INFO 12682 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 09:00:34 GMT+0800 (CST)
+2017-11-18 11:37:09,012 WARN 12682 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 13:07:18,357 WARN 12682 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 13:54:44,236 WARN 12682 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2017-11-18 13:54:44,237 WARN 12682 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 14:35:35,192 WARN 12682 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 15:20:44,091 WARN 12682 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 15:23:45,497 INFO 14384 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:23:45,544 INFO 14384 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:23:45,544 INFO 14384 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:23:45,557 INFO 14384 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:23:45,749 INFO 14384 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:23:45,754 INFO 14384 [egg-security] use csrf middleware
+2017-11-18 15:23:45,755 INFO 14384 [egg-security] use methodnoallow middleware
+2017-11-18 15:23:45,756 INFO 14384 [egg-security] use noopen middleware
+2017-11-18 15:23:45,757 INFO 14384 [egg-security] use nosniff middleware
+2017-11-18 15:23:45,758 INFO 14384 [egg-security] use xssProtection middleware
+2017-11-18 15:23:45,759 INFO 14384 [egg-security] use xframe middleware
+2017-11-18 15:23:45,760 INFO 14384 [egg-security] use dta middleware
+2017-11-18 15:23:45,760 INFO 14384 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:23:45,825 INFO 14384 [egg-watcher:app] watcher start success
+2017-11-18 15:23:45,830 INFO 14384 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:23:45 GMT+0800 (CST)
+2017-11-18 15:44:04,899 INFO 15159 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:44:04,953 INFO 15159 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:44:04,953 INFO 15159 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:44:04,968 INFO 15159 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:44:05,162 INFO 15159 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:44:05,167 INFO 15159 [egg-security] use csrf middleware
+2017-11-18 15:44:05,168 INFO 15159 [egg-security] use methodnoallow middleware
+2017-11-18 15:44:05,169 INFO 15159 [egg-security] use noopen middleware
+2017-11-18 15:44:05,170 INFO 15159 [egg-security] use nosniff middleware
+2017-11-18 15:44:05,171 INFO 15159 [egg-security] use xssProtection middleware
+2017-11-18 15:44:05,172 INFO 15159 [egg-security] use xframe middleware
+2017-11-18 15:44:05,173 INFO 15159 [egg-security] use dta middleware
+2017-11-18 15:44:05,173 INFO 15159 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:44:05,240 INFO 15159 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:44:05 GMT+0800 (CST)
+2017-11-18 15:44:05,244 INFO 15159 [egg-watcher:app] watcher start success
+2017-11-18 15:47:57,275 INFO 15298 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:47:57,329 INFO 15298 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:47:57,329 INFO 15298 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:47:57,354 INFO 15298 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:47:57,702 INFO 15298 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:47:57,710 INFO 15298 [egg-security] use csrf middleware
+2017-11-18 15:47:57,712 INFO 15298 [egg-security] use methodnoallow middleware
+2017-11-18 15:47:57,713 INFO 15298 [egg-security] use noopen middleware
+2017-11-18 15:47:57,715 INFO 15298 [egg-security] use nosniff middleware
+2017-11-18 15:47:57,719 INFO 15298 [egg-security] use xssProtection middleware
+2017-11-18 15:47:57,720 INFO 15298 [egg-security] use xframe middleware
+2017-11-18 15:47:57,722 INFO 15298 [egg-security] use dta middleware
+2017-11-18 15:47:57,722 INFO 15298 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:47:57,791 INFO 15298 [egg-watcher:app] watcher start success
+2017-11-18 15:47:57,801 INFO 15298 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:47:57 GMT+0800 (CST)
+2017-11-18 15:50:04,328 INFO 15331 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:50:04,382 INFO 15331 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:50:04,383 INFO 15331 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:50:04,406 INFO 15331 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:50:04,587 INFO 15331 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:50:04,591 INFO 15331 [egg-security] use csrf middleware
+2017-11-18 15:50:04,592 INFO 15331 [egg-security] use methodnoallow middleware
+2017-11-18 15:50:04,594 INFO 15331 [egg-security] use noopen middleware
+2017-11-18 15:50:04,595 INFO 15331 [egg-security] use nosniff middleware
+2017-11-18 15:50:04,596 INFO 15331 [egg-security] use xssProtection middleware
+2017-11-18 15:50:04,597 INFO 15331 [egg-security] use xframe middleware
+2017-11-18 15:50:04,598 INFO 15331 [egg-security] use dta middleware
+2017-11-18 15:50:04,598 INFO 15331 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:50:04,655 INFO 15331 [egg-watcher:app] watcher start success
+2017-11-18 15:50:04,658 INFO 15331 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:50:04 GMT+0800 (CST)
+2017-11-18 15:50:05,440 INFO 15346 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:50:05,499 INFO 15346 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:50:05,499 INFO 15346 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:50:05,515 INFO 15346 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:50:05,665 INFO 15346 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:50:05,673 INFO 15346 [egg-security] use csrf middleware
+2017-11-18 15:50:05,676 INFO 15346 [egg-security] use methodnoallow middleware
+2017-11-18 15:50:05,679 INFO 15346 [egg-security] use noopen middleware
+2017-11-18 15:50:05,680 INFO 15346 [egg-security] use nosniff middleware
+2017-11-18 15:50:05,680 INFO 15346 [egg-security] use xssProtection middleware
+2017-11-18 15:50:05,681 INFO 15346 [egg-security] use xframe middleware
+2017-11-18 15:50:05,682 INFO 15346 [egg-security] use dta middleware
+2017-11-18 15:50:05,682 INFO 15346 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:50:05,756 INFO 15346 [egg-watcher:app] watcher start success
+2017-11-18 15:50:05,766 INFO 15346 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:50:05 GMT+0800 (CST)
+2017-11-18 15:51:47,442 INFO 15424 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:51:47,492 INFO 15424 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:51:47,492 INFO 15424 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:51:47,504 INFO 15424 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:51:47,622 INFO 15424 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:51:47,625 INFO 15424 [egg-security] use csrf middleware
+2017-11-18 15:51:47,626 INFO 15424 [egg-security] use methodnoallow middleware
+2017-11-18 15:51:47,627 INFO 15424 [egg-security] use noopen middleware
+2017-11-18 15:51:47,627 INFO 15424 [egg-security] use nosniff middleware
+2017-11-18 15:51:47,628 INFO 15424 [egg-security] use xssProtection middleware
+2017-11-18 15:51:47,630 INFO 15424 [egg-security] use xframe middleware
+2017-11-18 15:51:47,630 INFO 15424 [egg-security] use dta middleware
+2017-11-18 15:51:47,630 INFO 15424 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:51:47,685 INFO 15424 [egg-watcher:app] watcher start success
+2017-11-18 15:51:47,694 INFO 15424 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:51:47 GMT+0800 (CST)
+2017-11-18 15:52:35,222 INFO 15446 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:52:35,261 INFO 15446 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:52:35,261 INFO 15446 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:52:35,278 INFO 15446 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:52:35,410 INFO 15446 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:52:35,413 INFO 15446 [egg-security] use csrf middleware
+2017-11-18 15:52:35,414 INFO 15446 [egg-security] use methodnoallow middleware
+2017-11-18 15:52:35,414 INFO 15446 [egg-security] use noopen middleware
+2017-11-18 15:52:35,415 INFO 15446 [egg-security] use nosniff middleware
+2017-11-18 15:52:35,415 INFO 15446 [egg-security] use xssProtection middleware
+2017-11-18 15:52:35,416 INFO 15446 [egg-security] use xframe middleware
+2017-11-18 15:52:35,416 INFO 15446 [egg-security] use dta middleware
+2017-11-18 15:52:35,416 INFO 15446 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:52:35,480 INFO 15446 [egg-watcher:app] watcher start success
+2017-11-18 15:52:35,485 INFO 15446 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:52:35 GMT+0800 (CST)
+2017-11-18 15:56:40,815 INFO 15641 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:56:40,885 INFO 15641 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:56:40,885 INFO 15641 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:56:40,909 INFO 15641 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:56:41,096 INFO 15641 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:56:41,101 INFO 15641 [egg-security] use csrf middleware
+2017-11-18 15:56:41,103 INFO 15641 [egg-security] use methodnoallow middleware
+2017-11-18 15:56:41,104 INFO 15641 [egg-security] use noopen middleware
+2017-11-18 15:56:41,106 INFO 15641 [egg-security] use nosniff middleware
+2017-11-18 15:56:41,107 INFO 15641 [egg-security] use xssProtection middleware
+2017-11-18 15:56:41,108 INFO 15641 [egg-security] use xframe middleware
+2017-11-18 15:56:41,109 INFO 15641 [egg-security] use dta middleware
+2017-11-18 15:56:41,109 INFO 15641 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:56:41,163 INFO 15641 [egg-watcher:app] watcher start success
+2017-11-18 15:56:42,212 INFO 15641 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:56:42 GMT+0800 (CST)
+2017-11-18 15:56:43,427 INFO 15642 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:56:43,488 INFO 15642 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:56:43,488 INFO 15642 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:56:43,508 INFO 15642 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:56:43,652 INFO 15642 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:56:43,655 INFO 15642 [egg-security] use csrf middleware
+2017-11-18 15:56:43,657 INFO 15642 [egg-security] use methodnoallow middleware
+2017-11-18 15:56:43,657 INFO 15642 [egg-security] use noopen middleware
+2017-11-18 15:56:43,658 INFO 15642 [egg-security] use nosniff middleware
+2017-11-18 15:56:43,658 INFO 15642 [egg-security] use xssProtection middleware
+2017-11-18 15:56:43,659 INFO 15642 [egg-security] use xframe middleware
+2017-11-18 15:56:43,659 INFO 15642 [egg-security] use dta middleware
+2017-11-18 15:56:43,659 INFO 15642 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:56:43,738 INFO 15642 [egg-watcher:app] watcher start success
+2017-11-18 15:56:43,741 INFO 15642 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:56:43 GMT+0800 (CST)
+2017-11-18 15:59:07,845 INFO 15945 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 15:59:07,940 INFO 15945 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 15:59:07,940 INFO 15945 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 15:59:07,962 INFO 15945 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 15:59:08,153 INFO 15945 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 15:59:08,170 INFO 15945 [egg-security] use csrf middleware
+2017-11-18 15:59:08,174 INFO 15945 [egg-security] use methodnoallow middleware
+2017-11-18 15:59:08,177 INFO 15945 [egg-security] use noopen middleware
+2017-11-18 15:59:08,184 INFO 15945 [egg-security] use nosniff middleware
+2017-11-18 15:59:08,186 INFO 15945 [egg-security] use xssProtection middleware
+2017-11-18 15:59:08,191 INFO 15945 [egg-security] use xframe middleware
+2017-11-18 15:59:08,192 INFO 15945 [egg-security] use dta middleware
+2017-11-18 15:59:08,192 INFO 15945 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 15:59:08,489 INFO 15945 [egg-watcher:app] watcher start success
+2017-11-18 15:59:08,545 INFO 15945 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 15:59:08 GMT+0800 (CST)
+2017-11-18 16:00:05,914 INFO 16028 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:00:05,995 INFO 16028 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:00:05,995 INFO 16028 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:00:06,050 INFO 16028 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:00:06,271 INFO 16028 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:00:06,281 INFO 16028 [egg-security] use csrf middleware
+2017-11-18 16:00:06,283 INFO 16028 [egg-security] use methodnoallow middleware
+2017-11-18 16:00:06,285 INFO 16028 [egg-security] use noopen middleware
+2017-11-18 16:00:06,286 INFO 16028 [egg-security] use nosniff middleware
+2017-11-18 16:00:06,287 INFO 16028 [egg-security] use xssProtection middleware
+2017-11-18 16:00:06,288 INFO 16028 [egg-security] use xframe middleware
+2017-11-18 16:00:06,289 INFO 16028 [egg-security] use dta middleware
+2017-11-18 16:00:06,289 INFO 16028 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:00:06,375 INFO 16028 [egg-watcher:app] watcher start success
+2017-11-18 16:00:06,394 INFO 16028 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:00:06 GMT+0800 (CST)
+2017-11-18 16:00:07,238 INFO 16029 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:00:07,311 INFO 16029 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:00:07,311 INFO 16029 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:00:07,341 INFO 16029 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:00:07,586 INFO 16029 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:00:07,591 INFO 16029 [egg-security] use csrf middleware
+2017-11-18 16:00:07,592 INFO 16029 [egg-security] use methodnoallow middleware
+2017-11-18 16:00:07,593 INFO 16029 [egg-security] use noopen middleware
+2017-11-18 16:00:07,593 INFO 16029 [egg-security] use nosniff middleware
+2017-11-18 16:00:07,594 INFO 16029 [egg-security] use xssProtection middleware
+2017-11-18 16:00:07,594 INFO 16029 [egg-security] use xframe middleware
+2017-11-18 16:00:07,595 INFO 16029 [egg-security] use dta middleware
+2017-11-18 16:00:07,595 INFO 16029 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:00:07,659 INFO 16029 [egg-watcher:app] watcher start success
+2017-11-18 16:00:07,666 INFO 16029 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:00:07 GMT+0800 (CST)
+2017-11-18 16:01:53,183 INFO 16049 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:01:53,252 INFO 16049 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:01:53,252 INFO 16049 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:01:53,275 INFO 16049 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:01:53,502 INFO 16049 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:01:53,508 INFO 16049 [egg-security] use csrf middleware
+2017-11-18 16:01:53,510 INFO 16049 [egg-security] use methodnoallow middleware
+2017-11-18 16:01:53,512 INFO 16049 [egg-security] use noopen middleware
+2017-11-18 16:01:53,513 INFO 16049 [egg-security] use nosniff middleware
+2017-11-18 16:01:53,515 INFO 16049 [egg-security] use xssProtection middleware
+2017-11-18 16:01:53,516 INFO 16049 [egg-security] use xframe middleware
+2017-11-18 16:01:53,518 INFO 16049 [egg-security] use dta middleware
+2017-11-18 16:01:53,518 INFO 16049 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:01:53,582 INFO 16049 [egg-watcher:app] watcher start success
+2017-11-18 16:01:53,596 INFO 16049 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:01:53 GMT+0800 (CST)
+2017-11-18 16:01:54,471 INFO 16050 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:01:54,548 INFO 16050 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:01:54,548 INFO 16050 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:01:54,564 INFO 16050 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:01:54,886 INFO 16050 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:01:54,898 INFO 16050 [egg-security] use csrf middleware
+2017-11-18 16:01:54,900 INFO 16050 [egg-security] use methodnoallow middleware
+2017-11-18 16:01:54,901 INFO 16050 [egg-security] use noopen middleware
+2017-11-18 16:01:54,901 INFO 16050 [egg-security] use nosniff middleware
+2017-11-18 16:01:54,902 INFO 16050 [egg-security] use xssProtection middleware
+2017-11-18 16:01:54,902 INFO 16050 [egg-security] use xframe middleware
+2017-11-18 16:01:54,904 INFO 16050 [egg-security] use dta middleware
+2017-11-18 16:01:54,904 INFO 16050 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:01:54,984 INFO 16050 [egg-watcher:app] watcher start success
+2017-11-18 16:01:54,990 INFO 16050 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:01:54 GMT+0800 (CST)
+2017-11-18 16:07:10,167 INFO 16278 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:07:10,211 INFO 16278 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:07:10,211 INFO 16278 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:07:10,228 INFO 16278 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:07:10,365 INFO 16278 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:07:10,368 INFO 16278 [egg-security] use csrf middleware
+2017-11-18 16:07:10,369 INFO 16278 [egg-security] use methodnoallow middleware
+2017-11-18 16:07:10,370 INFO 16278 [egg-security] use noopen middleware
+2017-11-18 16:07:10,370 INFO 16278 [egg-security] use nosniff middleware
+2017-11-18 16:07:10,371 INFO 16278 [egg-security] use xssProtection middleware
+2017-11-18 16:07:10,371 INFO 16278 [egg-security] use xframe middleware
+2017-11-18 16:07:10,372 INFO 16278 [egg-security] use dta middleware
+2017-11-18 16:07:10,372 INFO 16278 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:07:10,439 INFO 16278 [egg-watcher:app] watcher start success
+2017-11-18 16:07:10,448 INFO 16278 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:07:10 GMT+0800 (CST)
+2017-11-18 16:13:09,020 INFO 16497 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:13:09,091 INFO 16497 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:13:09,091 INFO 16497 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:13:09,117 INFO 16497 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:13:09,406 INFO 16497 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:13:09,413 INFO 16497 [egg-security] use csrf middleware
+2017-11-18 16:13:09,415 INFO 16497 [egg-security] use methodnoallow middleware
+2017-11-18 16:13:09,416 INFO 16497 [egg-security] use noopen middleware
+2017-11-18 16:13:09,417 INFO 16497 [egg-security] use nosniff middleware
+2017-11-18 16:13:09,417 INFO 16497 [egg-security] use xssProtection middleware
+2017-11-18 16:13:09,417 INFO 16497 [egg-security] use xframe middleware
+2017-11-18 16:13:09,418 INFO 16497 [egg-security] use dta middleware
+2017-11-18 16:13:09,418 INFO 16497 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:13:09,524 INFO 16497 [egg-watcher:app] watcher start success
+2017-11-18 16:13:09,533 INFO 16497 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:13:09 GMT+0800 (CST)
+2017-11-18 16:15:06,664 INFO 16566 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:15:06,732 INFO 16566 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:15:06,732 INFO 16566 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:15:06,755 INFO 16566 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:15:06,946 INFO 16566 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:15:06,952 INFO 16566 [egg-security] use csrf middleware
+2017-11-18 16:15:06,954 INFO 16566 [egg-security] use methodnoallow middleware
+2017-11-18 16:15:06,955 INFO 16566 [egg-security] use noopen middleware
+2017-11-18 16:15:06,956 INFO 16566 [egg-security] use nosniff middleware
+2017-11-18 16:15:06,957 INFO 16566 [egg-security] use xssProtection middleware
+2017-11-18 16:15:06,958 INFO 16566 [egg-security] use xframe middleware
+2017-11-18 16:15:06,959 INFO 16566 [egg-security] use dta middleware
+2017-11-18 16:15:06,959 INFO 16566 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:15:07,022 INFO 16566 [egg-watcher:app] watcher start success
+2017-11-18 16:15:07,032 INFO 16566 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:15:07 GMT+0800 (CST)
+2017-11-18 16:16:03,631 INFO 16611 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:16:03,717 INFO 16611 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:16:03,717 INFO 16611 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:16:03,751 INFO 16611 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:16:03,944 INFO 16611 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:16:03,949 INFO 16611 [egg-security] use csrf middleware
+2017-11-18 16:16:03,951 INFO 16611 [egg-security] use methodnoallow middleware
+2017-11-18 16:16:03,952 INFO 16611 [egg-security] use noopen middleware
+2017-11-18 16:16:03,952 INFO 16611 [egg-security] use nosniff middleware
+2017-11-18 16:16:03,953 INFO 16611 [egg-security] use xssProtection middleware
+2017-11-18 16:16:03,954 INFO 16611 [egg-security] use xframe middleware
+2017-11-18 16:16:03,954 INFO 16611 [egg-security] use dta middleware
+2017-11-18 16:16:03,954 INFO 16611 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:16:04,012 INFO 16611 [egg-watcher:app] watcher start success
+2017-11-18 16:16:04,021 INFO 16611 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:16:04 GMT+0800 (CST)
+2017-11-18 16:16:04,680 INFO 16613 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:16:04,726 INFO 16613 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:16:04,726 INFO 16613 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:16:04,742 INFO 16613 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:16:04,883 INFO 16613 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:16:04,886 INFO 16613 [egg-security] use csrf middleware
+2017-11-18 16:16:04,887 INFO 16613 [egg-security] use methodnoallow middleware
+2017-11-18 16:16:04,887 INFO 16613 [egg-security] use noopen middleware
+2017-11-18 16:16:04,888 INFO 16613 [egg-security] use nosniff middleware
+2017-11-18 16:16:04,888 INFO 16613 [egg-security] use xssProtection middleware
+2017-11-18 16:16:04,891 INFO 16613 [egg-security] use xframe middleware
+2017-11-18 16:16:04,892 INFO 16613 [egg-security] use dta middleware
+2017-11-18 16:16:04,892 INFO 16613 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:16:04,974 INFO 16613 [egg-watcher:app] watcher start success
+2017-11-18 16:16:04,979 INFO 16613 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:16:04 GMT+0800 (CST)
+2017-11-18 16:17:26,123 INFO 16639 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:17:26,178 INFO 16639 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:17:26,178 INFO 16639 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:17:26,207 INFO 16639 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:17:26,568 INFO 16639 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:17:26,572 INFO 16639 [egg-security] use csrf middleware
+2017-11-18 16:17:26,574 INFO 16639 [egg-security] use methodnoallow middleware
+2017-11-18 16:17:26,575 INFO 16639 [egg-security] use noopen middleware
+2017-11-18 16:17:26,576 INFO 16639 [egg-security] use nosniff middleware
+2017-11-18 16:17:26,576 INFO 16639 [egg-security] use xssProtection middleware
+2017-11-18 16:17:26,577 INFO 16639 [egg-security] use xframe middleware
+2017-11-18 16:17:26,578 INFO 16639 [egg-security] use dta middleware
+2017-11-18 16:17:26,578 INFO 16639 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:17:26,635 INFO 16639 [egg-watcher:app] watcher start success
+2017-11-18 16:17:26,645 INFO 16639 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:17:26 GMT+0800 (CST)
+2017-11-18 16:17:31,050 INFO 16640 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:17:31,116 INFO 16640 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:17:31,116 INFO 16640 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:17:31,149 INFO 16640 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:17:31,443 INFO 16640 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:17:31,447 INFO 16640 [egg-security] use csrf middleware
+2017-11-18 16:17:31,448 INFO 16640 [egg-security] use methodnoallow middleware
+2017-11-18 16:17:31,448 INFO 16640 [egg-security] use noopen middleware
+2017-11-18 16:17:31,449 INFO 16640 [egg-security] use nosniff middleware
+2017-11-18 16:17:31,449 INFO 16640 [egg-security] use xssProtection middleware
+2017-11-18 16:17:31,450 INFO 16640 [egg-security] use xframe middleware
+2017-11-18 16:17:31,450 INFO 16640 [egg-security] use dta middleware
+2017-11-18 16:17:31,450 INFO 16640 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:17:31,545 INFO 16640 [egg-watcher:app] watcher start success
+2017-11-18 16:17:31,552 INFO 16640 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:17:31 GMT+0800 (CST)
+2017-11-18 16:17:55,185 INFO 16649 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:17:55,230 INFO 16649 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:17:55,230 INFO 16649 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:17:55,241 INFO 16649 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:17:55,450 INFO 16649 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:17:55,456 INFO 16649 [egg-security] use csrf middleware
+2017-11-18 16:17:55,458 INFO 16649 [egg-security] use methodnoallow middleware
+2017-11-18 16:17:55,459 INFO 16649 [egg-security] use noopen middleware
+2017-11-18 16:17:55,460 INFO 16649 [egg-security] use nosniff middleware
+2017-11-18 16:17:55,461 INFO 16649 [egg-security] use xssProtection middleware
+2017-11-18 16:17:55,463 INFO 16649 [egg-security] use xframe middleware
+2017-11-18 16:17:55,463 INFO 16649 [egg-security] use dta middleware
+2017-11-18 16:17:55,463 INFO 16649 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:17:55,542 INFO 16649 [egg-watcher:app] watcher start success
+2017-11-18 16:17:55,553 INFO 16649 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:17:55 GMT+0800 (CST)
+2017-11-18 16:18:52,027 INFO 16748 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:18:52,077 INFO 16748 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:18:52,077 INFO 16748 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:18:52,102 INFO 16748 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:18:52,281 INFO 16748 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:18:52,286 INFO 16748 [egg-security] use csrf middleware
+2017-11-18 16:18:52,287 INFO 16748 [egg-security] use methodnoallow middleware
+2017-11-18 16:18:52,288 INFO 16748 [egg-security] use noopen middleware
+2017-11-18 16:18:52,289 INFO 16748 [egg-security] use nosniff middleware
+2017-11-18 16:18:52,290 INFO 16748 [egg-security] use xssProtection middleware
+2017-11-18 16:18:52,290 INFO 16748 [egg-security] use xframe middleware
+2017-11-18 16:18:52,291 INFO 16748 [egg-security] use dta middleware
+2017-11-18 16:18:52,291 INFO 16748 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:18:52,357 INFO 16748 [egg-watcher:app] watcher start success
+2017-11-18 16:18:52,359 INFO 16748 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:18:52 GMT+0800 (CST)
+2017-11-18 16:18:52,974 INFO 16749 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:18:53,014 INFO 16749 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:18:53,014 INFO 16749 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:18:53,038 INFO 16749 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:18:53,200 INFO 16749 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:18:53,203 INFO 16749 [egg-security] use csrf middleware
+2017-11-18 16:18:53,204 INFO 16749 [egg-security] use methodnoallow middleware
+2017-11-18 16:18:53,205 INFO 16749 [egg-security] use noopen middleware
+2017-11-18 16:18:53,205 INFO 16749 [egg-security] use nosniff middleware
+2017-11-18 16:18:53,205 INFO 16749 [egg-security] use xssProtection middleware
+2017-11-18 16:18:53,208 INFO 16749 [egg-security] use xframe middleware
+2017-11-18 16:18:53,209 INFO 16749 [egg-security] use dta middleware
+2017-11-18 16:18:53,209 INFO 16749 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:18:53,275 INFO 16749 [egg-watcher:app] watcher start success
+2017-11-18 16:18:53,280 INFO 16749 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:18:53 GMT+0800 (CST)
+2017-11-18 16:20:19,464 INFO 16777 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:20:19,653 INFO 16777 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:20:19,653 INFO 16777 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:20:19,737 INFO 16777 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:20:20,115 INFO 16777 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:20:20,129 INFO 16777 [egg-security] use csrf middleware
+2017-11-18 16:20:20,131 INFO 16777 [egg-security] use methodnoallow middleware
+2017-11-18 16:20:20,131 INFO 16777 [egg-security] use noopen middleware
+2017-11-18 16:20:20,132 INFO 16777 [egg-security] use nosniff middleware
+2017-11-18 16:20:20,134 INFO 16777 [egg-security] use xssProtection middleware
+2017-11-18 16:20:20,136 INFO 16777 [egg-security] use xframe middleware
+2017-11-18 16:20:20,138 INFO 16777 [egg-security] use dta middleware
+2017-11-18 16:20:20,138 INFO 16777 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:20:20,258 INFO 16777 [egg-watcher:app] watcher start success
+2017-11-18 16:20:20,276 INFO 16777 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:20:20 GMT+0800 (CST)
+2017-11-18 16:21:01,829 INFO 16797 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:21:01,992 INFO 16797 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:21:01,992 INFO 16797 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:21:02,036 INFO 16797 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:21:02,419 INFO 16797 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:21:02,424 INFO 16797 [egg-security] use csrf middleware
+2017-11-18 16:21:02,426 INFO 16797 [egg-security] use methodnoallow middleware
+2017-11-18 16:21:02,427 INFO 16797 [egg-security] use noopen middleware
+2017-11-18 16:21:02,428 INFO 16797 [egg-security] use nosniff middleware
+2017-11-18 16:21:02,429 INFO 16797 [egg-security] use xssProtection middleware
+2017-11-18 16:21:02,430 INFO 16797 [egg-security] use xframe middleware
+2017-11-18 16:21:02,431 INFO 16797 [egg-security] use dta middleware
+2017-11-18 16:21:02,431 INFO 16797 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:21:02,521 INFO 16797 [egg-watcher:app] watcher start success
+2017-11-18 16:21:02,524 INFO 16797 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:21:02 GMT+0800 (CST)
+2017-11-18 16:21:03,425 INFO 16811 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:21:03,484 INFO 16811 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:21:03,484 INFO 16811 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:21:03,498 INFO 16811 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:21:03,646 INFO 16811 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:21:03,649 INFO 16811 [egg-security] use csrf middleware
+2017-11-18 16:21:03,651 INFO 16811 [egg-security] use methodnoallow middleware
+2017-11-18 16:21:03,651 INFO 16811 [egg-security] use noopen middleware
+2017-11-18 16:21:03,652 INFO 16811 [egg-security] use nosniff middleware
+2017-11-18 16:21:03,652 INFO 16811 [egg-security] use xssProtection middleware
+2017-11-18 16:21:03,653 INFO 16811 [egg-security] use xframe middleware
+2017-11-18 16:21:03,653 INFO 16811 [egg-security] use dta middleware
+2017-11-18 16:21:03,653 INFO 16811 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:21:03,717 INFO 16811 [egg-watcher:app] watcher start success
+2017-11-18 16:21:03,722 INFO 16811 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:21:03 GMT+0800 (CST)
+2017-11-18 16:23:20,666 INFO 16896 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:23:20,717 INFO 16896 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:23:20,717 INFO 16896 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:23:20,731 INFO 16896 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:23:20,873 INFO 16896 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:23:20,879 INFO 16896 [egg-security] use csrf middleware
+2017-11-18 16:23:20,882 INFO 16896 [egg-security] use methodnoallow middleware
+2017-11-18 16:23:20,883 INFO 16896 [egg-security] use noopen middleware
+2017-11-18 16:23:20,884 INFO 16896 [egg-security] use nosniff middleware
+2017-11-18 16:23:20,885 INFO 16896 [egg-security] use xssProtection middleware
+2017-11-18 16:23:20,886 INFO 16896 [egg-security] use xframe middleware
+2017-11-18 16:23:20,886 INFO 16896 [egg-security] use dta middleware
+2017-11-18 16:23:20,887 INFO 16896 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:23:20,960 INFO 16896 [egg-watcher:app] watcher start success
+2017-11-18 16:23:20,967 INFO 16896 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:23:20 GMT+0800 (CST)
+2017-11-18 16:23:21,702 INFO 16897 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:23:21,751 INFO 16897 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:23:21,751 INFO 16897 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:23:21,835 INFO 16897 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:23:22,132 INFO 16897 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:23:22,139 INFO 16897 [egg-security] use csrf middleware
+2017-11-18 16:23:22,140 INFO 16897 [egg-security] use methodnoallow middleware
+2017-11-18 16:23:22,141 INFO 16897 [egg-security] use noopen middleware
+2017-11-18 16:23:22,141 INFO 16897 [egg-security] use nosniff middleware
+2017-11-18 16:23:22,142 INFO 16897 [egg-security] use xssProtection middleware
+2017-11-18 16:23:22,142 INFO 16897 [egg-security] use xframe middleware
+2017-11-18 16:23:22,143 INFO 16897 [egg-security] use dta middleware
+2017-11-18 16:23:22,143 INFO 16897 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:23:22,234 INFO 16897 [egg-watcher:app] watcher start success
+2017-11-18 16:23:22,241 INFO 16897 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:23:22 GMT+0800 (CST)
+2017-11-18 16:33:30,222 INFO 17115 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:33:30,289 INFO 17115 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:33:30,289 INFO 17115 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:33:30,328 INFO 17115 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:33:30,576 INFO 17115 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:33:30,581 INFO 17115 [egg-security] use csrf middleware
+2017-11-18 16:33:30,583 INFO 17115 [egg-security] use methodnoallow middleware
+2017-11-18 16:33:30,584 INFO 17115 [egg-security] use noopen middleware
+2017-11-18 16:33:30,584 INFO 17115 [egg-security] use nosniff middleware
+2017-11-18 16:33:30,585 INFO 17115 [egg-security] use xssProtection middleware
+2017-11-18 16:33:30,586 INFO 17115 [egg-security] use xframe middleware
+2017-11-18 16:33:30,587 INFO 17115 [egg-security] use dta middleware
+2017-11-18 16:33:30,587 INFO 17115 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:33:30,669 INFO 17115 [egg-watcher:app] watcher start success
+2017-11-18 16:33:30,671 INFO 17115 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:33:30 GMT+0800 (CST)
+2017-11-18 16:35:13,537 INFO 17137 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:35:13,596 INFO 17137 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:35:13,596 INFO 17137 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:35:13,619 INFO 17137 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:35:13,813 INFO 17137 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:35:13,820 INFO 17137 [egg-security] use csrf middleware
+2017-11-18 16:35:13,821 INFO 17137 [egg-security] use methodnoallow middleware
+2017-11-18 16:35:13,823 INFO 17137 [egg-security] use noopen middleware
+2017-11-18 16:35:13,824 INFO 17137 [egg-security] use nosniff middleware
+2017-11-18 16:35:13,825 INFO 17137 [egg-security] use xssProtection middleware
+2017-11-18 16:35:13,826 INFO 17137 [egg-security] use xframe middleware
+2017-11-18 16:35:13,827 INFO 17137 [egg-security] use dta middleware
+2017-11-18 16:35:13,827 INFO 17137 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:35:13,898 INFO 17137 [egg-watcher:app] watcher start success
+2017-11-18 16:35:13,901 INFO 17137 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:35:13 GMT+0800 (CST)
+2017-11-18 16:35:23,965 INFO 17184 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:35:24,020 INFO 17184 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:35:24,020 INFO 17184 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:35:24,043 INFO 17184 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:35:24,353 INFO 17184 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:35:24,359 INFO 17184 [egg-security] use csrf middleware
+2017-11-18 16:35:24,360 INFO 17184 [egg-security] use methodnoallow middleware
+2017-11-18 16:35:24,361 INFO 17184 [egg-security] use noopen middleware
+2017-11-18 16:35:24,362 INFO 17184 [egg-security] use nosniff middleware
+2017-11-18 16:35:24,363 INFO 17184 [egg-security] use xssProtection middleware
+2017-11-18 16:35:24,364 INFO 17184 [egg-security] use xframe middleware
+2017-11-18 16:35:24,365 INFO 17184 [egg-security] use dta middleware
+2017-11-18 16:35:24,365 INFO 17184 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:35:24,447 INFO 17184 [egg-watcher:app] watcher start success
+2017-11-18 16:35:24,461 INFO 17184 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:35:24 GMT+0800 (CST)
+2017-11-18 16:35:31,935 INFO 17192 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:35:31,996 INFO 17192 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:35:31,996 INFO 17192 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:35:32,019 INFO 17192 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:35:32,201 INFO 17192 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:35:32,214 INFO 17192 [egg-security] use csrf middleware
+2017-11-18 16:35:32,215 INFO 17192 [egg-security] use methodnoallow middleware
+2017-11-18 16:35:32,216 INFO 17192 [egg-security] use noopen middleware
+2017-11-18 16:35:32,216 INFO 17192 [egg-security] use nosniff middleware
+2017-11-18 16:35:32,217 INFO 17192 [egg-security] use xssProtection middleware
+2017-11-18 16:35:32,217 INFO 17192 [egg-security] use xframe middleware
+2017-11-18 16:35:32,217 INFO 17192 [egg-security] use dta middleware
+2017-11-18 16:35:32,217 INFO 17192 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:35:32,287 INFO 17192 [egg-watcher:app] watcher start success
+2017-11-18 16:35:32,297 INFO 17192 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:35:32 GMT+0800 (CST)
+2017-11-18 16:35:33,085 INFO 17194 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:35:33,145 INFO 17194 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:35:33,145 INFO 17194 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:35:33,161 INFO 17194 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:35:33,285 INFO 17194 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:35:33,289 INFO 17194 [egg-security] use csrf middleware
+2017-11-18 16:35:33,291 INFO 17194 [egg-security] use methodnoallow middleware
+2017-11-18 16:35:33,292 INFO 17194 [egg-security] use noopen middleware
+2017-11-18 16:35:33,292 INFO 17194 [egg-security] use nosniff middleware
+2017-11-18 16:35:33,293 INFO 17194 [egg-security] use xssProtection middleware
+2017-11-18 16:35:33,294 INFO 17194 [egg-security] use xframe middleware
+2017-11-18 16:35:33,294 INFO 17194 [egg-security] use dta middleware
+2017-11-18 16:35:33,294 INFO 17194 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:35:33,362 INFO 17194 [egg-watcher:app] watcher start success
+2017-11-18 16:35:33,365 INFO 17194 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:35:33 GMT+0800 (CST)
+2017-11-18 16:36:09,366 INFO 17216 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:36:09,511 INFO 17216 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:36:09,511 INFO 17216 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:36:09,546 INFO 17216 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:36:09,858 INFO 17216 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:36:09,865 INFO 17216 [egg-security] use csrf middleware
+2017-11-18 16:36:09,868 INFO 17216 [egg-security] use methodnoallow middleware
+2017-11-18 16:36:09,872 INFO 17216 [egg-security] use noopen middleware
+2017-11-18 16:36:09,873 INFO 17216 [egg-security] use nosniff middleware
+2017-11-18 16:36:09,875 INFO 17216 [egg-security] use xssProtection middleware
+2017-11-18 16:36:09,876 INFO 17216 [egg-security] use xframe middleware
+2017-11-18 16:36:09,878 INFO 17216 [egg-security] use dta middleware
+2017-11-18 16:36:09,878 INFO 17216 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:36:09,962 INFO 17216 [egg-watcher:app] watcher start success
+2017-11-18 16:36:09,975 INFO 17216 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:36:09 GMT+0800 (CST)
+2017-11-18 16:36:17,922 INFO 17218 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:36:18,030 INFO 17218 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:36:18,030 INFO 17218 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:36:18,095 INFO 17218 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:36:18,472 INFO 17218 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:36:18,484 INFO 17218 [egg-security] use csrf middleware
+2017-11-18 16:36:18,486 INFO 17218 [egg-security] use methodnoallow middleware
+2017-11-18 16:36:18,489 INFO 17218 [egg-security] use noopen middleware
+2017-11-18 16:36:18,490 INFO 17218 [egg-security] use nosniff middleware
+2017-11-18 16:36:18,493 INFO 17218 [egg-security] use xssProtection middleware
+2017-11-18 16:36:18,495 INFO 17218 [egg-security] use xframe middleware
+2017-11-18 16:36:18,496 INFO 17218 [egg-security] use dta middleware
+2017-11-18 16:36:18,496 INFO 17218 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:36:18,610 INFO 17218 [egg-watcher:app] watcher start success
+2017-11-18 16:36:18,618 INFO 17218 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:36:18 GMT+0800 (CST)
+2017-11-18 16:37:14,033 INFO 17233 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:37:14,072 INFO 17233 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:37:14,072 INFO 17233 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:37:14,084 INFO 17233 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:37:14,221 INFO 17233 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:37:14,227 INFO 17233 [egg-security] use csrf middleware
+2017-11-18 16:37:14,228 INFO 17233 [egg-security] use methodnoallow middleware
+2017-11-18 16:37:14,228 INFO 17233 [egg-security] use noopen middleware
+2017-11-18 16:37:14,229 INFO 17233 [egg-security] use nosniff middleware
+2017-11-18 16:37:14,229 INFO 17233 [egg-security] use xssProtection middleware
+2017-11-18 16:37:14,230 INFO 17233 [egg-security] use xframe middleware
+2017-11-18 16:37:14,230 INFO 17233 [egg-security] use dta middleware
+2017-11-18 16:37:14,230 INFO 17233 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:37:14,286 INFO 17233 [egg-watcher:app] watcher start success
+2017-11-18 16:37:14,295 INFO 17233 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:37:14 GMT+0800 (CST)
+2017-11-18 16:37:15,672 INFO 17235 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:37:15,749 INFO 17235 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:37:15,749 INFO 17235 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:37:15,773 INFO 17235 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:37:15,978 INFO 17235 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:37:15,983 INFO 17235 [egg-security] use csrf middleware
+2017-11-18 16:37:15,984 INFO 17235 [egg-security] use methodnoallow middleware
+2017-11-18 16:37:15,985 INFO 17235 [egg-security] use noopen middleware
+2017-11-18 16:37:15,985 INFO 17235 [egg-security] use nosniff middleware
+2017-11-18 16:37:15,985 INFO 17235 [egg-security] use xssProtection middleware
+2017-11-18 16:37:15,986 INFO 17235 [egg-security] use xframe middleware
+2017-11-18 16:37:15,986 INFO 17235 [egg-security] use dta middleware
+2017-11-18 16:37:15,986 INFO 17235 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:37:16,229 INFO 17235 [egg-watcher:app] watcher start success
+2017-11-18 16:37:16,247 INFO 17235 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:37:16 GMT+0800 (CST)
+2017-11-18 16:38:06,172 INFO 17246 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:38:06,223 INFO 17246 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:38:06,223 INFO 17246 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:38:06,244 INFO 17246 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:38:06,430 INFO 17246 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:38:06,440 INFO 17246 [egg-security] use csrf middleware
+2017-11-18 16:38:06,443 INFO 17246 [egg-security] use methodnoallow middleware
+2017-11-18 16:38:06,444 INFO 17246 [egg-security] use noopen middleware
+2017-11-18 16:38:06,444 INFO 17246 [egg-security] use nosniff middleware
+2017-11-18 16:38:06,445 INFO 17246 [egg-security] use xssProtection middleware
+2017-11-18 16:38:06,445 INFO 17246 [egg-security] use xframe middleware
+2017-11-18 16:38:06,446 INFO 17246 [egg-security] use dta middleware
+2017-11-18 16:38:06,446 INFO 17246 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:38:06,527 INFO 17246 [egg-watcher:app] watcher start success
+2017-11-18 16:38:06,542 INFO 17246 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:38:06 GMT+0800 (CST)
+2017-11-18 16:38:07,219 INFO 17248 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:38:07,266 INFO 17248 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:38:07,266 INFO 17248 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:38:07,278 INFO 17248 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:38:07,408 INFO 17248 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:38:07,414 INFO 17248 [egg-security] use csrf middleware
+2017-11-18 16:38:07,415 INFO 17248 [egg-security] use methodnoallow middleware
+2017-11-18 16:38:07,415 INFO 17248 [egg-security] use noopen middleware
+2017-11-18 16:38:07,416 INFO 17248 [egg-security] use nosniff middleware
+2017-11-18 16:38:07,416 INFO 17248 [egg-security] use xssProtection middleware
+2017-11-18 16:38:07,417 INFO 17248 [egg-security] use xframe middleware
+2017-11-18 16:38:07,417 INFO 17248 [egg-security] use dta middleware
+2017-11-18 16:38:07,417 INFO 17248 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:38:07,510 INFO 17248 [egg-watcher:app] watcher start success
+2017-11-18 16:38:07,513 INFO 17248 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:38:07 GMT+0800 (CST)
+2017-11-18 16:39:22,371 INFO 17323 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:39:22,492 INFO 17323 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:39:22,492 INFO 17323 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:39:22,522 INFO 17323 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:39:22,731 INFO 17323 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:39:22,736 INFO 17323 [egg-security] use csrf middleware
+2017-11-18 16:39:22,737 INFO 17323 [egg-security] use methodnoallow middleware
+2017-11-18 16:39:22,738 INFO 17323 [egg-security] use noopen middleware
+2017-11-18 16:39:22,739 INFO 17323 [egg-security] use nosniff middleware
+2017-11-18 16:39:22,739 INFO 17323 [egg-security] use xssProtection middleware
+2017-11-18 16:39:22,740 INFO 17323 [egg-security] use xframe middleware
+2017-11-18 16:39:22,741 INFO 17323 [egg-security] use dta middleware
+2017-11-18 16:39:22,741 INFO 17323 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:39:22,835 INFO 17323 [egg-watcher:app] watcher start success
+2017-11-18 16:39:22,842 INFO 17323 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:39:22 GMT+0800 (CST)
+2017-11-18 16:39:23,972 INFO 17324 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:39:24,055 INFO 17324 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:39:24,055 INFO 17324 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:39:24,074 INFO 17324 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:39:24,308 INFO 17324 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:39:24,318 INFO 17324 [egg-security] use csrf middleware
+2017-11-18 16:39:24,319 INFO 17324 [egg-security] use methodnoallow middleware
+2017-11-18 16:39:24,319 INFO 17324 [egg-security] use noopen middleware
+2017-11-18 16:39:24,320 INFO 17324 [egg-security] use nosniff middleware
+2017-11-18 16:39:24,320 INFO 17324 [egg-security] use xssProtection middleware
+2017-11-18 16:39:24,321 INFO 17324 [egg-security] use xframe middleware
+2017-11-18 16:39:24,322 INFO 17324 [egg-security] use dta middleware
+2017-11-18 16:39:24,322 INFO 17324 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:39:24,396 INFO 17324 [egg-watcher:app] watcher start success
+2017-11-18 16:39:24,402 INFO 17324 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:39:24 GMT+0800 (CST)
+2017-11-18 16:40:39,111 INFO 17344 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:40:39,182 INFO 17344 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:40:39,182 INFO 17344 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:40:39,205 INFO 17344 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:40:39,415 INFO 17344 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:40:39,420 INFO 17344 [egg-security] use csrf middleware
+2017-11-18 16:40:39,422 INFO 17344 [egg-security] use methodnoallow middleware
+2017-11-18 16:40:39,423 INFO 17344 [egg-security] use noopen middleware
+2017-11-18 16:40:39,423 INFO 17344 [egg-security] use nosniff middleware
+2017-11-18 16:40:39,425 INFO 17344 [egg-security] use xssProtection middleware
+2017-11-18 16:40:39,426 INFO 17344 [egg-security] use xframe middleware
+2017-11-18 16:40:39,428 INFO 17344 [egg-security] use dta middleware
+2017-11-18 16:40:39,428 INFO 17344 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:40:39,496 INFO 17344 [egg-watcher:app] watcher start success
+2017-11-18 16:40:39,522 INFO 17344 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:40:39 GMT+0800 (CST)
+2017-11-18 16:40:40,372 INFO 17347 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:40:40,417 INFO 17347 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:40:40,417 INFO 17347 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:40:40,428 INFO 17347 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:40:40,604 INFO 17347 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:40:40,609 INFO 17347 [egg-security] use csrf middleware
+2017-11-18 16:40:40,611 INFO 17347 [egg-security] use methodnoallow middleware
+2017-11-18 16:40:40,611 INFO 17347 [egg-security] use noopen middleware
+2017-11-18 16:40:40,612 INFO 17347 [egg-security] use nosniff middleware
+2017-11-18 16:40:40,613 INFO 17347 [egg-security] use xssProtection middleware
+2017-11-18 16:40:40,615 INFO 17347 [egg-security] use xframe middleware
+2017-11-18 16:40:40,615 INFO 17347 [egg-security] use dta middleware
+2017-11-18 16:40:40,615 INFO 17347 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:40:40,690 INFO 17347 [egg-watcher:app] watcher start success
+2017-11-18 16:40:40,695 INFO 17347 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:40:40 GMT+0800 (CST)
+2017-11-18 16:41:11,342 INFO 17353 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:41:11,404 INFO 17353 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:41:11,404 INFO 17353 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:41:11,419 INFO 17353 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:41:11,622 INFO 17353 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:41:11,629 INFO 17353 [egg-security] use csrf middleware
+2017-11-18 16:41:11,630 INFO 17353 [egg-security] use methodnoallow middleware
+2017-11-18 16:41:11,631 INFO 17353 [egg-security] use noopen middleware
+2017-11-18 16:41:11,632 INFO 17353 [egg-security] use nosniff middleware
+2017-11-18 16:41:11,633 INFO 17353 [egg-security] use xssProtection middleware
+2017-11-18 16:41:11,635 INFO 17353 [egg-security] use xframe middleware
+2017-11-18 16:41:11,636 INFO 17353 [egg-security] use dta middleware
+2017-11-18 16:41:11,636 INFO 17353 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:41:11,936 INFO 17353 [egg-watcher:app] watcher start success
+2017-11-18 16:41:11,948 INFO 17353 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:41:11 GMT+0800 (CST)
+2017-11-18 16:41:12,635 INFO 17354 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:41:12,676 INFO 17354 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:41:12,676 INFO 17354 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:41:12,692 INFO 17354 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:41:12,922 INFO 17354 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:41:12,938 INFO 17354 [egg-security] use csrf middleware
+2017-11-18 16:41:12,939 INFO 17354 [egg-security] use methodnoallow middleware
+2017-11-18 16:41:12,939 INFO 17354 [egg-security] use noopen middleware
+2017-11-18 16:41:12,940 INFO 17354 [egg-security] use nosniff middleware
+2017-11-18 16:41:12,941 INFO 17354 [egg-security] use xssProtection middleware
+2017-11-18 16:41:12,942 INFO 17354 [egg-security] use xframe middleware
+2017-11-18 16:41:12,943 INFO 17354 [egg-security] use dta middleware
+2017-11-18 16:41:12,943 INFO 17354 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:41:13,065 INFO 17354 [egg-watcher:app] watcher start success
+2017-11-18 16:41:13,070 INFO 17354 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:41:13 GMT+0800 (CST)
+2017-11-18 16:41:24,181 INFO 17356 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:41:24,235 INFO 17356 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:41:24,235 INFO 17356 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:41:24,253 INFO 17356 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:41:24,426 INFO 17356 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:41:24,432 INFO 17356 [egg-security] use csrf middleware
+2017-11-18 16:41:24,433 INFO 17356 [egg-security] use methodnoallow middleware
+2017-11-18 16:41:24,433 INFO 17356 [egg-security] use noopen middleware
+2017-11-18 16:41:24,434 INFO 17356 [egg-security] use nosniff middleware
+2017-11-18 16:41:24,434 INFO 17356 [egg-security] use xssProtection middleware
+2017-11-18 16:41:24,435 INFO 17356 [egg-security] use xframe middleware
+2017-11-18 16:41:24,436 INFO 17356 [egg-security] use dta middleware
+2017-11-18 16:41:24,436 INFO 17356 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:41:24,517 INFO 17356 [egg-watcher:app] watcher start success
+2017-11-18 16:41:24,523 INFO 17356 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:41:24 GMT+0800 (CST)
+2017-11-18 16:41:25,236 INFO 17357 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:41:25,297 INFO 17357 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:41:25,297 INFO 17357 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:41:25,311 INFO 17357 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:41:25,439 INFO 17357 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:41:25,442 INFO 17357 [egg-security] use csrf middleware
+2017-11-18 16:41:25,445 INFO 17357 [egg-security] use methodnoallow middleware
+2017-11-18 16:41:25,446 INFO 17357 [egg-security] use noopen middleware
+2017-11-18 16:41:25,446 INFO 17357 [egg-security] use nosniff middleware
+2017-11-18 16:41:25,447 INFO 17357 [egg-security] use xssProtection middleware
+2017-11-18 16:41:25,448 INFO 17357 [egg-security] use xframe middleware
+2017-11-18 16:41:25,448 INFO 17357 [egg-security] use dta middleware
+2017-11-18 16:41:25,448 INFO 17357 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:41:25,522 INFO 17357 [egg-watcher:app] watcher start success
+2017-11-18 16:41:25,528 INFO 17357 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:41:25 GMT+0800 (CST)
+2017-11-18 16:44:50,857 INFO 17489 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:44:50,910 INFO 17489 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:44:50,910 INFO 17489 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:44:50,932 INFO 17489 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:44:51,191 INFO 17489 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:44:51,195 INFO 17489 [egg-security] use csrf middleware
+2017-11-18 16:44:51,196 INFO 17489 [egg-security] use methodnoallow middleware
+2017-11-18 16:44:51,197 INFO 17489 [egg-security] use noopen middleware
+2017-11-18 16:44:51,198 INFO 17489 [egg-security] use nosniff middleware
+2017-11-18 16:44:51,199 INFO 17489 [egg-security] use xssProtection middleware
+2017-11-18 16:44:51,200 INFO 17489 [egg-security] use xframe middleware
+2017-11-18 16:44:51,201 INFO 17489 [egg-security] use dta middleware
+2017-11-18 16:44:51,201 INFO 17489 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:44:51,261 INFO 17489 [egg-watcher:app] watcher start success
+2017-11-18 16:44:51,272 INFO 17489 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:44:51 GMT+0800 (CST)
+2017-11-18 16:45:56,853 INFO 17516 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:45:56,925 INFO 17516 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:45:56,925 INFO 17516 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:45:56,964 INFO 17516 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:45:57,201 INFO 17516 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:45:57,207 INFO 17516 [egg-security] use csrf middleware
+2017-11-18 16:45:57,209 INFO 17516 [egg-security] use methodnoallow middleware
+2017-11-18 16:45:57,210 INFO 17516 [egg-security] use noopen middleware
+2017-11-18 16:45:57,211 INFO 17516 [egg-security] use nosniff middleware
+2017-11-18 16:45:57,213 INFO 17516 [egg-security] use xssProtection middleware
+2017-11-18 16:45:57,214 INFO 17516 [egg-security] use xframe middleware
+2017-11-18 16:45:57,216 INFO 17516 [egg-security] use dta middleware
+2017-11-18 16:45:57,216 INFO 17516 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:45:57,301 INFO 17516 [egg-watcher:app] watcher start success
+2017-11-18 16:45:57,308 INFO 17516 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:45:57 GMT+0800 (CST)
+2017-11-18 16:45:58,428 INFO 17518 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:45:58,474 INFO 17518 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:45:58,474 INFO 17518 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:45:58,491 INFO 17518 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:45:58,613 INFO 17518 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:45:58,617 INFO 17518 [egg-security] use csrf middleware
+2017-11-18 16:45:58,618 INFO 17518 [egg-security] use methodnoallow middleware
+2017-11-18 16:45:58,619 INFO 17518 [egg-security] use noopen middleware
+2017-11-18 16:45:58,620 INFO 17518 [egg-security] use nosniff middleware
+2017-11-18 16:45:58,620 INFO 17518 [egg-security] use xssProtection middleware
+2017-11-18 16:45:58,621 INFO 17518 [egg-security] use xframe middleware
+2017-11-18 16:45:58,621 INFO 17518 [egg-security] use dta middleware
+2017-11-18 16:45:58,621 INFO 17518 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:45:58,692 INFO 17518 [egg-watcher:app] watcher start success
+2017-11-18 16:45:58,695 INFO 17518 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:45:58 GMT+0800 (CST)
+2017-11-18 16:46:03,192 INFO 17519 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:46:03,278 INFO 17519 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:46:03,278 INFO 17519 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:46:03,298 INFO 17519 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:46:03,493 INFO 17519 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:46:03,498 INFO 17519 [egg-security] use csrf middleware
+2017-11-18 16:46:03,500 INFO 17519 [egg-security] use methodnoallow middleware
+2017-11-18 16:46:03,501 INFO 17519 [egg-security] use noopen middleware
+2017-11-18 16:46:03,502 INFO 17519 [egg-security] use nosniff middleware
+2017-11-18 16:46:03,503 INFO 17519 [egg-security] use xssProtection middleware
+2017-11-18 16:46:03,507 INFO 17519 [egg-security] use xframe middleware
+2017-11-18 16:46:03,509 INFO 17519 [egg-security] use dta middleware
+2017-11-18 16:46:03,509 INFO 17519 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:46:03,600 INFO 17519 [egg-watcher:app] watcher start success
+2017-11-18 16:46:03,608 INFO 17519 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:46:03 GMT+0800 (CST)
+2017-11-18 16:47:09,860 INFO 17545 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:47:09,951 INFO 17545 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:47:09,951 INFO 17545 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:47:09,970 INFO 17545 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:47:10,188 INFO 17545 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:47:10,194 INFO 17545 [egg-security] use csrf middleware
+2017-11-18 16:47:10,195 INFO 17545 [egg-security] use methodnoallow middleware
+2017-11-18 16:47:10,196 INFO 17545 [egg-security] use noopen middleware
+2017-11-18 16:47:10,197 INFO 17545 [egg-security] use nosniff middleware
+2017-11-18 16:47:10,197 INFO 17545 [egg-security] use xssProtection middleware
+2017-11-18 16:47:10,198 INFO 17545 [egg-security] use xframe middleware
+2017-11-18 16:47:10,198 INFO 17545 [egg-security] use dta middleware
+2017-11-18 16:47:10,198 INFO 17545 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:47:10,274 INFO 17545 [egg-watcher:app] watcher start success
+2017-11-18 16:47:10,282 INFO 17545 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:47:10 GMT+0800 (CST)
+2017-11-18 16:47:11,054 INFO 17547 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:47:11,105 INFO 17547 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:47:11,105 INFO 17547 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:47:11,116 INFO 17547 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:47:11,259 INFO 17547 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:47:11,267 INFO 17547 [egg-security] use csrf middleware
+2017-11-18 16:47:11,267 INFO 17547 [egg-security] use methodnoallow middleware
+2017-11-18 16:47:11,268 INFO 17547 [egg-security] use noopen middleware
+2017-11-18 16:47:11,268 INFO 17547 [egg-security] use nosniff middleware
+2017-11-18 16:47:11,269 INFO 17547 [egg-security] use xssProtection middleware
+2017-11-18 16:47:11,269 INFO 17547 [egg-security] use xframe middleware
+2017-11-18 16:47:11,270 INFO 17547 [egg-security] use dta middleware
+2017-11-18 16:47:11,270 INFO 17547 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:47:11,336 INFO 17547 [egg-watcher:app] watcher start success
+2017-11-18 16:47:11,340 INFO 17547 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:47:11 GMT+0800 (CST)
+2017-11-18 16:48:02,100 INFO 17643 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:48:02,151 INFO 17643 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:48:02,151 INFO 17643 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:48:02,174 INFO 17643 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:48:02,361 INFO 17643 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:48:02,367 INFO 17643 [egg-security] use csrf middleware
+2017-11-18 16:48:02,369 INFO 17643 [egg-security] use methodnoallow middleware
+2017-11-18 16:48:02,371 INFO 17643 [egg-security] use noopen middleware
+2017-11-18 16:48:02,372 INFO 17643 [egg-security] use nosniff middleware
+2017-11-18 16:48:02,374 INFO 17643 [egg-security] use xssProtection middleware
+2017-11-18 16:48:02,375 INFO 17643 [egg-security] use xframe middleware
+2017-11-18 16:48:02,376 INFO 17643 [egg-security] use dta middleware
+2017-11-18 16:48:02,376 INFO 17643 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:48:02,446 INFO 17643 [egg-watcher:app] watcher start success
+2017-11-18 16:48:02,452 INFO 17643 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:48:02 GMT+0800 (CST)
+2017-11-18 16:48:03,148 INFO 17645 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:48:03,202 INFO 17645 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:48:03,202 INFO 17645 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:48:03,219 INFO 17645 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:48:03,348 INFO 17645 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:48:03,352 INFO 17645 [egg-security] use csrf middleware
+2017-11-18 16:48:03,355 INFO 17645 [egg-security] use methodnoallow middleware
+2017-11-18 16:48:03,356 INFO 17645 [egg-security] use noopen middleware
+2017-11-18 16:48:03,357 INFO 17645 [egg-security] use nosniff middleware
+2017-11-18 16:48:03,357 INFO 17645 [egg-security] use xssProtection middleware
+2017-11-18 16:48:03,358 INFO 17645 [egg-security] use xframe middleware
+2017-11-18 16:48:03,358 INFO 17645 [egg-security] use dta middleware
+2017-11-18 16:48:03,358 INFO 17645 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:48:03,424 INFO 17645 [egg-watcher:app] watcher start success
+2017-11-18 16:48:03,427 INFO 17645 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:48:03 GMT+0800 (CST)
+2017-11-18 16:48:52,322 INFO 17653 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:48:52,415 INFO 17653 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:48:52,415 INFO 17653 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:48:52,444 INFO 17653 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:48:52,658 INFO 17653 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:48:52,670 INFO 17653 [egg-security] use csrf middleware
+2017-11-18 16:48:52,673 INFO 17653 [egg-security] use methodnoallow middleware
+2017-11-18 16:48:52,674 INFO 17653 [egg-security] use noopen middleware
+2017-11-18 16:48:52,676 INFO 17653 [egg-security] use nosniff middleware
+2017-11-18 16:48:52,677 INFO 17653 [egg-security] use xssProtection middleware
+2017-11-18 16:48:52,678 INFO 17653 [egg-security] use xframe middleware
+2017-11-18 16:48:52,679 INFO 17653 [egg-security] use dta middleware
+2017-11-18 16:48:52,679 INFO 17653 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:48:52,774 INFO 17653 [egg-watcher:app] watcher start success
+2017-11-18 16:48:52,786 INFO 17653 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:48:52 GMT+0800 (CST)
+2017-11-18 16:48:53,725 INFO 17654 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:48:53,796 INFO 17654 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:48:53,796 INFO 17654 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:48:53,813 INFO 17654 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:48:53,948 INFO 17654 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:48:53,951 INFO 17654 [egg-security] use csrf middleware
+2017-11-18 16:48:53,952 INFO 17654 [egg-security] use methodnoallow middleware
+2017-11-18 16:48:53,953 INFO 17654 [egg-security] use noopen middleware
+2017-11-18 16:48:53,954 INFO 17654 [egg-security] use nosniff middleware
+2017-11-18 16:48:53,954 INFO 17654 [egg-security] use xssProtection middleware
+2017-11-18 16:48:53,954 INFO 17654 [egg-security] use xframe middleware
+2017-11-18 16:48:53,955 INFO 17654 [egg-security] use dta middleware
+2017-11-18 16:48:53,955 INFO 17654 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:48:54,027 INFO 17654 [egg-watcher:app] watcher start success
+2017-11-18 16:48:54,032 INFO 17654 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:48:54 GMT+0800 (CST)
+2017-11-18 16:49:59,710 INFO 17668 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:49:59,760 INFO 17668 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:49:59,760 INFO 17668 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:49:59,786 INFO 17668 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:49:59,961 INFO 17668 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:49:59,965 INFO 17668 [egg-security] use csrf middleware
+2017-11-18 16:49:59,970 INFO 17668 [egg-security] use methodnoallow middleware
+2017-11-18 16:49:59,972 INFO 17668 [egg-security] use noopen middleware
+2017-11-18 16:49:59,973 INFO 17668 [egg-security] use nosniff middleware
+2017-11-18 16:49:59,974 INFO 17668 [egg-security] use xssProtection middleware
+2017-11-18 16:49:59,975 INFO 17668 [egg-security] use xframe middleware
+2017-11-18 16:49:59,976 INFO 17668 [egg-security] use dta middleware
+2017-11-18 16:49:59,976 INFO 17668 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:50:00,103 INFO 17668 [egg-watcher:app] watcher start success
+2017-11-18 16:50:00,125 INFO 17668 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:50:00 GMT+0800 (CST)
+2017-11-18 16:50:26,161 INFO 17677 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:50:26,235 INFO 17677 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:50:26,235 INFO 17677 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:50:26,267 INFO 17677 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:50:26,536 INFO 17677 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:50:26,543 INFO 17677 [egg-security] use csrf middleware
+2017-11-18 16:50:26,551 INFO 17677 [egg-security] use methodnoallow middleware
+2017-11-18 16:50:26,552 INFO 17677 [egg-security] use noopen middleware
+2017-11-18 16:50:26,553 INFO 17677 [egg-security] use nosniff middleware
+2017-11-18 16:50:26,555 INFO 17677 [egg-security] use xssProtection middleware
+2017-11-18 16:50:26,556 INFO 17677 [egg-security] use xframe middleware
+2017-11-18 16:50:26,557 INFO 17677 [egg-security] use dta middleware
+2017-11-18 16:50:26,557 INFO 17677 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:50:26,709 INFO 17677 [egg-watcher:app] watcher start success
+2017-11-18 16:50:26,717 INFO 17677 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:50:26 GMT+0800 (CST)
+2017-11-18 16:50:27,625 INFO 17684 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-18 16:50:27,714 INFO 17684 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-18 16:50:27,714 INFO 17684 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-18 16:50:27,733 INFO 17684 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-18 16:50:27,898 INFO 17684 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-18 16:50:27,903 INFO 17684 [egg-security] use csrf middleware
+2017-11-18 16:50:27,904 INFO 17684 [egg-security] use methodnoallow middleware
+2017-11-18 16:50:27,904 INFO 17684 [egg-security] use noopen middleware
+2017-11-18 16:50:27,905 INFO 17684 [egg-security] use nosniff middleware
+2017-11-18 16:50:27,905 INFO 17684 [egg-security] use xssProtection middleware
+2017-11-18 16:50:27,906 INFO 17684 [egg-security] use xframe middleware
+2017-11-18 16:50:27,906 INFO 17684 [egg-security] use dta middleware
+2017-11-18 16:50:27,906 INFO 17684 [egg-security] compose 7 middlewares into one security middleware
+2017-11-18 16:50:27,975 INFO 17684 [egg-watcher:app] watcher start success
+2017-11-18 16:50:27,978 INFO 17684 [egg-mysql] instance[0] status OK, rds currentTime: Sat Nov 18 2017 16:50:27 GMT+0800 (CST)
+2017-11-18 19:37:11,333 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 20:28:59,178 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 20:54:04,846 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 22:31:36,213 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-18 22:35:47,003 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-19 00:06:00,121 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-19 08:58:35,309 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-19 19:35:39,550 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-19 21:56:42,824 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-19 23:51:03,669 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-20 09:32:35,955 WARN 17684 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-20 09:45:59,426 INFO 23403 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 09:45:59,565 INFO 23403 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 09:45:59,565 INFO 23403 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 09:45:59,611 INFO 23403 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 09:46:00,047 INFO 23403 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 09:46:00,053 INFO 23403 [egg-security] use csrf middleware
+2017-11-20 09:46:00,054 INFO 23403 [egg-security] use methodnoallow middleware
+2017-11-20 09:46:00,055 INFO 23403 [egg-security] use noopen middleware
+2017-11-20 09:46:00,057 INFO 23403 [egg-security] use nosniff middleware
+2017-11-20 09:46:00,059 INFO 23403 [egg-security] use xssProtection middleware
+2017-11-20 09:46:00,061 INFO 23403 [egg-security] use xframe middleware
+2017-11-20 09:46:00,063 INFO 23403 [egg-security] use dta middleware
+2017-11-20 09:46:00,063 INFO 23403 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 09:46:00,151 INFO 23403 [egg-watcher:app] watcher start success
+2017-11-20 09:46:00,220 INFO 23403 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 09:46:00 GMT+0800 (CST)
+2017-11-20 11:28:29,741 INFO 27089 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 11:28:29,798 INFO 27089 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 11:28:29,799 INFO 27089 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 11:28:29,817 INFO 27089 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 11:28:30,003 INFO 27089 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 11:28:30,009 INFO 27089 [egg-security] use csrf middleware
+2017-11-20 11:28:30,012 INFO 27089 [egg-security] use methodnoallow middleware
+2017-11-20 11:28:30,013 INFO 27089 [egg-security] use noopen middleware
+2017-11-20 11:28:30,015 INFO 27089 [egg-security] use nosniff middleware
+2017-11-20 11:28:30,016 INFO 27089 [egg-security] use xssProtection middleware
+2017-11-20 11:28:30,017 INFO 27089 [egg-security] use xframe middleware
+2017-11-20 11:28:30,018 INFO 27089 [egg-security] use dta middleware
+2017-11-20 11:28:30,018 INFO 27089 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 11:28:30,080 INFO 27089 [egg-watcher:app] watcher start success
+2017-11-20 11:28:30,083 INFO 27089 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 11:28:30 GMT+0800 (CST)
+2017-11-20 17:21:15,596 INFO 34396 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 17:21:15,641 INFO 34396 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 17:21:15,641 INFO 34396 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 17:21:15,654 INFO 34396 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 17:21:15,849 INFO 34396 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 17:21:15,853 INFO 34396 [egg-security] use csrf middleware
+2017-11-20 17:21:15,854 INFO 34396 [egg-security] use methodnoallow middleware
+2017-11-20 17:21:15,855 INFO 34396 [egg-security] use noopen middleware
+2017-11-20 17:21:15,856 INFO 34396 [egg-security] use nosniff middleware
+2017-11-20 17:21:15,857 INFO 34396 [egg-security] use xssProtection middleware
+2017-11-20 17:21:15,858 INFO 34396 [egg-security] use xframe middleware
+2017-11-20 17:21:15,859 INFO 34396 [egg-security] use dta middleware
+2017-11-20 17:21:15,859 INFO 34396 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 17:21:15,934 INFO 34396 [egg-watcher:app] watcher start success
+2017-11-20 17:21:15,966 INFO 34396 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 17:21:15 GMT+0800 (CST)
+2017-11-20 18:26:54,316 INFO 37264 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:26:54,538 INFO 37264 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:26:54,539 INFO 37264 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:26:54,593 INFO 37264 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:26:54,887 INFO 37264 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:26:54,892 INFO 37264 [egg-security] use csrf middleware
+2017-11-20 18:26:54,894 INFO 37264 [egg-security] use methodnoallow middleware
+2017-11-20 18:26:54,895 INFO 37264 [egg-security] use noopen middleware
+2017-11-20 18:26:54,896 INFO 37264 [egg-security] use nosniff middleware
+2017-11-20 18:26:54,897 INFO 37264 [egg-security] use xssProtection middleware
+2017-11-20 18:26:54,898 INFO 37264 [egg-security] use xframe middleware
+2017-11-20 18:26:54,898 INFO 37264 [egg-security] use dta middleware
+2017-11-20 18:26:54,898 INFO 37264 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:26:55,014 INFO 37264 [egg-watcher:app] watcher start success
+2017-11-20 18:26:55,069 INFO 37264 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:26:55 GMT+0800 (CST)
+2017-11-20 18:26:56,724 INFO 37265 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:26:56,845 INFO 37265 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:26:56,846 INFO 37265 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:26:56,886 INFO 37265 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:26:57,112 INFO 37265 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:26:57,117 INFO 37265 [egg-security] use csrf middleware
+2017-11-20 18:26:57,118 INFO 37265 [egg-security] use methodnoallow middleware
+2017-11-20 18:26:57,119 INFO 37265 [egg-security] use noopen middleware
+2017-11-20 18:26:57,119 INFO 37265 [egg-security] use nosniff middleware
+2017-11-20 18:26:57,120 INFO 37265 [egg-security] use xssProtection middleware
+2017-11-20 18:26:57,120 INFO 37265 [egg-security] use xframe middleware
+2017-11-20 18:26:57,121 INFO 37265 [egg-security] use dta middleware
+2017-11-20 18:26:57,121 INFO 37265 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:26:57,201 INFO 37265 [egg-watcher:app] watcher start success
+2017-11-20 18:26:57,204 INFO 37265 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:26:57 GMT+0800 (CST)
+2017-11-20 18:26:58,692 INFO 37267 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:26:58,757 INFO 37267 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:26:58,758 INFO 37267 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:26:58,786 INFO 37267 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:26:58,992 INFO 37267 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:26:58,998 INFO 37267 [egg-security] use csrf middleware
+2017-11-20 18:26:59,000 INFO 37267 [egg-security] use methodnoallow middleware
+2017-11-20 18:26:59,001 INFO 37267 [egg-security] use noopen middleware
+2017-11-20 18:26:59,001 INFO 37267 [egg-security] use nosniff middleware
+2017-11-20 18:26:59,002 INFO 37267 [egg-security] use xssProtection middleware
+2017-11-20 18:26:59,003 INFO 37267 [egg-security] use xframe middleware
+2017-11-20 18:26:59,004 INFO 37267 [egg-security] use dta middleware
+2017-11-20 18:26:59,004 INFO 37267 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:26:59,071 INFO 37267 [egg-watcher:app] watcher start success
+2017-11-20 18:26:59,081 INFO 37267 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:26:59 GMT+0800 (CST)
+2017-11-20 18:28:37,943 INFO 37401 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:28:38,014 INFO 37401 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:28:38,014 INFO 37401 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:28:38,064 INFO 37401 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:28:38,334 INFO 37401 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:28:38,341 INFO 37401 [egg-security] use csrf middleware
+2017-11-20 18:28:38,344 INFO 37401 [egg-security] use methodnoallow middleware
+2017-11-20 18:28:38,345 INFO 37401 [egg-security] use noopen middleware
+2017-11-20 18:28:38,347 INFO 37401 [egg-security] use nosniff middleware
+2017-11-20 18:28:38,348 INFO 37401 [egg-security] use xssProtection middleware
+2017-11-20 18:28:38,349 INFO 37401 [egg-security] use xframe middleware
+2017-11-20 18:28:38,350 INFO 37401 [egg-security] use dta middleware
+2017-11-20 18:28:38,350 INFO 37401 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:28:38,437 INFO 37401 [egg-watcher:app] watcher start success
+2017-11-20 18:28:38,445 INFO 37401 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:28:38 GMT+0800 (CST)
+2017-11-20 18:35:40,809 INFO 37668 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:35:40,878 INFO 37668 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:35:40,878 INFO 37668 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:35:40,909 INFO 37668 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:35:41,546 INFO 37668 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:35:41,552 INFO 37668 [egg-security] use csrf middleware
+2017-11-20 18:35:41,555 INFO 37668 [egg-security] use methodnoallow middleware
+2017-11-20 18:35:41,556 INFO 37668 [egg-security] use noopen middleware
+2017-11-20 18:35:41,557 INFO 37668 [egg-security] use nosniff middleware
+2017-11-20 18:35:41,558 INFO 37668 [egg-security] use xssProtection middleware
+2017-11-20 18:35:41,559 INFO 37668 [egg-security] use xframe middleware
+2017-11-20 18:35:41,561 INFO 37668 [egg-security] use dta middleware
+2017-11-20 18:35:41,562 INFO 37668 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:35:41,694 INFO 37668 [egg-watcher:app] watcher start success
+2017-11-20 18:35:41,698 INFO 37668 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:35:41 GMT+0800 (CST)
+2017-11-20 18:35:42,834 INFO 37670 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:35:42,944 INFO 37670 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:35:42,944 INFO 37670 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:35:43,042 INFO 37670 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:35:43,464 INFO 37670 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:35:43,561 INFO 37670 [egg-security] use csrf middleware
+2017-11-20 18:35:43,562 INFO 37670 [egg-security] use methodnoallow middleware
+2017-11-20 18:35:43,563 INFO 37670 [egg-security] use noopen middleware
+2017-11-20 18:35:43,564 INFO 37670 [egg-security] use nosniff middleware
+2017-11-20 18:35:43,564 INFO 37670 [egg-security] use xssProtection middleware
+2017-11-20 18:35:43,565 INFO 37670 [egg-security] use xframe middleware
+2017-11-20 18:35:43,566 INFO 37670 [egg-security] use dta middleware
+2017-11-20 18:35:43,568 INFO 37670 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:35:43,652 INFO 37670 [egg-watcher:app] watcher start success
+2017-11-20 18:35:43,656 INFO 37670 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:35:43 GMT+0800 (CST)
+2017-11-20 18:36:31,156 INFO 37678 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:36:31,268 INFO 37678 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:36:31,268 INFO 37678 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:36:31,299 INFO 37678 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:36:31,541 INFO 37678 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:36:31,555 INFO 37678 [egg-security] use csrf middleware
+2017-11-20 18:36:31,561 INFO 37678 [egg-security] use methodnoallow middleware
+2017-11-20 18:36:31,563 INFO 37678 [egg-security] use noopen middleware
+2017-11-20 18:36:31,564 INFO 37678 [egg-security] use nosniff middleware
+2017-11-20 18:36:31,566 INFO 37678 [egg-security] use xssProtection middleware
+2017-11-20 18:36:31,567 INFO 37678 [egg-security] use xframe middleware
+2017-11-20 18:36:31,567 INFO 37678 [egg-security] use dta middleware
+2017-11-20 18:36:31,568 INFO 37678 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:36:31,642 INFO 37678 [egg-watcher:app] watcher start success
+2017-11-20 18:36:31,654 INFO 37678 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:36:31 GMT+0800 (CST)
+2017-11-20 18:36:33,029 INFO 37679 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 18:36:33,082 INFO 37679 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 18:36:33,082 INFO 37679 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 18:36:33,104 INFO 37679 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 18:36:33,277 INFO 37679 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 18:36:33,284 INFO 37679 [egg-security] use csrf middleware
+2017-11-20 18:36:33,285 INFO 37679 [egg-security] use methodnoallow middleware
+2017-11-20 18:36:33,286 INFO 37679 [egg-security] use noopen middleware
+2017-11-20 18:36:33,287 INFO 37679 [egg-security] use nosniff middleware
+2017-11-20 18:36:33,288 INFO 37679 [egg-security] use xssProtection middleware
+2017-11-20 18:36:33,289 INFO 37679 [egg-security] use xframe middleware
+2017-11-20 18:36:33,290 INFO 37679 [egg-security] use dta middleware
+2017-11-20 18:36:33,290 INFO 37679 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 18:36:33,385 INFO 37679 [egg-watcher:app] watcher start success
+2017-11-20 18:36:33,389 INFO 37679 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 18:36:33 GMT+0800 (CST)
+2017-11-20 20:26:24,410 INFO 42533 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 20:26:24,593 INFO 42533 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 20:26:24,593 INFO 42533 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 20:26:24,656 INFO 42533 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 20:26:24,985 INFO 42533 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 20:26:24,992 INFO 42533 [egg-security] use csrf middleware
+2017-11-20 20:26:24,993 INFO 42533 [egg-security] use methodnoallow middleware
+2017-11-20 20:26:24,994 INFO 42533 [egg-security] use noopen middleware
+2017-11-20 20:26:24,996 INFO 42533 [egg-security] use nosniff middleware
+2017-11-20 20:26:24,997 INFO 42533 [egg-security] use xssProtection middleware
+2017-11-20 20:26:24,997 INFO 42533 [egg-security] use xframe middleware
+2017-11-20 20:26:24,998 INFO 42533 [egg-security] use dta middleware
+2017-11-20 20:26:24,998 INFO 42533 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 20:26:25,091 INFO 42533 [egg-watcher:app] watcher start success
+2017-11-20 20:26:25,106 INFO 42533 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 20:26:25 GMT+0800 (CST)
+2017-11-20 20:29:45,980 INFO 42691 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 20:29:46,232 INFO 42691 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 20:29:46,232 INFO 42691 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 20:29:46,343 INFO 42691 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 20:29:46,855 INFO 42691 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 20:29:46,863 INFO 42691 [egg-security] use csrf middleware
+2017-11-20 20:29:46,868 INFO 42691 [egg-security] use methodnoallow middleware
+2017-11-20 20:29:46,869 INFO 42691 [egg-security] use noopen middleware
+2017-11-20 20:29:46,870 INFO 42691 [egg-security] use nosniff middleware
+2017-11-20 20:29:46,872 INFO 42691 [egg-security] use xssProtection middleware
+2017-11-20 20:29:46,873 INFO 42691 [egg-security] use xframe middleware
+2017-11-20 20:29:46,874 INFO 42691 [egg-security] use dta middleware
+2017-11-20 20:29:46,874 INFO 42691 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 20:29:47,108 INFO 42691 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 20:29:47 GMT+0800 (CST)
+2017-11-20 20:29:47,171 INFO 42691 [egg-watcher:app] watcher start success
+2017-11-20 20:40:31,273 INFO 43197 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 20:40:31,657 INFO 43197 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 20:40:31,657 INFO 43197 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 20:40:31,766 INFO 43197 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 20:40:32,553 INFO 43197 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 20:40:32,558 INFO 43197 [egg-security] use csrf middleware
+2017-11-20 20:40:32,560 INFO 43197 [egg-security] use methodnoallow middleware
+2017-11-20 20:40:32,561 INFO 43197 [egg-security] use noopen middleware
+2017-11-20 20:40:32,563 INFO 43197 [egg-security] use nosniff middleware
+2017-11-20 20:40:32,564 INFO 43197 [egg-security] use xssProtection middleware
+2017-11-20 20:40:32,565 INFO 43197 [egg-security] use xframe middleware
+2017-11-20 20:40:32,566 INFO 43197 [egg-security] use dta middleware
+2017-11-20 20:40:32,566 INFO 43197 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 20:40:32,655 INFO 43197 [egg-watcher:app] watcher start success
+2017-11-20 20:40:32,658 INFO 43197 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 20:40:32 GMT+0800 (CST)
+2017-11-20 20:40:34,187 INFO 43202 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-20 20:40:34,279 INFO 43202 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-20 20:40:34,279 INFO 43202 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-20 20:40:34,344 INFO 43202 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-20 20:40:34,645 INFO 43202 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-20 20:40:34,653 INFO 43202 [egg-security] use csrf middleware
+2017-11-20 20:40:34,656 INFO 43202 [egg-security] use methodnoallow middleware
+2017-11-20 20:40:34,657 INFO 43202 [egg-security] use noopen middleware
+2017-11-20 20:40:34,658 INFO 43202 [egg-security] use nosniff middleware
+2017-11-20 20:40:34,659 INFO 43202 [egg-security] use xssProtection middleware
+2017-11-20 20:40:34,660 INFO 43202 [egg-security] use xframe middleware
+2017-11-20 20:40:34,661 INFO 43202 [egg-security] use dta middleware
+2017-11-20 20:40:34,662 INFO 43202 [egg-security] compose 7 middlewares into one security middleware
+2017-11-20 20:40:34,937 INFO 43202 [egg-watcher:app] watcher start success
+2017-11-20 20:40:34,943 INFO 43202 [egg-mysql] instance[0] status OK, rds currentTime: Mon Nov 20 2017 20:40:34 GMT+0800 (CST)
+2017-11-21 10:40:49,028 WARN 43202 [ClusterClient:Watcher] follower closed, and try to init it again
+2017-11-21 10:47:19,125 INFO 44224 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:47:19,477 INFO 44224 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:47:19,477 INFO 44224 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:47:19,519 INFO 44224 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:47:20,113 INFO 44224 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:47:20,123 INFO 44224 [egg-security] use csrf middleware
+2017-11-21 10:47:20,126 INFO 44224 [egg-security] use methodnoallow middleware
+2017-11-21 10:47:20,128 INFO 44224 [egg-security] use noopen middleware
+2017-11-21 10:47:20,130 INFO 44224 [egg-security] use nosniff middleware
+2017-11-21 10:47:20,131 INFO 44224 [egg-security] use xssProtection middleware
+2017-11-21 10:47:20,133 INFO 44224 [egg-security] use xframe middleware
+2017-11-21 10:47:20,134 INFO 44224 [egg-security] use dta middleware
+2017-11-21 10:47:20,134 INFO 44224 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:47:20,333 INFO 44224 [egg-watcher:app] watcher start success
+2017-11-21 10:47:20,372 INFO 44224 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:47:20 GMT+0800 (CST)
+2017-11-21 10:48:38,138 INFO 44240 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:48:38,217 INFO 44240 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:48:38,217 INFO 44240 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:48:38,251 INFO 44240 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:48:38,571 INFO 44240 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:48:38,578 INFO 44240 [egg-security] use csrf middleware
+2017-11-21 10:48:38,582 INFO 44240 [egg-security] use methodnoallow middleware
+2017-11-21 10:48:38,587 INFO 44240 [egg-security] use noopen middleware
+2017-11-21 10:48:38,588 INFO 44240 [egg-security] use nosniff middleware
+2017-11-21 10:48:38,589 INFO 44240 [egg-security] use xssProtection middleware
+2017-11-21 10:48:38,590 INFO 44240 [egg-security] use xframe middleware
+2017-11-21 10:48:38,592 INFO 44240 [egg-security] use dta middleware
+2017-11-21 10:48:38,592 INFO 44240 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:48:38,676 INFO 44240 [egg-watcher:app] watcher start success
+2017-11-21 10:48:38,693 INFO 44240 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:48:38 GMT+0800 (CST)
+2017-11-21 10:48:39,534 INFO 44241 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:48:39,587 INFO 44241 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:48:39,587 INFO 44241 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:48:39,603 INFO 44241 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:48:39,767 INFO 44241 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:48:39,775 INFO 44241 [egg-security] use csrf middleware
+2017-11-21 10:48:39,776 INFO 44241 [egg-security] use methodnoallow middleware
+2017-11-21 10:48:39,777 INFO 44241 [egg-security] use noopen middleware
+2017-11-21 10:48:39,778 INFO 44241 [egg-security] use nosniff middleware
+2017-11-21 10:48:39,779 INFO 44241 [egg-security] use xssProtection middleware
+2017-11-21 10:48:39,779 INFO 44241 [egg-security] use xframe middleware
+2017-11-21 10:48:39,785 INFO 44241 [egg-security] use dta middleware
+2017-11-21 10:48:39,785 INFO 44241 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:48:39,918 INFO 44241 [egg-watcher:app] watcher start success
+2017-11-21 10:48:39,929 INFO 44241 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:48:39 GMT+0800 (CST)
+2017-11-21 10:50:49,115 INFO 44368 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:50:49,176 INFO 44368 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:50:49,176 INFO 44368 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:50:49,202 INFO 44368 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:50:49,579 INFO 44368 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:50:49,587 INFO 44368 [egg-security] use csrf middleware
+2017-11-21 10:50:49,590 INFO 44368 [egg-security] use methodnoallow middleware
+2017-11-21 10:50:49,592 INFO 44368 [egg-security] use noopen middleware
+2017-11-21 10:50:49,593 INFO 44368 [egg-security] use nosniff middleware
+2017-11-21 10:50:49,595 INFO 44368 [egg-security] use xssProtection middleware
+2017-11-21 10:50:49,596 INFO 44368 [egg-security] use xframe middleware
+2017-11-21 10:50:49,597 INFO 44368 [egg-security] use dta middleware
+2017-11-21 10:50:49,597 INFO 44368 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:50:49,693 INFO 44368 [egg-watcher:app] watcher start success
+2017-11-21 10:50:49,713 INFO 44368 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:50:49 GMT+0800 (CST)
+2017-11-21 10:50:52,025 INFO 44370 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:50:52,095 INFO 44370 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:50:52,096 INFO 44370 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:50:52,121 INFO 44370 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:50:52,456 INFO 44370 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:50:52,460 INFO 44370 [egg-security] use csrf middleware
+2017-11-21 10:50:52,462 INFO 44370 [egg-security] use methodnoallow middleware
+2017-11-21 10:50:52,462 INFO 44370 [egg-security] use noopen middleware
+2017-11-21 10:50:52,463 INFO 44370 [egg-security] use nosniff middleware
+2017-11-21 10:50:52,464 INFO 44370 [egg-security] use xssProtection middleware
+2017-11-21 10:50:52,465 INFO 44370 [egg-security] use xframe middleware
+2017-11-21 10:50:52,466 INFO 44370 [egg-security] use dta middleware
+2017-11-21 10:50:52,466 INFO 44370 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:50:52,602 INFO 44370 [egg-watcher:app] watcher start success
+2017-11-21 10:50:52,610 INFO 44370 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:50:52 GMT+0800 (CST)
+2017-11-21 10:51:14,427 INFO 44380 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:51:14,509 INFO 44380 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:51:14,509 INFO 44380 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:51:14,558 INFO 44380 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:51:14,825 INFO 44380 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:51:14,830 INFO 44380 [egg-security] use csrf middleware
+2017-11-21 10:51:14,833 INFO 44380 [egg-security] use methodnoallow middleware
+2017-11-21 10:51:14,834 INFO 44380 [egg-security] use noopen middleware
+2017-11-21 10:51:14,835 INFO 44380 [egg-security] use nosniff middleware
+2017-11-21 10:51:14,837 INFO 44380 [egg-security] use xssProtection middleware
+2017-11-21 10:51:14,838 INFO 44380 [egg-security] use xframe middleware
+2017-11-21 10:51:14,839 INFO 44380 [egg-security] use dta middleware
+2017-11-21 10:51:14,839 INFO 44380 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:51:14,913 INFO 44380 [egg-watcher:app] watcher start success
+2017-11-21 10:51:14,924 INFO 44380 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:51:14 GMT+0800 (CST)
+2017-11-21 10:51:51,936 INFO 44396 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:51:52,020 INFO 44396 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:51:52,020 INFO 44396 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:51:52,045 INFO 44396 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:51:52,749 INFO 44396 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:51:52,757 INFO 44396 [egg-security] use csrf middleware
+2017-11-21 10:51:52,760 INFO 44396 [egg-security] use methodnoallow middleware
+2017-11-21 10:51:52,761 INFO 44396 [egg-security] use noopen middleware
+2017-11-21 10:51:52,763 INFO 44396 [egg-security] use nosniff middleware
+2017-11-21 10:51:52,766 INFO 44396 [egg-security] use xssProtection middleware
+2017-11-21 10:51:52,767 INFO 44396 [egg-security] use xframe middleware
+2017-11-21 10:51:52,768 INFO 44396 [egg-security] use dta middleware
+2017-11-21 10:51:52,769 INFO 44396 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:51:53,254 INFO 44396 [egg-watcher:app] watcher start success
+2017-11-21 10:51:53,259 INFO 44396 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:51:53 GMT+0800 (CST)
+2017-11-21 10:51:55,083 INFO 44398 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 10:51:55,185 INFO 44398 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 10:51:55,185 INFO 44398 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 10:51:55,330 INFO 44398 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 10:51:55,782 INFO 44398 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 10:51:55,790 INFO 44398 [egg-security] use csrf middleware
+2017-11-21 10:51:55,792 INFO 44398 [egg-security] use methodnoallow middleware
+2017-11-21 10:51:55,793 INFO 44398 [egg-security] use noopen middleware
+2017-11-21 10:51:55,806 INFO 44398 [egg-security] use nosniff middleware
+2017-11-21 10:51:55,807 INFO 44398 [egg-security] use xssProtection middleware
+2017-11-21 10:51:55,811 INFO 44398 [egg-security] use xframe middleware
+2017-11-21 10:51:55,813 INFO 44398 [egg-security] use dta middleware
+2017-11-21 10:51:55,813 INFO 44398 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 10:51:55,938 INFO 44398 [egg-watcher:app] watcher start success
+2017-11-21 10:51:55,946 INFO 44398 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 10:51:55 GMT+0800 (CST)
+2017-11-21 11:03:10,678 INFO 44809 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:03:10,893 INFO 44809 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:03:10,893 INFO 44809 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:03:10,922 INFO 44809 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:03:11,428 INFO 44809 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:03:11,433 INFO 44809 [egg-security] use csrf middleware
+2017-11-21 11:03:11,436 INFO 44809 [egg-security] use methodnoallow middleware
+2017-11-21 11:03:11,437 INFO 44809 [egg-security] use noopen middleware
+2017-11-21 11:03:11,438 INFO 44809 [egg-security] use nosniff middleware
+2017-11-21 11:03:11,439 INFO 44809 [egg-security] use xssProtection middleware
+2017-11-21 11:03:11,442 INFO 44809 [egg-security] use xframe middleware
+2017-11-21 11:03:11,444 INFO 44809 [egg-security] use dta middleware
+2017-11-21 11:03:11,444 INFO 44809 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:03:11,528 INFO 44809 [egg-watcher:app] watcher start success
+2017-11-21 11:03:11,560 INFO 44809 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:03:11 GMT+0800 (CST)
+2017-11-21 11:03:13,099 INFO 44812 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:03:13,147 INFO 44812 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:03:13,147 INFO 44812 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:03:13,161 INFO 44812 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:03:13,446 INFO 44812 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:03:13,460 INFO 44812 [egg-security] use csrf middleware
+2017-11-21 11:03:13,463 INFO 44812 [egg-security] use methodnoallow middleware
+2017-11-21 11:03:13,470 INFO 44812 [egg-security] use noopen middleware
+2017-11-21 11:03:13,477 INFO 44812 [egg-security] use nosniff middleware
+2017-11-21 11:03:13,481 INFO 44812 [egg-security] use xssProtection middleware
+2017-11-21 11:03:13,601 INFO 44812 [egg-security] use xframe middleware
+2017-11-21 11:03:13,604 INFO 44812 [egg-security] use dta middleware
+2017-11-21 11:03:13,604 INFO 44812 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:03:13,827 INFO 44812 [egg-watcher:app] watcher start success
+2017-11-21 11:03:13,845 INFO 44812 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:03:13 GMT+0800 (CST)
+2017-11-21 11:06:12,649 INFO 44930 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:06:12,734 INFO 44930 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:06:12,734 INFO 44930 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:06:12,792 INFO 44930 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:06:13,519 INFO 44930 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:06:13,528 INFO 44930 [egg-security] use csrf middleware
+2017-11-21 11:06:13,530 INFO 44930 [egg-security] use methodnoallow middleware
+2017-11-21 11:06:13,532 INFO 44930 [egg-security] use noopen middleware
+2017-11-21 11:06:13,533 INFO 44930 [egg-security] use nosniff middleware
+2017-11-21 11:06:13,535 INFO 44930 [egg-security] use xssProtection middleware
+2017-11-21 11:06:13,536 INFO 44930 [egg-security] use xframe middleware
+2017-11-21 11:06:13,537 INFO 44930 [egg-security] use dta middleware
+2017-11-21 11:06:13,537 INFO 44930 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:06:13,624 INFO 44930 [egg-watcher:app] watcher start success
+2017-11-21 11:06:13,642 INFO 44930 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:06:13 GMT+0800 (CST)
+2017-11-21 11:08:24,526 INFO 44983 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:08:24,572 INFO 44983 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:08:24,572 INFO 44983 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:08:24,594 INFO 44983 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:08:24,808 INFO 44983 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:08:24,815 INFO 44983 [egg-security] use csrf middleware
+2017-11-21 11:08:24,818 INFO 44983 [egg-security] use methodnoallow middleware
+2017-11-21 11:08:24,819 INFO 44983 [egg-security] use noopen middleware
+2017-11-21 11:08:24,821 INFO 44983 [egg-security] use nosniff middleware
+2017-11-21 11:08:24,822 INFO 44983 [egg-security] use xssProtection middleware
+2017-11-21 11:08:24,824 INFO 44983 [egg-security] use xframe middleware
+2017-11-21 11:08:24,825 INFO 44983 [egg-security] use dta middleware
+2017-11-21 11:08:24,825 INFO 44983 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:08:24,930 INFO 44983 [egg-watcher:app] watcher start success
+2017-11-21 11:08:25,056 INFO 44983 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:08:24 GMT+0800 (CST)
+2017-11-21 11:28:38,601 INFO 45903 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:28:38,663 INFO 45903 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:28:38,663 INFO 45903 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:28:38,695 INFO 45903 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:28:38,966 INFO 45903 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:28:38,971 INFO 45903 [egg-security] use csrf middleware
+2017-11-21 11:28:38,973 INFO 45903 [egg-security] use methodnoallow middleware
+2017-11-21 11:28:38,974 INFO 45903 [egg-security] use noopen middleware
+2017-11-21 11:28:38,975 INFO 45903 [egg-security] use nosniff middleware
+2017-11-21 11:28:38,977 INFO 45903 [egg-security] use xssProtection middleware
+2017-11-21 11:28:38,978 INFO 45903 [egg-security] use xframe middleware
+2017-11-21 11:28:38,979 INFO 45903 [egg-security] use dta middleware
+2017-11-21 11:28:38,979 INFO 45903 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:28:39,052 INFO 45903 [egg-watcher:app] watcher start success
+2017-11-21 11:28:39,081 INFO 45903 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:28:39 GMT+0800 (CST)
+2017-11-21 11:33:31,514 INFO 46046 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:33:31,612 INFO 46046 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:33:31,612 INFO 46046 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:33:31,653 INFO 46046 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:33:32,265 INFO 46046 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:33:32,272 INFO 46046 [egg-security] use csrf middleware
+2017-11-21 11:33:32,274 INFO 46046 [egg-security] use methodnoallow middleware
+2017-11-21 11:33:32,275 INFO 46046 [egg-security] use noopen middleware
+2017-11-21 11:33:32,276 INFO 46046 [egg-security] use nosniff middleware
+2017-11-21 11:33:32,278 INFO 46046 [egg-security] use xssProtection middleware
+2017-11-21 11:33:32,279 INFO 46046 [egg-security] use xframe middleware
+2017-11-21 11:33:32,280 INFO 46046 [egg-security] use dta middleware
+2017-11-21 11:33:32,280 INFO 46046 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:33:32,344 INFO 46046 [egg-watcher:app] watcher start success
+2017-11-21 11:33:32,411 INFO 46046 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:33:32 GMT+0800 (CST)
+2017-11-21 11:33:35,718 INFO 46051 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:33:35,755 INFO 46051 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:33:35,755 INFO 46051 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:33:35,768 INFO 46051 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:33:36,004 INFO 46051 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:33:36,013 INFO 46051 [egg-security] use csrf middleware
+2017-11-21 11:33:36,014 INFO 46051 [egg-security] use methodnoallow middleware
+2017-11-21 11:33:36,015 INFO 46051 [egg-security] use noopen middleware
+2017-11-21 11:33:36,015 INFO 46051 [egg-security] use nosniff middleware
+2017-11-21 11:33:36,016 INFO 46051 [egg-security] use xssProtection middleware
+2017-11-21 11:33:36,016 INFO 46051 [egg-security] use xframe middleware
+2017-11-21 11:33:36,016 INFO 46051 [egg-security] use dta middleware
+2017-11-21 11:33:36,016 INFO 46051 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:33:36,088 INFO 46051 [egg-watcher:app] watcher start success
+2017-11-21 11:33:36,104 INFO 46051 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:33:36 GMT+0800 (CST)
+2017-11-21 11:33:36,726 INFO 46052 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:33:36,767 INFO 46052 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:33:36,767 INFO 46052 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:33:36,777 INFO 46052 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:33:36,907 INFO 46052 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:33:36,911 INFO 46052 [egg-security] use csrf middleware
+2017-11-21 11:33:36,912 INFO 46052 [egg-security] use methodnoallow middleware
+2017-11-21 11:33:36,912 INFO 46052 [egg-security] use noopen middleware
+2017-11-21 11:33:36,913 INFO 46052 [egg-security] use nosniff middleware
+2017-11-21 11:33:36,914 INFO 46052 [egg-security] use xssProtection middleware
+2017-11-21 11:33:36,914 INFO 46052 [egg-security] use xframe middleware
+2017-11-21 11:33:36,915 INFO 46052 [egg-security] use dta middleware
+2017-11-21 11:33:36,915 INFO 46052 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:33:36,984 INFO 46052 [egg-watcher:app] watcher start success
+2017-11-21 11:33:36,993 INFO 46052 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:33:36 GMT+0800 (CST)
+2017-11-21 11:34:34,361 INFO 46198 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:34:34,491 INFO 46198 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:34:34,492 INFO 46198 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:34:34,564 INFO 46198 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:34:35,284 INFO 46198 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:34:35,291 INFO 46198 [egg-security] use csrf middleware
+2017-11-21 11:34:35,294 INFO 46198 [egg-security] use methodnoallow middleware
+2017-11-21 11:34:35,295 INFO 46198 [egg-security] use noopen middleware
+2017-11-21 11:34:35,296 INFO 46198 [egg-security] use nosniff middleware
+2017-11-21 11:34:35,297 INFO 46198 [egg-security] use xssProtection middleware
+2017-11-21 11:34:35,298 INFO 46198 [egg-security] use xframe middleware
+2017-11-21 11:34:35,299 INFO 46198 [egg-security] use dta middleware
+2017-11-21 11:34:35,299 INFO 46198 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:34:35,374 INFO 46198 [egg-watcher:app] watcher start success
+2017-11-21 11:34:35,389 INFO 46198 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:34:35 GMT+0800 (CST)
+2017-11-21 11:35:03,453 INFO 46219 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:35:03,530 INFO 46219 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:35:03,530 INFO 46219 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:35:03,569 INFO 46219 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:35:03,802 INFO 46219 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:35:03,808 INFO 46219 [egg-security] use csrf middleware
+2017-11-21 11:35:03,810 INFO 46219 [egg-security] use methodnoallow middleware
+2017-11-21 11:35:03,810 INFO 46219 [egg-security] use noopen middleware
+2017-11-21 11:35:03,811 INFO 46219 [egg-security] use nosniff middleware
+2017-11-21 11:35:03,813 INFO 46219 [egg-security] use xssProtection middleware
+2017-11-21 11:35:03,813 INFO 46219 [egg-security] use xframe middleware
+2017-11-21 11:35:03,814 INFO 46219 [egg-security] use dta middleware
+2017-11-21 11:35:03,814 INFO 46219 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:35:03,893 INFO 46219 [egg-watcher:app] watcher start success
+2017-11-21 11:35:03,898 INFO 46219 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:35:03 GMT+0800 (CST)
+2017-11-21 11:35:48,824 INFO 46234 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:35:48,884 INFO 46234 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:35:48,884 INFO 46234 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:35:48,913 INFO 46234 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:35:49,121 INFO 46234 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:35:49,127 INFO 46234 [egg-security] use csrf middleware
+2017-11-21 11:35:49,128 INFO 46234 [egg-security] use methodnoallow middleware
+2017-11-21 11:35:49,129 INFO 46234 [egg-security] use noopen middleware
+2017-11-21 11:35:49,130 INFO 46234 [egg-security] use nosniff middleware
+2017-11-21 11:35:49,131 INFO 46234 [egg-security] use xssProtection middleware
+2017-11-21 11:35:49,131 INFO 46234 [egg-security] use xframe middleware
+2017-11-21 11:35:49,132 INFO 46234 [egg-security] use dta middleware
+2017-11-21 11:35:49,132 INFO 46234 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:35:49,203 INFO 46234 [egg-watcher:app] watcher start success
+2017-11-21 11:35:49,217 INFO 46234 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:35:49 GMT+0800 (CST)
+2017-11-21 11:35:50,361 INFO 46235 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:35:50,425 INFO 46235 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:35:50,425 INFO 46235 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:35:50,439 INFO 46235 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:35:50,585 INFO 46235 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:35:50,589 INFO 46235 [egg-security] use csrf middleware
+2017-11-21 11:35:50,590 INFO 46235 [egg-security] use methodnoallow middleware
+2017-11-21 11:35:50,591 INFO 46235 [egg-security] use noopen middleware
+2017-11-21 11:35:50,591 INFO 46235 [egg-security] use nosniff middleware
+2017-11-21 11:35:50,592 INFO 46235 [egg-security] use xssProtection middleware
+2017-11-21 11:35:50,593 INFO 46235 [egg-security] use xframe middleware
+2017-11-21 11:35:50,593 INFO 46235 [egg-security] use dta middleware
+2017-11-21 11:35:50,593 INFO 46235 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:35:50,669 INFO 46235 [egg-watcher:app] watcher start success
+2017-11-21 11:35:50,677 INFO 46235 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:35:50 GMT+0800 (CST)
+2017-11-21 11:53:55,238 INFO 46922 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:53:55,352 INFO 46922 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:53:55,352 INFO 46922 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:53:55,379 INFO 46922 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:53:55,588 INFO 46922 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:53:55,593 INFO 46922 [egg-security] use csrf middleware
+2017-11-21 11:53:55,595 INFO 46922 [egg-security] use methodnoallow middleware
+2017-11-21 11:53:55,597 INFO 46922 [egg-security] use noopen middleware
+2017-11-21 11:53:55,597 INFO 46922 [egg-security] use nosniff middleware
+2017-11-21 11:53:55,598 INFO 46922 [egg-security] use xssProtection middleware
+2017-11-21 11:53:55,600 INFO 46922 [egg-security] use xframe middleware
+2017-11-21 11:53:55,602 INFO 46922 [egg-security] use dta middleware
+2017-11-21 11:53:55,602 INFO 46922 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:53:55,683 INFO 46922 [egg-watcher:app] watcher start success
+2017-11-21 11:53:55,743 INFO 46922 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:53:55 GMT+0800 (CST)
+2017-11-21 11:55:27,696 INFO 46949 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:55:27,851 INFO 46949 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:55:27,851 INFO 46949 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:55:27,874 INFO 46949 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:55:28,093 INFO 46949 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:55:28,098 INFO 46949 [egg-security] use csrf middleware
+2017-11-21 11:55:28,099 INFO 46949 [egg-security] use methodnoallow middleware
+2017-11-21 11:55:28,100 INFO 46949 [egg-security] use noopen middleware
+2017-11-21 11:55:28,101 INFO 46949 [egg-security] use nosniff middleware
+2017-11-21 11:55:28,102 INFO 46949 [egg-security] use xssProtection middleware
+2017-11-21 11:55:28,104 INFO 46949 [egg-security] use xframe middleware
+2017-11-21 11:55:28,106 INFO 46949 [egg-security] use dta middleware
+2017-11-21 11:55:28,106 INFO 46949 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:55:28,186 INFO 46949 [egg-watcher:app] watcher start success
+2017-11-21 11:55:28,203 INFO 46949 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:55:28 GMT+0800 (CST)
+2017-11-21 11:56:48,699 INFO 47046 [egg:logger] init all loggers with options: {"dir":"/Users/baixing/kingKong/logs/kingKong","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"kingKong-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2017-11-21 11:56:48,757 INFO 47046 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-11-21 11:56:48,757 INFO 47046 [egg-schedule]: register schedule /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-11-21 11:56:48,780 INFO 47046 [egg-mysql] connecting root@localhost:3306/valley
+2017-11-21 11:56:49,012 INFO 47046 [egg-static] starting static serve /public/ -> /Users/baixing/kingKong/app/public
+2017-11-21 11:56:49,019 INFO 47046 [egg-security] use csrf middleware
+2017-11-21 11:56:49,021 INFO 47046 [egg-security] use methodnoallow middleware
+2017-11-21 11:56:49,022 INFO 47046 [egg-security] use noopen middleware
+2017-11-21 11:56:49,022 INFO 47046 [egg-security] use nosniff middleware
+2017-11-21 11:56:49,024 INFO 47046 [egg-security] use xssProtection middleware
+2017-11-21 11:56:49,025 INFO 47046 [egg-security] use xframe middleware
+2017-11-21 11:56:49,027 INFO 47046 [egg-security] use dta middleware
+2017-11-21 11:56:49,027 INFO 47046 [egg-security] compose 7 middlewares into one security middleware
+2017-11-21 11:56:49,105 INFO 47046 [egg-watcher:app] watcher start success
+2017-11-21 11:56:49,119 INFO 47046 [egg-mysql] instance[0] status OK, rds currentTime: Tue Nov 21 2017 11:56:49 GMT+0800 (CST)
+2017-11-21 14:38:48,203 INFO 47046 [egg-schedule]: get message: {"key":"/Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js"}
+2017-11-21 14:38:48,297 INFO 47046 [egg-schedule]: get message: {"key":"/Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js"}
+2017-11-21 14:38:48,318 INFO 47046 [egg-logrotator] clean all log before 31 days
+2017-11-21 14:38:48,319 INFO 47046 [egg-schedule] /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/clean_log.js excute succeed, used 17ms
+2017-11-21 14:38:48,320 INFO 47046 [egg-logrotator] broadcast log-reload
+2017-11-21 14:38:48,320 INFO 47046 [egg-logrotator] rotate files success by DayRotator, files ["/Users/baixing/kingKong/logs/kingKong/common-error.log -> /Users/baixing/kingKong/logs/kingKong/common-error.log.2017-11-20","/Users/baixing/kingKong/logs/kingKong/kingKong-web.log -> /Users/baixing/kingKong/logs/kingKong/kingKong-web.log.2017-11-20","/Users/baixing/kingKong/logs/kingKong/egg-web.log -> /Users/baixing/kingKong/logs/kingKong/egg-web.log.2017-11-20","/Users/baixing/kingKong/logs/kingKong/egg-agent.log -> /Users/baixing/kingKong/logs/kingKong/egg-agent.log.2017-11-20"]
+2017-11-21 14:38:48,320 INFO 47046 [egg-schedule] /Users/baixing/kingKong/node_modules/egg-logrotator/app/schedule/rotate_by_file.js excute succeed, used 74ms

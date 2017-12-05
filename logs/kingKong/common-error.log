@@ -1,0 +1,211 @@
+2017-12-01 18:23:18,162 ERROR 59260 [-/127.0.0.1/-/12ms GET /api/user/checkEmail] nodejs.ReferenceError: ctx is not defined
+    at UserController.checkEmail (/Users/baixing/kingKong/app/controller/user.js:62:13)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:82:20)
+    at Object.callFn (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 59260
+hostname: admindeMacBook-Air.local
+
+2017-12-01 18:55:43,895 ERROR 60413 [-/127.0.0.1/-/29ms GET /api/log/usage/] nodejs.ReferenceError: front is not defined
+    at getTotalTime (/Users/baixing/kingKong/app/service/log.js:53:5)
+    at LogService.getTotalTime (/Users/baixing/kingKong/app/service/log.js:30:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 60413
+hostname: admindeMacBook-Air.local
+
+2017-12-01 18:57:12,089 ERROR 60488 [-/127.0.0.1/-/32ms GET /api/log/usage/] nodejs.ReferenceError: total is not defined
+    at getTotalTime (/Users/baixing/kingKong/app/service/log.js:59:9)
+    at LogService.getTotalTime (/Users/baixing/kingKong/app/service/log.js:30:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 60488
+hostname: admindeMacBook-Air.local
+
+2017-12-01 18:57:34,422 ERROR 60488 [-/127.0.0.1/-/33ms GET /api/log/usage/] nodejs.ReferenceError: total is not defined
+    at getTotalTime (/Users/baixing/kingKong/app/service/log.js:59:9)
+    at LogService.getTotalTime (/Users/baixing/kingKong/app/service/log.js:30:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 60488
+hostname: admindeMacBook-Air.local
+
+2017-12-01 19:34:50,021 ERROR 37573 nodejs.ClusterClientNoResponseError: client no response in 1670227ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 37573
+hostname: admindeMacBook-Air.local
+
+2017-12-01 22:46:19,389 ERROR 61069 nodejs.ClusterClientNoResponseError: client no response in 3559575ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 61069
+hostname: admindeMacBook-Air.local
+
+2017-12-02 00:52:18,545 ERROR 61069 nodejs.ClusterClientNoResponseError: client no response in 4218270ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 61069
+hostname: admindeMacBook-Air.local
+
+2017-12-02 10:03:12,777 ERROR 61069 nodejs.ClusterClientNoResponseError: client no response in 33033177ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 61069
+hostname: admindeMacBook-Air.local
+
+2017-12-02 10:59:39,181 ERROR 61069 nodejs.ClusterClientNoResponseError: client no response in 2047188ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 61069
+hostname: admindeMacBook-Air.local
+
+2017-12-02 21:58:33,488 ERROR 61069 nodejs.ClusterClientNoResponseError: client no response in 34271341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:469:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:264:5)
+name: 'ClusterClientNoResponseError'
+pid: 61069
+hostname: admindeMacBook-Air.local
+
+2017-12-05 17:47:17,014 ERROR 13469 [-/127.0.0.1/-/40ms POST /api/user/login] nodejs.TypeError: Cannot read property 'password' of null
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:38)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13469
+hostname: admindeMacBook-Air.local
+
+2017-12-05 17:47:25,106 ERROR 13469 [-/127.0.0.1/-/12ms POST /api/user/login] nodejs.TypeError: Cannot read property 'password' of null
+    at UserService.login (/Users/baixing/kingKong/app/service/user.js:15:38)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13469
+hostname: admindeMacBook-Air.local
+
+2017-12-05 17:48:14,274 ERROR 13469 [-/127.0.0.1/-/9ms GET /api/log/usage/] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'kingkong.users_log' doesn't exist
+    at Query.Sequence._packetToError (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Pool.query (/Users/baixing/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/kingKong/node_modules/pify/index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    sql: Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,'%Y-%m-%d') >= '2017-09-22' and DATE_FORMAT(time,'%Y-%m-%d') <= '2017-09-25' 
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'kingkong.users_log\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,\'%Y-%m-%d\') >= \'2017-09-22\' and DATE_FORMAT(time,\'%Y-%m-%d\') <= \'2017-09-25\' '
+name: 'ER_NO_SUCH_TABLEError'
+pid: 13469
+hostname: admindeMacBook-Air.local
+
+2017-12-05 17:48:52,313 ERROR 13469 [-/127.0.0.1/-/4ms GET /api/log/usage/] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'kingkong.users_log' doesn't exist
+    at Query.Sequence._packetToError (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Pool.query (/Users/baixing/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/kingKong/node_modules/pify/index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    sql: Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,'%Y-%m-%d') >= '2017-09-22' and DATE_FORMAT(time,'%Y-%m-%d') <= '2017-09-25' 
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'kingkong.users_log\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,\'%Y-%m-%d\') >= \'2017-09-22\' and DATE_FORMAT(time,\'%Y-%m-%d\') <= \'2017-09-25\' '
+name: 'ER_NO_SUCH_TABLEError'
+pid: 13469
+hostname: admindeMacBook-Air.local
+
+2017-12-05 17:49:22,099 ERROR 13500 [-/127.0.0.1/-/20ms GET /api/log/usage/] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'kingkong.users_log' doesn't exist
+    at Query.Sequence._packetToError (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:266:12)
+    at readableAddChunk (_stream_readable.js:253:11)
+    --------------------
+    at Pool.query (/Users/baixing/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/kingKong/node_modules/pify/index.js:29:7
+    at Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    sql: Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,'%Y-%m-%d') >= '2017-09-22' and DATE_FORMAT(time,'%Y-%m-%d') <= '2017-09-25' 
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'kingkong.users_log\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,\'%Y-%m-%d\') >= \'2017-09-22\' and DATE_FORMAT(time,\'%Y-%m-%d\') <= \'2017-09-25\' '
+name: 'ER_NO_SUCH_TABLEError'
+pid: 13500
+hostname: admindeMacBook-Air.local
+

@@ -1,0 +1,209 @@
+2017-11-17 15:50:20,826 ERROR 99656 [-/127.0.0.1/-/19ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/baixing/kingKong/node_modules/egg/lib/application.js:179:15)
+    at Object.get cookies [as cookies] (/Users/baixing/kingKong/node_modules/egg/app/extend/context.js:17:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/baixing/kingKong/node_modules/egg-security/app/extend/context.js:77:33)
+    at Object.ensureCsrfSecret (/Users/baixing/kingKong/node_modules/egg-security/app/extend/context.js:88:13)
+    at Object.csrf (/Users/baixing/kingKong/node_modules/egg-security/lib/middlewares/csrf.js:14:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/baixing/kingKong/node_modules/koa-compose/index.js:28:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+
+pid: 99656
+hostname: admindeMacBook-Air.local
+
+2017-11-17 15:55:19,958 ERROR 99865 [-/127.0.0.1/-/10ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/baixing/kingKong/node_modules/egg/lib/application.js:179:15)
+    at Object.get cookies [as cookies] (/Users/baixing/kingKong/node_modules/egg/app/extend/context.js:17:66)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/baixing/kingKong/node_modules/egg-security/app/extend/context.js:77:33)
+    at Object.ensureCsrfSecret (/Users/baixing/kingKong/node_modules/egg-security/app/extend/context.js:88:13)
+    at Object.csrf (/Users/baixing/kingKong/node_modules/egg-security/lib/middlewares/csrf.js:14:10)
+    at csrf.next (<anonymous>)
+    at Object.<anonymous> (/Users/baixing/kingKong/node_modules/koa-compose/index.js:28:5)
+    at Generator.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+
+pid: 99865
+hostname: admindeMacBook-Air.local
+
+2017-11-17 15:58:00,426 ERROR 428 [-/127.0.0.1/-/16ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:22)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:69:7)
+
+pid: 428
+hostname: admindeMacBook-Air.local
+
+2017-11-17 15:58:50,614 ERROR 446 [-/127.0.0.1/-/11ms GET /] nodejs.TypeError: Cannot read property 'findLog' of undefined
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:49)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:69:7)
+
+pid: 446
+hostname: admindeMacBook-Air.local
+
+2017-11-17 16:02:10,618 ERROR 606 [-/127.0.0.1/-/11ms GET /] nodejs.TypeError: app.mysql.query is not a function
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:5:38)
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:49)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+
+pid: 606
+hostname: admindeMacBook-Air.local
+
+2017-11-17 16:02:48,901 ERROR 618 [-/127.0.0.1/-/21ms GET /] nodejs.TypeError: this.app.mysql.query is not a function
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:5:43)
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:49)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+
+pid: 618
+hostname: admindeMacBook-Air.local
+
+2017-11-17 16:07:45,850 ERROR 806 [-/127.0.0.1/-/8ms GET /] nodejs.TypeError: app.mysql.query is not a function
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:5:38)
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:49)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+
+pid: 806
+hostname: admindeMacBook-Air.local
+
+2017-11-17 16:11:35,321 ERROR 1053 [-/127.0.0.1/-/14ms GET /] nodejs.TypeError: app.mysql.query is not a function
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:6:38)
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:49)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+
+pid: 1053
+hostname: admindeMacBook-Air.local
+
+2017-11-17 16:12:11,699 ERROR 1067 [-/127.0.0.1/-/19ms GET /] nodejs.TypeError: app.mysql.query is not a function
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:6:38)
+    at HomeController.index (/Users/baixing/kingKong/app/controller/home.js:6:49)
+    at callController (/Users/baixing/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:122:18)
+    at callController.next (<anonymous>)
+    at onFulfilled (/Users/baixing/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/kingKong/node_modules/co/index.js:54:5
+    at new Promise (<anonymous>)
+    at Object.co (/Users/baixing/kingKong/node_modules/co/index.js:50:10)
+    at Object.toPromise (/Users/baixing/kingKong/node_modules/co/index.js:118:63)
+    at next (/Users/baixing/kingKong/node_modules/co/index.js:99:29)
+
+pid: 1067
+hostname: admindeMacBook-Air.local
+
+2017-11-17 17:56:06,573 ERROR 4304 [-/127.0.0.1/-/30ms GET /] nodejs.ReferenceError: log is not defined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:12:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 4304
+hostname: admindeMacBook-Air.local
+
+2017-11-17 18:51:31,053 ERROR 4738 nodejs.ClusterClientNoResponseError: client no response in 335911ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 4738
+hostname: admindeMacBook-Air.local
+
+2017-11-17 20:00:06,902 ERROR 7419 [-/127.0.0.1/-/50ms GET /] nodejs.TypeError: Cannot read property 'logintype' of undefined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:30:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7419
+hostname: admindeMacBook-Air.local
+
+2017-11-17 20:02:00,030 ERROR 7500 [-/127.0.0.1/-/95ms GET /] nodejs.TypeError: Cannot read property 'time' of undefined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:35:53)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7500
+hostname: admindeMacBook-Air.local
+
+2017-11-17 20:50:50,413 ERROR 8819 [-/127.0.0.1/-/31ms GET /] nodejs.TypeError: Cannot read property 'logintype' of undefined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:34:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8819
+hostname: admindeMacBook-Air.local
+
+2017-11-17 20:52:01,917 ERROR 8907 [-/127.0.0.1/-/34ms GET /] nodejs.TypeError: Cannot read property 'logintype' of undefined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:35:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8907
+hostname: admindeMacBook-Air.local
+
+2017-11-17 21:22:51,589 ERROR 9780 [-/127.0.0.1/-/37ms GET /] nodejs.ReferenceError: j is not defined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:47:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9780
+hostname: admindeMacBook-Air.local
+
+2017-11-17 21:30:08,048 ERROR 9966 [-/127.0.0.1/-/32ms GET /] nodejs.TypeError: Cannot read property 'logintype' of undefined
+    at userLog.findLog (/Users/baixing/kingKong/app/service/userLog.js:28:31)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9966
+hostname: admindeMacBook-Air.local
+
+2017-11-17 23:04:34,082 ERROR 5550 nodejs.ClusterClientNoResponseError: client no response in 5458029ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 5550
+hostname: admindeMacBook-Air.local
+
