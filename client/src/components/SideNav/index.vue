@@ -1,14 +1,14 @@
-<<template>
+<template>
     <div class="side-nav">
         <div class="logo">Valley.ren</div>
         <div class="el-row">
             <div class="el-col">
-                <el-menu mode="vertical" unique-opend="true" :default-active="defaultActive" background-color="#324157" text-color="#bfcbd9" active-text-color="#20a0ff">
+                <el-menu mode="vertical" :unique-opened="unique" :default-active="defaultActive" background-color="#324157" text-color="#bfcbd9" active-text-color="#20a0ff">
                     <template v-for="item in items">
-                        <el-menu-item class="nav-item" v-if="!item.subItems" :index="item.index">
+                        <el-menu-item class="nav-item" v-if="!item.subItems" :index="item.index" :key="item.index">
                              <router-link :to="item.path">{{item.name}}</router-link>
                         </el-menu-item>
-                        <el-submenu v-else :index="item.index">
+                        <el-submenu v-else :index="item.index" :key="item.index">
                             <template slot="title">{{item.name}}</template>
                             <el-menu-item-group>
                                 <el-menu-item  v-for="subItem in item.subItems" :key="subItem.index" :index="item.index">
@@ -23,14 +23,22 @@
     </div>
 </template>
 <<script>
-import { sideMenu }  from '../../config/subMenu'
+import { sideMenu, menuIndex}  from '../../config/subMenu'
 export default {
     data(){
+        console.log(menuIndex[this.$route.name])
         return {
             items: sideMenu,
-            defaultActive: '1'
+            defaultActive: menuIndex[this.$route.name],
+            unique: true
         }    
+    },
+    watch: {
+        '$route.path' (to, from) {
+            this.defaultActive = menuIndex[this.$route.name]
+        }
     }
+
 }
 </script>
 <style scope="scope">
@@ -40,7 +48,8 @@ export default {
 		top: 0;
 		height: 100%;
 		background: #324157;
-		width: 200px;
+		width: 240px;
+        z-index: 1000;
     }
     .side-nav a {
 		color: inherit;

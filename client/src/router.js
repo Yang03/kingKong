@@ -4,6 +4,7 @@ import Vue from 'vue'
 import Usage from './components/Usage/'
 import Register from './components/Register/'
 import Login from './components/Login/'
+import Project from './components/Project'
 
 Vue.use(Router)
 
@@ -27,6 +28,10 @@ const config = {
 		path: '/login',
 		component: Login,
 		name:'login'
+	},{
+		path: '/project',
+		component: Project,
+		name:'project'
 	}]
 }
 

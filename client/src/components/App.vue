@@ -23,15 +23,17 @@ export default {
     }
 }
 </script>
-<style>
+<style> 
     * {margin:0; padding: 0}
-
+    body {
+        background: #f6f8fa
+    }    
     .content {
-        margin: 100px 0 0 260px;
+        margin: 100px 0 0 240px;
     }
     .container {
-        width: 1000px;
-        margin: 0 auto; 
+        min-width: 1200px;
+        margin: 0 50px; 
     }
     #register, #login {
         position: absolute;

@@ -1,10 +1,26 @@
 </<template>
   <div class="container">
-        <schart :canvasId="canvasId" :type="type"
-			:width="width"
-			:height="height"
-			:data="barData"
-			:options="options"></schart>
+        <div class="filter-box">
+            <el-select :value="currentApp" filterable placeholder="请选择" @change="appChange">
+                <el-option
+                v-for="item in apps"
+                :key="item.appId"
+                :label="item.appName"
+                :value="item.appId">
+                </el-option>
+            </el-select>
+            <div class="picker-box">
+                 <el-date-picker type="daterange" v-model="times" start-placeholder="开始日期" end-placeholder="结束日期" @change="timeChange">
+                </el-date-picker>
+            </div> 
+        </div> 
+        <div class="bar">   
+            <schart :canvasId="canvasId" :type="type"
+                :width="width"
+                :height="height"
+                :data="barData"
+                :options="options"></schart>
+         </div>   
          <div class="card"> 
              <div class="card-header">
                  <div>详情</div>
@@ -45,13 +61,13 @@ export default {
                 axisColor: '#d1d1d1',
                 xLength: 10,
                 fillColor: '#00A0E9'
-			}
+            },
+            times: ''
+            //currentApp: null
 		}
-    
     },
     watch: {
         '$route.path' (to, from) {
-            console.log(this.$route.name)
             if (this.$route.name == 'usage') {
                 this.fetchData()
             }
@@ -60,12 +76,26 @@ export default {
     computed: {
         ...mapGetters({
             items: 'usage/items',
-            barData: 'usage/items'
+            barData: 'usage/items',
+            apps: 'usage/apps',
+            currentApp: 'usage/currentApp'
         })
     },
     methods: {
         fetchData() {
             this.$store.dispatch(`usage/${types.GET_USAGE}`, {})
+        },
+        appChange(value) {
+            //this.currentApp = value
+            this.$store.dispatch(`usage/${types.GET_USAGE_BY_ID_AND_TIME}`, {appId: value})
+        },
+        timeChange(value) {
+            //this.currentApp = value
+            this.$store.dispatch(`usage/${types.GET_USAGE_BY_ID_AND_TIME}`, {
+                appId: this.currentApp,
+                startTime: value[0],
+                endTime: value[1]
+            })
         }
     },
     components:{
@@ -74,10 +104,23 @@ export default {
 }
 </script>
 <style lang="stylus">
+    .filter-box
+        margin-bottom 20px
+        border 1px solid #ddd
+        padding 20px
+        background #fff
+
+    .bar
+        background #fff 
+
     .card-header
         padding 15px 10px
+        margin-top 20px
         background-color #f1f3f8
         border 1px solid #e3e8ec
+
+    .picker-box 
+        float right    
 </style>
 
 

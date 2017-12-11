@@ -50,10 +50,11 @@ class UserController extends Controller {
         })
         this.ctx.status = 200;
     }
-    checkEmail() {
+    async checkEmail() {
         const email = this.ctx.request.queries.email;
-        const user = this.service.user.findByEmail(email);
-        if (!user) {
+        const user = await this.service.user.findByEmail(email.pop());
+    
+        if (user) {
             this.ctx.body = {
                 'code': 1003,
                 'message': '邮箱已经被注册'

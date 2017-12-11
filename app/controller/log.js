@@ -1,4 +1,6 @@
+
 const Controller = require('egg').Controller;
+const Time = require('../util').time;
 
 class LogController extends Controller {
     constructor(ctx) {
@@ -6,14 +8,42 @@ class LogController extends Controller {
     }
     async usage() {
         const {ctx} = this;
-        //let {startTime, endTime, appId = 0} = ctx.body;
-        // const userId = this.service.user.getUserId();
-        // let endTime = new Date().getTime();
-        // let startTime = endTime - 7 * 3600 * 1000;
-        // endTime = Time.getYMD(endTime);
-        // startTime = Time.getYMD(startTime);
-        const logs = await this.service.log.getTotalTime('2017-09-22', '2017-09-25', 161305, 0);
-        ctx.body = logs;
+        let startTime;
+        let endTime;
+        let appId;
+        const userId = this.service.user.getUserId();
+        const apps = await this.service.app.findAllByUserId(userId);
+        if (apps.length > 0) {
+            const firstApp = apps[0].appId;
+            let now = Math.floor(new Date().getTime());
+            startTime = startTime || now - 7 * 3600 * 24 * 1000;
+            endTime = endTime || now;
+            startTime = Time.getYMD(startTime);
+            endTime = Time.getYMD(endTime);
+            const logs = await this.service.log.getTotalTime(startTime, endTime, firstApp);
+            ctx.body = {
+                logs: logs,
+                apps: apps
+            };
+        } else {
+            ctx.body = {
+                code: '1101',
+                messgae: '还没有APP'
+            };
+        } 
+    }
+    async getByIdAndTime() {
+        const {ctx} = this;
+        let {startTime, endTime, appId} = ctx.request.query;
+        let now = Math.floor(new Date().getTime());
+        startTime = startTime || now - 7 * 3600 * 24 * 1000;
+        endTime = endTime || now;
+        startTime = Time.getYMD(startTime);
+        endTime = Time.getYMD(endTime);
+        const logs = await this.service.log.getTotalTime(startTime, endTime, appId);
+        ctx.body = {
+            logs: logs
+        };
     }
 }
 

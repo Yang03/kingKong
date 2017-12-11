@@ -28,7 +28,8 @@ request.interceptors.response.use(response => {
 
 export const Api = {
 	get(url, params = {}) {
-		return request.get(url, {...params})
+		console.log(params)
+		return request.get(url, {params: params})
 	},
 	post(url, data = {}) {
 		return request.post(url, data)

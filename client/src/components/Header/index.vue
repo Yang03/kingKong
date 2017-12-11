@@ -40,7 +40,7 @@ export default {
         color #333
         top 0
         right 0
-        left 200px
+        left 240px
         position absolute
         line-height 60px
         z-index 100

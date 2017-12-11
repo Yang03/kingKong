@@ -13,5 +13,6 @@ export const loginOut = () => {
 }
 
 export const checkEmail = (params) => {
+    //console.log(params)
     return Api.get('/api/user/checkEmail', params)
 }

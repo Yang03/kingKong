@@ -66,12 +66,15 @@ export default {
             } else if (!(/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/.test(value))){
                 callback(new Error('请输入正确的邮箱地址')) 
             } else {
-                 checkEmail(value).then((res) => {
+                 checkEmail({'email':value}).then((res) => {
                      if (res.data.code) {
                          callback(new Error(res.data.message))
+                         return false
+                     } else {
+                         callback()
                      }
                  })
-                 callback()   
+                 
             }
         }
         return {
@@ -161,9 +164,6 @@ export default {
         .login-link a 
             padding-left 100px 
             text-decoration none
-            color #fff    
-
-
-    
+            color #fff   
 </style>
 

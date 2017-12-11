@@ -7,7 +7,9 @@ class UserService extends Service {
         super(ctx)
     }
     async find(query) {
+        ///console.log(query)
         const user = await this.app.mysql.get('user', query);
+       // console.log(user)
         return user; 
     }
     async login({email, password}) {
