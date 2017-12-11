@@ -32,7 +32,7 @@ export default {
         margin: 100px 0 0 240px;
     }
     .container {
-        min-width: 1200px;
+        min-width: 900px;
         margin: 0 50px; 
     }
     #register, #login {
