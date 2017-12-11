@@ -21,7 +21,15 @@ class UserController extends Controller {
     }
     async login() {
         const { ctx } = this;
-        const user = await this.service.user.login({...this.ctx.request.body});
+        try {
+            const user = await this.service.user.login({...this.ctx.request.body});
+        } catch(e) {
+            ctx.body = {
+                'code': 1001,
+                'message': e.message
+            };  
+        }
+       
         if (!user) {
             ctx.body = {
                 'code': 1001,

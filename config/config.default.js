@@ -24,6 +24,10 @@ module.exports = (appInfo) => {
         agent: false,
     }; 
 
+    config.logger = {
+        dir: './log',
+    }
+
     // security
     // config.security = {
     //     csrf: {
