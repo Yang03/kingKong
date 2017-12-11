@@ -35,6 +35,9 @@ const mutations = {
         if (data.apps && data.apps.length && data.apps[0].appId) {
             state.apps = data.apps
             state.currentApp = data.apps[0].appId
+        } else {
+            state.apps = []
+            state.currentApp = ''
         }
     },
     appChange(state, value) {
