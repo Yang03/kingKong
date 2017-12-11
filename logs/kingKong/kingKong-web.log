@@ -1,0 +1,90 @@
+2017-12-10 00:06:59,553 WARN 9554 [-/127.0.0.1/-/3ms GET /api/log/usage/] nodejs.ForbiddenError: Forbidden
+    at Object.throw (/Users/baixing/Downloads/kingKong/node_modules/koa/lib/context.js:92:11)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:5:23)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:43:18)
+message: 'Forbidden'
+pid: 9554
+hostname: admindeAir.lan
+
+2017-12-10 17:11:29,329 WARN 9554 [-/127.0.0.1/-/6ms GET /api/log/usage/] nodejs.ForbiddenError: Forbidden
+    at Object.throw (/Users/baixing/Downloads/kingKong/node_modules/koa/lib/context.js:92:11)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:5:23)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:43:18)
+message: 'Forbidden'
+pid: 9554
+hostname: admindeAir.lan
+
+2017-12-10 19:07:37,349 WARN 13083 [-/127.0.0.1/-/2ms GET /api/log/usage/] nodejs.ForbiddenError: Forbidden
+    at Object.throw (/Users/baixing/Downloads/kingKong/node_modules/koa/lib/context.js:92:11)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:5:23)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:43:18)
+message: 'Forbidden'
+pid: 13083
+hostname: admindeAir.lan
+
+2017-12-10 20:17:39,763 WARN 15588 [-/127.0.0.1/-/11ms GET /api/projects] nodejs.ForbiddenError: Forbidden
+    at Object.throw (/Users/baixing/Downloads/kingKong/node_modules/koa/lib/context.js:92:11)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:5:23)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:43:18)
+message: 'Forbidden'
+pid: 15588
+hostname: admindeAir.lan
+
+2017-12-11 11:18:09,265 WARN 19164 [-/127.0.0.1/-/19ms GET /api/log/usage/] nodejs.ForbiddenError: Forbidden
+    at Object.throw (/Users/baixing/Downloads/kingKong/node_modules/koa/lib/context.js:92:11)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:5:23)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:43:18)
+message: 'Forbidden'
+pid: 19164
+hostname: admindeMacBook-Air.local
+
+2017-12-11 11:22:01,697 WARN 19164 [-/127.0.0.1/-/1ms GET /api/projects] nodejs.ForbiddenError: Forbidden
+    at Object.throw (/Users/baixing/Downloads/kingKong/node_modules/koa/lib/context.js:92:11)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:5:23)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:350:31)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-compose/index.js:43:18)
+message: 'Forbidden'
+pid: 19164
+hostname: admindeMacBook-Air.local
+

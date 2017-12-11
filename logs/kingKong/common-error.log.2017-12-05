@@ -1,0 +1,270 @@
+2017-12-05 18:25:06,739 ERROR 14560 [-/127.0.0.1/-/23ms GET /api/log/usage/] nodejs.ER_NO_SUCH_TABLEError: ER_NO_SUCH_TABLE: Table 'kingkong.users_log' doesn't exist
+    at Query.Sequence._packetToError (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:125:13)
+    at Socket.emit (events.js:221:7)
+    at addChunk (_stream_readable.js:265:12)
+    at readableAddChunk (_stream_readable.js:252:11)
+    --------------------
+    at Pool.query (/Users/baixing/Downloads/kingKong/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/baixing/Downloads/kingKong/node_modules/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/baixing/Downloads/kingKong/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/baixing/Downloads/kingKong/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/baixing/Downloads/kingKong/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/baixing/Downloads/kingKong/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/baixing/Downloads/kingKong/node_modules/co/index.js:65:19)
+    at /Users/baixing/Downloads/kingKong/node_modules/co/index.js:54:5
+    sql: Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,'%Y-%m-%d') >= '2017-09-22' and DATE_FORMAT(time,'%Y-%m-%d') <= '2017-09-25' 
+code: 'ER_NO_SUCH_TABLE'
+errno: 1146
+sqlMessage: 'Table \'kingkong.users_log\' doesn\'t exist'
+sqlState: '42S02'
+index: 0
+sql: 'Select * From users_log Where userid = 161305 and appid = 0 and DATE_FORMAT(time,\'%Y-%m-%d\') >= \'2017-09-22\' and DATE_FORMAT(time,\'%Y-%m-%d\') <= \'2017-09-25\' '
+name: 'ER_NO_SUCH_TABLEError'
+pid: 14560
+hostname: admindeMacBook-Air.local
+
+2017-12-05 18:52:46,904 ERROR 15491 [-/127.0.0.1/-/13ms GET /api/user/checkEmail?email=2@qq.com] nodejs.TypeError: Cannot read property 'email' of undefined
+    at UserController.checkEmail (/Users/baixing/Downloads/kingKong/app/controller/user.js:54:47)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 15491
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:20:41,331 ERROR 16254 [-/127.0.0.1/-/16ms GET /api/log/usage/] nodejs.TypeError: Time is not a function
+    at LogService.format (/Users/baixing/Downloads/kingKong/app/service/log.js:15:23)
+    at LogService.getTotalTime (/Users/baixing/Downloads/kingKong/app/service/log.js:9:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16254
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:41:48,397 ERROR 16713 [-/127.0.0.1/-/14ms GET /api/log/usage/] nodejs.SyntaxError: Identifier 'endTime' has already been declared
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:3:15)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+
+pid: 16713
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:46:15,770 ERROR 16811 [-/127.0.0.1/-/15ms GET /api/log/usage/] nodejs.TypeError: Cannot destructure property `startTime` of 'undefined' or 'null'.
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:9:47)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:3:15)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+
+pid: 16811
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:52:02,370 ERROR 16955 [-/127.0.0.1/-/13ms GET /api/log/usage/] nodejs.SyntaxError: Identifier 'appId' has already been declared
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:3:15)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/baixing/Downloads/kingKong/node_modules/koa-router/lib/router.js:345:16
+
+pid: 16955
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:52:34,833 ERROR 16994 [-/127.0.0.1/-/19ms GET /api/log/usage/] nodejs.TypeError: results is not iterable
+    at AppService.findAllByUserId (/Users/baixing/Downloads/kingKong/app/service/app.js:10:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16994
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:53:29,649 ERROR 17015 [-/127.0.0.1/-/21ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:21:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17015
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:54:17,755 ERROR 17032 [-/127.0.0.1/-/25ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17032
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:55:16,674 ERROR 17075 [-/127.0.0.1/-/31ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17075
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:56:25,603 ERROR 17119 [-/127.0.0.1/-/24ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17119
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:56:50,412 ERROR 17132 [-/127.0.0.1/-/36ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17132
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:57:32,856 ERROR 17175 [-/127.0.0.1/-/19ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17175
+hostname: admindeMacBook-Air.local
+
+2017-12-05 19:57:51,939 ERROR 17189 [-/127.0.0.1/-/24ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17189
+hostname: admindeMacBook-Air.local
+
+2017-12-05 20:01:16,025 ERROR 17263 [-/127.0.0.1/-/19ms GET /api/log/usage/] nodejs.TypeError: this.app.mysql.getAll is not a function
+    at AppService.findAllByUserId (/Users/baixing/Downloads/kingKong/app/service/app.js:7:46)
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:20:45)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/index.js:44:21)
+    at wrappedController (/Users/baixing/Downloads/kingKong/node_modules/egg-core/lib/utils/router.js:317:18)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at access (/Users/baixing/Downloads/kingKong/app/middleware/access.js:3:15)
+    at dispatch (/Users/baixing/Downloads/kingKong/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 17263
+hostname: admindeMacBook-Air.local
+
+2017-12-05 20:03:09,568 ERROR 17302 [-/127.0.0.1/-/28ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17302
+hostname: admindeMacBook-Air.local
+
+2017-12-05 20:05:40,949 ERROR 17362 [-/127.0.0.1/-/31ms GET /api/log/usage/] nodejs.ReferenceError: Time is not defined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:26:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17362
+hostname: admindeMacBook-Air.local
+
+2017-12-05 20:06:22,234 ERROR 17396 [-/127.0.0.1/-/24ms GET /api/log/usage/] nodejs.ReferenceError: Time is not defined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:26:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17396
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:20:35,312 ERROR 16954 nodejs.ClusterClientNoResponseError: client no response in 174942ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/Downloads/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 16954
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:37:49,133 ERROR 17491 [-/127.0.0.1/-/19ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:23:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17491
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:38:47,002 ERROR 18909 [-/127.0.0.1/-/23ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:23:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18909
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:39:17,264 ERROR 18934 [-/127.0.0.1/-/28ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:23:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18934
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:39:41,984 ERROR 18957 [-/127.0.0.1/-/20ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:24:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 18957
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:49:09,197 ERROR 19275 [-/127.0.0.1/-/16ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:38)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19275
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:49:14,894 ERROR 19275 [-/127.0.0.1/-/4ms GET /api/log/usage/] nodejs.TypeError: Cannot read property 'appId' of undefined
+    at LogController.usage (/Users/baixing/Downloads/kingKong/app/controller/log.js:22:38)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19275
+hostname: admindeMacBook-Air.local
+
+2017-12-05 21:52:32,520 ERROR 19352 [-/127.0.0.1/-/4ms POST /api/user/login] nodejs.TypeError: Cannot read property 'password' of null
+    at UserService.login (/Users/baixing/Downloads/kingKong/app/service/user.js:17:39)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19352
+hostname: admindeMacBook-Air.local
+
