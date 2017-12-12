@@ -6,7 +6,7 @@ class UserController extends Controller {
     }
     async register() {
         //const {ctx} = this;
-        const result = await this.service.user.create({...this.ctx.request.body});
+        const result = await this.service.user.create(this.ctx.request.body);
         if (!result) {
             this.ctx.body = {
                 'code': 1002,
@@ -16,12 +16,11 @@ class UserController extends Controller {
             this.ctx.body = {
                 'code': 0
             };
-        }
-        
+        } 
     }
     async login() {
         const { ctx } = this;
-        const user = await this.service.user.login({...this.ctx.request.body});
+        const user = await this.service.user.login(this.ctx.request.body);
         if (!user) {
             ctx.body = {
                 'code': 1001,
@@ -51,8 +50,8 @@ class UserController extends Controller {
         this.ctx.status = 200;
     }
     async checkEmail() {
-        const email = this.ctx.request.queries.email;
-        const user = await this.service.user.findByEmail(email.pop());
+        const email = this.ctx.qurey.email;
+        const user = await this.service.user.findByEmail(email);
     
         if (user) {
             this.ctx.body = {

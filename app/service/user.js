@@ -14,7 +14,7 @@ class UserService extends Service {
     }
     async login({email, password}) {
         const user = await this.find({email: email});
-        if (this.comparePassword(user.password, password)) {
+        if (user && this.comparePassword(user.password, password)) {
             return user;
         }
         return null;
