@@ -31,7 +31,7 @@ class UserController extends Controller {
                 maxAge: 3600 * 1000,
                 overwrite: true
             })
-            ctx.cookies.set('userName', user.name.toString(), {
+            ctx.cookies.set('userName', encodeURIComponent(user.name.toString()), {
                 maxAge: 3600 * 1000,
                 overwrite: true,
                 httpOnly: false

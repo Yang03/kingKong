@@ -19,7 +19,7 @@ import { loginOut } from '../../api/user'
 export default {
     data() {
         return {
-            userName: cookie.get('userName')
+            userName: decodeURIComponent(cookie.get('userName'))
         }
     },
     methods: {
