@@ -45,10 +45,9 @@ export default {
     .title 
         padding-left 20px
 
-    
     .user-info
         position absolute
-        right 
+        right 0
         top 20px
         margin-right 20px
         color #666
