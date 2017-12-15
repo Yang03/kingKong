@@ -30,9 +30,9 @@ export default {
     }    
     .content {
         margin: 100px 0 0 240px;
+        overflow: hidden;
     }
     .container {
-        min-width: 900px;
         margin: 0 50px; 
     }
     #register, #login {

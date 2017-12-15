@@ -1,6 +1,5 @@
 <template>
     <div class="side-nav">
-        <div class="logo">Valley.ren</div>
         <div class="el-row">
             <div class="el-col">
                 <el-menu mode="vertical" :unique-opened="unique" :default-active="defaultActive" background-color="#324157" text-color="#bfcbd9" active-text-color="#20a0ff">
@@ -41,11 +40,11 @@ export default {
 
 }
 </script>
-<style scope="scope">
+<style scope="scoped">
     .side-nav {
         position: fixed;
 		left: 0;
-		top: 0;
+		top: 60px;
 		height: 100%;
 		background: #324157;
 		width: 240px;
@@ -72,13 +71,6 @@ export default {
     .el-menu {
         border: none !important
     }
-    .logo {
-        width: 240px;
-        height: 60px;
-        line-height: 60px;
-        padding-left: 20px; 
-        font-size: 18px;
-        color: #fff
-    }
+    
 </style>
 

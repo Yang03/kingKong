@@ -1,6 +1,7 @@
 
 const Service = require('egg').Service;
-const crypto = require('crypto');
+const appKeyGen = require('../util/appKeyGen').genKey;
+
 
 class AppService extends Service {
     async findAllByUserId(userId) {
@@ -26,12 +27,24 @@ class AppService extends Service {
         const app = await this.app.mysql.insert('app', {
             appName: name,
             type: type,
-            appKey:  crypto.createHash('md5').update(name, 'utf8').digest('hex'),
             cratedTime: new Date().toLocaleString(),
             userId: this.service.user.getUserId()
         }) 
-        const updateSuccess = (app.affectedRows === 1);
-        return updateSuccess;  
+        const success = (app.affectedRows === 1);
+        if (success) {
+            return await this.updateAppKey(app.insertId)    
+            
+        } else {
+            return false;
+        }
+         
+   }
+   async updateAppKey(id) {
+        const app = await this.app.mysql.update('app', {
+            id: id,
+            appkey: appKeyGen(id)
+        }) 
+        return app.affectedRows === 1;
    }
 }
 

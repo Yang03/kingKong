@@ -109,6 +109,7 @@ export default {
         border 1px solid #ddd
         padding 20px
         background #fff
+        min-width 400px
 
     .bar
         background #fff 
@@ -120,7 +121,9 @@ export default {
         border 1px solid #e3e8ec
 
     .picker-box 
-        float right    
+        position relative
+        display inline-block
+        float right 
 </style>
 
 

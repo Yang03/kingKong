@@ -35,8 +35,9 @@ const actions = {
     [types.CRATE_PROJECT]({commit, state}, data) {
         createProject(data).then((res) => {
            commit('crateSuccess', res.data.code)
+           commit('setProjects', res.data.apps)
         })     
-    },
+    }
 }
 
 const mutations = {

@@ -3,6 +3,7 @@ import router from './router'
 
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
+import './components/Base/index.css'
 
 import App from './components/App.vue'
 import Header from './components/Header/'

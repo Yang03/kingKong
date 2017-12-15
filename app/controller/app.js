@@ -5,7 +5,6 @@ class AppController extends Controller {
         super(ctx)
     }
     async createApp() {
-        //const {ctx} = this;
         const result = await this.service.app.createApp(this.ctx.request.body);
         if (!result) {
             this.ctx.body = {
@@ -13,8 +12,10 @@ class AppController extends Controller {
                 'message': '创建失败'
             };
         } else {
+            const apps = await this.service.app.findAllByUserId(this.service.user.getUserId());
             this.ctx.body = {
-                'code': 0
+                'code': 0,
+                'apps': apps
             };
         }
         
