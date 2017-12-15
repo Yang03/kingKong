@@ -1,0 +1,44 @@
+2017-12-14 22:49:48,043 ERROR 15322 nodejs.ClusterClientNoResponseError: client no response in 11622216ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/Downloads/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 15322
+hostname: admindeMacBook-Air.local
+
+2017-12-15 00:49:48,571 ERROR 15322 nodejs.ClusterClientNoResponseError: client no response in 4219674ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/Downloads/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 15322
+hostname: admindeMacBook-Air.local
+
+2017-12-15 09:21:55,426 ERROR 15322 nodejs.ClusterClientNoResponseError: client no response in 30725971ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/Downloads/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 15322
+hostname: admindeMacBook-Air.local
+
+2017-12-15 10:19:41,102 ERROR 15322 nodejs.ClusterClientNoResponseError: client no response in 77522ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/baixing/Downloads/kingKong/node_modules/cluster-client/lib/leader.js:73:23)
+    at ontimeout (timers.js:478:11)
+    at tryOnTimeout (timers.js:302:5)
+    at Timer.listOnTimeout (timers.js:262:5)
+name: 'ClusterClientNoResponseError'
+pid: 15322
+hostname: admindeMacBook-Air.local
+
+2017-12-15 14:23:52,856 ERROR 23004 [-/127.0.0.1/-/69ms POST /api/project] nodejs.ReferenceError: updateSuccess is not defined
+    at AppService.updateAppKey (/Users/baixing/Downloads/kingKong/app/service/app.js:49:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 23004
+hostname: admindeMacBook-Air.local
+
