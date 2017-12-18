@@ -16,3 +16,8 @@ export const checkEmail = (params) => {
     //console.log(params)
     return Api.get('/api/user/checkEmail', params)
 }
+
+export const session = () => {
+    //console.log(params)
+    return Api.get('/api/user/session')
+}

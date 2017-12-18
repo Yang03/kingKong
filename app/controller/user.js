@@ -64,6 +64,16 @@ class UserController extends Controller {
             };
         }
     }
+    async session() {
+        const user = await this.service.user.getUserId()
+        if (user) {
+            this.ctx.body = {
+                code: 0
+            };
+        } else {
+            this.ctx.throw(403)
+        }
+    }
 }
 
 module.exports = UserController;

@@ -8,6 +8,7 @@ module.exports = app => {
     app.post('/api/user/login', app.controller.user.login);
     app.post('/api/user/loginOut', app.controller.user.loginOut);
     app.get('/api/user/checkEmail', app.controller.user.checkEmail);
+    app.get('/api/user/session', app.controller.user.session);
 
     //poject
     app.get('/api/project', access, app.controller.app.findById)

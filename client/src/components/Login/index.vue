@@ -22,10 +22,17 @@
 
 <script>
 import cookie from 'js-cookie'
-import { login } from '../../api/user'
+import { login, session } from '../../api/user'
 export default {
     mounted() {
         this.checkLogin()
+    },
+     watch: {
+        '$route.path' (to, from) {
+            if (this.$route.name == 'login') {
+                this.checkLogin()
+            }
+        }
     },
     data(){
         return {
@@ -67,11 +74,13 @@ export default {
             })   
         },
         checkLogin() {
-            if (decodeURIComponent(cookie.get('userName'))) {
-                this.$router.push({
-                    path: '/usage'
-                })
-            }
+            session().then((res) => {
+                if (!res.data.code) {
+                    this.$router.push({
+                        path: '/usage'
+                    })  
+                }
+            })
         }
     }    
 }

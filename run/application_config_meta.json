@@ -180,6 +180,7 @@
       "style-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
       "stylus": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
       "stylus-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
       "url-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
       "vue-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
       "vue-template-compiler": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
