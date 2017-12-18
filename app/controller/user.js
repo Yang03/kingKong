@@ -50,7 +50,7 @@ class UserController extends Controller {
         this.ctx.status = 200;
     }
     async checkEmail() {
-        const email = this.ctx.qurey.email;
+        const email = this.ctx.query.email; 
         const user = await this.service.user.findByEmail(email);
     
         if (user) {
