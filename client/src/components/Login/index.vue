@@ -7,7 +7,7 @@
             <el-form-item label="邮箱地址" prop="email">
                 <el-input v-model="loginForm.email"></el-input>
             </el-form-item>
-            <el-form-item label="设置密码" prop="password">
+            <el-form-item label="密码" prop="password">
                 <el-input v-model="loginForm.password" type="password"></el-input>
             </el-form-item>
             <el-form-item>
