@@ -21,8 +21,12 @@
 </template>
 
 <script>
+import cookie from 'js-cookie'
 import { login } from '../../api/user'
 export default {
+    mounted() {
+        this.checkLogin()
+    },
     data(){
         return {
             loginForm: {
@@ -61,6 +65,13 @@ export default {
                    })
                 }
             })   
+        },
+        checkLogin() {
+            if (decodeURIComponent(cookie.get('userName'))) {
+                this.$router.push({
+                    path: '/usage'
+                })
+            }
         }
     }    
 }

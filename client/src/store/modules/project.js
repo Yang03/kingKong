@@ -16,7 +16,6 @@ const getters = {
 
 const actions = {
     [types.GET_PROJECT]({commit, state}, params) {
-        //console.log(params)
         getAllProjects(params).then((res) => {
             commit('setProjects', res.data)
             if (res.data.length) {
@@ -34,8 +33,15 @@ const actions = {
     },
     [types.CRATE_PROJECT]({commit, state}, data) {
         createProject(data).then((res) => {
-           commit('crateSuccess', res.data.code)
-           commit('setProjects', res.data.apps)
+           commit('crateSuccess', res)
+           if (!res.data.code) {
+                const index = res.data.apps.length
+                const appId = res.data.apps[index - 1].appId
+                getProjectById({appId: appId}).then((res) => {
+                    commit('setProject', res.data)
+                })  
+           }
+           
         })     
     }
 }
@@ -49,15 +55,24 @@ const mutations = {
     },
     setProject(state, data) {
         state.app = data
+        state.currentApp = data.appName
     },
     appChange(state, value) {
         state.currentApp = value
     },
-    crateSuccess(state, code) {
-        if (!code) {
+    crateSuccess(state, res) {
+        if (!res.data.code) {
+            if (res.data.apps && res.data.apps.length && res.data.apps[res.data.apps.length - 1].appId) {
+                state.apps = res.data.apps
+                state.currentApp = res.data.apps[res.data.apps.length - 1].appId
+            }
             MessageBox.alert('创建成功',  {
                 confirmButtonText: '确定',
             }) 
+        } else  {
+            MessageBox.alert('创建失败',  {
+                confirmButtonText: '确定',
+            })  
         }
     }
 }
