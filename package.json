@@ -62,8 +62,8 @@
     "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
     "autod": "autod",
-    "client-dev": "webpack-dev-server --content-base ./client  --config ./client/webpack.config.js --inline --hot --host 0.0.0.0",
-    "client": "webpack --config ./client/webpack.config.js "
+    "client-dev": "webpack-dev-server --content-base ./client  --config ./client/webpack.dev.config.js --inline --hot --host 0.0.0.0",
+    "client": "webpack --config ./client/webpack.pro.config.js "
   },
   "ci": {
     "version": "8"
