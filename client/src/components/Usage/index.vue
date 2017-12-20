@@ -10,7 +10,13 @@
                 </el-option>
             </el-select>
             <div class="picker-box">
-                 <el-date-picker type="daterange" v-model="times" start-placeholder="开始日期" end-placeholder="结束日期" @change="timeChange">
+                <el-date-picker 
+                type="daterange" 
+                v-model="times" 
+                start-placeholder="开始日期"
+                end-placeholder="结束日期" 
+                 @change="timeChange"
+                :picker-options="pickerOptions">
                 </el-date-picker>
             </div> 
         </div> 
@@ -30,7 +36,7 @@
                     <el-table-column prop="name" label="日期"></el-table-column>
                     <el-table-column prop="value" label="时间">
                         <template scope="scope">
-                        <span>{{scope.row.value}}/分钟</span>
+                            <span>{{scope.row.value}}/分钟</span>
                         </template>   
                     </el-table-column>
                 </el-table>
@@ -49,6 +55,9 @@ export default {
         this.fetchData()
     },
     data() {
+        const defaultEnd = new Date();
+        const defaultStart = new Date();
+        defaultStart.setTime(defaultStart.getTime() - 3600 * 1000 * 24 * 7);
         return {
 			canvasId: 'myCanvas',
 			type: 'bar',
@@ -62,7 +71,24 @@ export default {
                 xLength: 10,
                 fillColor: '#00A0E9'
             },
-            times: ''
+            times: [defaultStart, defaultEnd],
+            pickerOptions: {      
+               shortcuts: [{
+                text: '最近一周',
+                onClick(picker) {
+                    const end = new Date();
+                    const start = new Date();
+                    start.setTime(start.getTime() - 3600 * 1000 * 24 * 7);
+                    picker.$emit('pick', [start, end]);
+                }}, {
+                text: '最近一个月',
+                onClick(picker) {
+                    const end = new Date();
+                    const start = new Date();
+                    start.setTime(start.getTime() - 3600 * 1000 * 24 * 30);
+                    picker.$emit('pick', [start, end]);
+                }}]
+            }    
             //currentApp: null
 		}
     },
