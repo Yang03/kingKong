@@ -3,9 +3,9 @@ const Time = require('../util').time;
 const Service = require('egg').Service;
 
 class LogService extends Service {
-    async getTotalTime(startTime, endTime, appId) {
-        const query = "Select * From log Where appid = ? and DATE_FORMAT(time,'%Y-%m-%d') >= ? and DATE_FORMAT(time,'%Y-%m-%d') <= ? ";
-        const logs = await this.app.mysql.query(query, [appId, startTime, endTime]);
+    async getTotalTime(startTime, endTime, appId, type) {
+        const query = "Select * From log Where appid = ? and DATE_FORMAT(time,'%Y-%m-%d') >= ? and DATE_FORMAT(time,'%Y-%m-%d') <= ? and type = ? ";
+        const logs = await this.app.mysql.query(query, [appId, startTime, endTime, type]);
         return this.format(logs);
     }
     format(logs) {

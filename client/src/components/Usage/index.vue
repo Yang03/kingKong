@@ -36,8 +36,9 @@
                     <el-table-column prop="name" label="日期"></el-table-column>
                     <el-table-column prop="value" label="时间">
                         <template scope="scope">
-                            <span>{{scope.row.value}}/分钟</span>
-                        </template>   
+                            <span>{{scope.row.value}}/</span>
+                        </template>
+                        <span>{{currentApp.type == 1 ? '分钟' : '人'}}</span>   
                     </el-table-column>
                 </el-table>
             </div>            

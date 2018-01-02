@@ -12,7 +12,8 @@ class AppService extends Service {
         for(let i = 0; i < results.length; i++) {
             arr.push({
                 appName: results[i].appName,
-                appId: results[i].id 
+                appId: results[i].id,
+                type:  results[i].type
             })    
         }
         return arr; 
