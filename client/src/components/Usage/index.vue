@@ -36,8 +36,7 @@
                     <el-table-column prop="name" label="日期"></el-table-column>
                     <el-table-column prop="value" label="时间">
                         <template scope="scope">
-                            <span>{{scope.row.value}}/</span>
-                            <span v-if="currentApp.type">{{currentApp.type == 1 ? '分钟' : '人'}}</span> 
+                            <span>{{formatStr(scope.row.value)}}/</span>
                         </template>
                     </el-table-column>
                 </el-table>
@@ -109,6 +108,11 @@ export default {
         })
     },
     methods: {
+        formatStr(value) {
+            console.log(this.currentApp)
+            const key = this.currentApp.type == 1 ? '分钟' : '人'
+            return value + '/' + key
+        },
         fetchData() {
             this.$store.dispatch(`usage/${types.GET_USAGE}`, {})
         },
