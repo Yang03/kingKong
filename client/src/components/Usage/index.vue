@@ -36,7 +36,7 @@
                     <el-table-column prop="name" label="日期"></el-table-column>
                     <el-table-column prop="value" label="时间">
                         <template scope="scope">
-                            <span>{{formatStr(scope.row.value)}}/</span>
+                            <span>{{formatStr(scope.row.value)}}</span>
                         </template>
                     </el-table-column>
                 </el-table>
@@ -104,13 +104,19 @@ export default {
             items: 'usage/items',
             barData: 'usage/items',
             apps: 'usage/apps',
-            currentApp: 'usage/currentApp'
+            currentApp: 'usage/currentApp',
+            currentAppType: 'usage/currentAppType'
         })
     },
     methods: {
         formatStr(value) {
-            console.log(this.currentApp)
-            const key = this.currentApp.type == 1 ? '分钟' : '人'
+            let type = ''
+            this.apps.forEach(element => {
+                if (element.appId == this.currentApp) {
+                    type = element.type
+                }
+            });
+            const key = type == 1 ? '分钟' : '人'
             return value + '/' + key
         },
         fetchData() {
