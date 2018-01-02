@@ -37,8 +37,8 @@
                     <el-table-column prop="value" label="时间">
                         <template scope="scope">
                             <span>{{scope.row.value}}/</span>
+                            <span v-if="currentApp.type">{{currentApp.type == 1 ? '分钟' : '人'}}</span> 
                         </template>
-                        <span>{{currentApp.type == 1 ? '分钟' : '人'}}</span>   
                     </el-table-column>
                 </el-table>
             </div>            
