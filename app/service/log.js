@@ -15,7 +15,7 @@ class LogService extends Service {
             let key = Time.getYMD(time);
             result.push({
                 name: key,
-                value: logs[i].totalTime
+                value: logs[i].total
             });    
         } 
         return result;   
