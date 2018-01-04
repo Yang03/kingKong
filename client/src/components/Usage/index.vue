@@ -110,28 +110,35 @@ export default {
     },
     methods: {
         formatStr(value) {
-            let type = ''
-            this.apps.forEach(element => {
-                if (element.appId == this.currentApp) {
-                    type = element.type
-                }
-            });
+            const type = this.getAppType(this.currentApp)
             const key = type == 1 ? '分钟' : '人'
             return value + '/' + key
+        },
+        getAppType(appId) {
+            let type = null
+            for (let app of this.apps) {
+                if (app.appId == appId) {
+                    type = app.type
+                    break;
+                }
+            }
+            return type 
         },
         fetchData() {
             this.$store.dispatch(`usage/${types.GET_USAGE}`, {})
         },
         appChange(value) {
-            //this.currentApp = value
-            this.$store.dispatch(`usage/${types.GET_USAGE_BY_ID_AND_TIME}`, {appId: value})
+            this.$store.dispatch(`usage/${types.GET_USAGE_BY_ID_AND_TIME}`, {
+                appId: value, 
+                type: this.getAppType(value)
+            })
         },
         timeChange(value) {
-            //this.currentApp = value
             this.$store.dispatch(`usage/${types.GET_USAGE_BY_ID_AND_TIME}`, {
                 appId: this.currentApp,
                 startTime: value[0],
-                endTime: value[1]
+                endTime: value[1],
+                type: this.getAppType(this.currentApp)
             })
         }
     },

@@ -35,13 +35,13 @@ class LogController extends Controller {
     }
     async getByIdAndTime() {
         const {ctx} = this;
-        let {startTime, endTime, appId} = ctx.request.query;
+        let {startTime, endTime, appId, type} = ctx.request.query;
         let now = Math.floor(new Date().getTime());
         startTime = startTime || now - 7 * 3600 * 24 * 1000;
         endTime = endTime || now;
         startTime = Time.getYMD(startTime);
         endTime = Time.getYMD(endTime);
-        const logs = await this.service.log.getTotalTime(startTime, endTime, appId);
+        const logs = await this.service.log.getTotalTime(startTime, endTime, appId, type);
         ctx.body = {
             logs: logs
         };

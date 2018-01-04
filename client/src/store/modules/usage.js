@@ -23,6 +23,7 @@ const actions = {
     },
     [types.GET_USAGE_BY_ID_AND_TIME]({commit, state}, params) {
         commit('appChange', params.appId)
+        console.log(params);
         getUsageByIdAndTime(params).then((res) => {
             commit('setUsage', res.data)
         })     
