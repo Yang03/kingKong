@@ -48,7 +48,7 @@ const actions = {
 
 const mutations = {
     setProjects(state, data) {
-        if (data && data.length && data[0].appId) {
+        if (data && data.length) {
             state.apps = data
             state.currentApp = data[0].appId
         }
