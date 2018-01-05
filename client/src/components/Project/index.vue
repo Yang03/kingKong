@@ -108,7 +108,7 @@ export default {
         },
         getType(type) {
             const config = {1:'时长', 2:'DAU'}
-            console.log(type)
+            console.log(config.type)
             return config.type
         }
     }
