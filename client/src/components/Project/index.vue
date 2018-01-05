@@ -26,6 +26,10 @@
                          <label>appKey:</label>
                          <span>{{app.appkey}}</span>
                      </li>
+                     <li>
+                         <label>付费方式:</label>
+                         <span>{{getType(app.type)}}</span>
+                     </li>
                  </ul>       
             </div>
         </div> 
@@ -45,7 +49,7 @@
             </el-form-item>
         </el-form>
         <div slot="footer" class="dialog-footer">
-            <el-button @click="visible= false">取 消</el-button>
+            <el-button @click="visible= false">取消</el-button>
             <el-button type="primary" @click="submit">确定</el-button>
         </div>
         </el-dialog>              
@@ -101,6 +105,10 @@ export default {
         submit() {
             this.visible = false
             this.$store.dispatch(`project/${types.CRATE_PROJECT}`, this.appForm)
+        },
+        getType(type) {
+            const config = {1: '时长', 2: 'DAU}
+            return config.type
         }
     }
 }
