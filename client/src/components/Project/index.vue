@@ -107,7 +107,7 @@ export default {
             this.$store.dispatch(`project/${types.CRATE_PROJECT}`, this.appForm)
         },
         getType(type) {
-            const config = {1: '时长', 2: 'DAU}
+            const config = {1:'时长', 2:'DAU'}
             return config.type
         }
     }
