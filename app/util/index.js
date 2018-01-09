@@ -8,5 +8,13 @@ module.exports = {
             day = day < 10 ? ('0' + day) : day;
             return temp.getFullYear().toString() + '-' + month + '-' +  day;   
         }
+    },
+    getDays(start = 0, end = 0) {
+        let arr = []	
+          while(start <= end) {
+            arr.push(getYMD(start))
+            start = start + 86400000
+        }
+       return arr
     }
 }

@@ -20,12 +20,17 @@
                 </el-date-picker>
             </div> 
         </div> 
-        <div class="bar">   
-            <schart :canvasId="canvasId" :type="type"
-                :width="width"
-                :height="height"
-                :data="barData"
-                :options="options"></schart>
+        <div class="bar">
+            <div v-if="barData">   
+                <schart :canvasId="canvasId" :type="type"
+                    :width="width"
+                    :height="height"
+                    :data="barData"
+                    :options="options"></schart>
+            </div>
+            <div class="empty" v-else>
+                <p>暂无数据!</p>    
+            </div>           
          </div>   
          <div class="card"> 
              <div class="card-header">
@@ -42,7 +47,6 @@
                 </el-table>
             </div>            
         </div>    
-
   </div>
 </template>
 <<script>
@@ -157,6 +161,12 @@ export default {
 
     .bar
         background #fff 
+
+    .empty > p
+        height 120px
+        line-height 120px
+        font-size 32px
+        text-align center  
 
     .card-header
         padding 15px 10px
