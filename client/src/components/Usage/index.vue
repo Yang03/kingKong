@@ -166,7 +166,8 @@ export default {
         height 120px
         line-height 120px
         font-size 32px
-        text-align center  
+        text-align center
+        color #666  
 
     .card-header
         padding 15px 10px
