@@ -28,8 +28,8 @@ class LogController extends Controller {
             };
         } else {
             ctx.body = {
-                code: '1101',
-                messgae: '还没有APP'
+                logs: [],
+                apps: []
             };
         } 
     }
