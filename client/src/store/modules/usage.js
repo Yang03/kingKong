@@ -33,9 +33,11 @@ const actions = {
 const mutations = {
     setUsage(state, data) {
         state.items = data.logs || []
+        state.apps = data.apps
         if (data.apps && data.apps.length) {
-            state.apps = data.apps
             state.currentApp = data.apps[0].appId
+        } else {
+            state.currentApp = ''
         }
         //else {
         //    state.apps = []
