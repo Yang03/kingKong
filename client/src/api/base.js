@@ -9,7 +9,7 @@ const request = axios.create({
 	transformRequest: [function (data) {
 		return qs.stringify(data)
 	}],
-	headers: {'x-csrf-token': cookie.get('csrfToken'), 'Cache-Control': 'no-cache'}
+	headers: {'x-csrf-token': cookie.get('csrfToken')}
 })
 
 request.interceptors.response.use(response => {
