@@ -42,7 +42,7 @@ const mutations = {
     appChange(state, value) {
         state.currentApp = value
     },
-    changeUsage(state, value) {
+    changeUsage(state, data) {
         state.items = data.logs || []
     }
 }
