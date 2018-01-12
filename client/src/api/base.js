@@ -9,7 +9,12 @@ const request = axios.create({
 	transformRequest: [function (data) {
 		return qs.stringify(data)
 	}],
-	headers: {'x-csrf-token': cookie.get('csrfToken')}
+	  // `xsrfCookieName` is the name of the cookie to use as a value for xsrf token
+	xsrfCookieName: 'csrfToken', // default
+
+	  // `xsrfHeaderName` is the name of the http header that carries the xsrf token value
+	xsrfHeaderName: 'x-csrf-token', // default
+	//headers: {'x-csrf-token': cookie.get('csrfToken')}
 })
 
 request.interceptors.response.use(response => {
