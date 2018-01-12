@@ -22,7 +22,7 @@
         </div> 
         <div class="bar">
             <div v-if="barData.length">   
-                <schart :canvasId="canvasId" :type="type"
+                <schart canvasId="myCanvas" :type="type"
                     :width="width"
                     :height="height"
                     :data="barData"
