@@ -31,7 +31,7 @@ export const Api = {
 		return request.get(url, {params: params})
 	},
 	post(url, data = {}) {
-		cookie.get(cookie.get('csrfToken'))
+		console.log(cookie.get('csrfToken'))
 		return request.post(url, data)
 	},
  }
