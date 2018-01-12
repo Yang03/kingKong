@@ -3,15 +3,13 @@ import qs from 'qs'
 import cookie from 'js-cookie'
 import router from '../router'
 
-const csrfToken = cookie.get('csrfToken')
-console.log(csrfToken)
 const request = axios.create({
 	timeout: 5000,
 	
 	transformRequest: [function (data) {
 		return qs.stringify(data)
 	}],
-	headers: {'x-csrf-token': csrfToken, 'Cache-Control': 'no-cache'}
+	headers: {'x-csrf-token': cookie.get('csrfToken'), 'Cache-Control': 'no-cache'}
 })
 
 request.interceptors.response.use(response => {
@@ -33,6 +31,7 @@ export const Api = {
 		return request.get(url, {params: params})
 	},
 	post(url, data = {}) {
+		cookie.get(cookie.get('csrfToken'))
 		return request.post(url, data)
 	},
  }
