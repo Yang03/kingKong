@@ -19,33 +19,31 @@ const actions = {
         //console.log(params)
         getUsage(params).then((res) => {
             commit('setUsage', res.data)
+            commit('changeUsage', res.data)
         })
     },
     [types.GET_USAGE_BY_ID_AND_TIME]({commit, state}, params) {
         commit('appChange', params.appId)
-        console.log(params);
         getUsageByIdAndTime(params).then((res) => {
-            commit('setUsage', res.data)
+            commit('changeUsage', res.data)
         })     
     }
 }
 
 const mutations = {
     setUsage(state, data) {
-        state.items = data.logs || []
-        state.apps = data.apps
+        state.apps = data.apps || []
         if (data.apps && data.apps.length) {
             state.currentApp = data.apps[0].appId
         } else {
             state.currentApp = ''
         }
-        //else {
-        //    state.apps = []
-        //    state.currentApp = ''
-        //}
     },
     appChange(state, value) {
         state.currentApp = value
+    },
+    changeUsage(state, value) {
+        state.items = data.logs || []
     }
 }
 
