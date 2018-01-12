@@ -4,6 +4,7 @@ import cookie from 'js-cookie'
 import router from '../router'
 
 const csrfToken = cookie.get('csrfToken')
+console.log(csrfToken)
 const request = axios.create({
 	timeout: 5000,
 	
