@@ -1,299 +1,302 @@
 {
-  "keys": "/Users/baixing/Downloads/kingKong/config/config.default.js",
+  "keys": "/Users/baixing/project/kingKong/config/config.default.js",
   "mysql": {
     "client": {
-      "host": "/Users/baixing/Downloads/kingKong/config/config.default.js",
-      "port": "/Users/baixing/Downloads/kingKong/config/config.default.js",
-      "user": "/Users/baixing/Downloads/kingKong/config/config.default.js",
-      "password": "/Users/baixing/Downloads/kingKong/config/config.default.js",
-      "database": "/Users/baixing/Downloads/kingKong/config/config.default.js"
+      "host": "/Users/baixing/project/kingKong/config/config.default.js",
+      "port": "/Users/baixing/project/kingKong/config/config.default.js",
+      "user": "/Users/baixing/project/kingKong/config/config.default.js",
+      "password": "/Users/baixing/project/kingKong/config/config.default.js",
+      "database": "/Users/baixing/project/kingKong/config/config.default.js"
     },
-    "app": "/Users/baixing/Downloads/kingKong/config/config.default.js",
-    "agent": "/Users/baixing/Downloads/kingKong/config/config.default.js",
+    "app": "/Users/baixing/project/kingKong/config/config.default.js",
+    "agent": "/Users/baixing/project/kingKong/config/config.default.js",
     "default": {
-      "database": "/Users/baixing/Downloads/kingKong/node_modules/egg-mysql/config/config.default.js",
-      "connectionLimit": "/Users/baixing/Downloads/kingKong/node_modules/egg-mysql/config/config.default.js"
+      "database": "/Users/baixing/project/kingKong/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/baixing/project/kingKong/node_modules/egg-mysql/config/config.default.js"
     }
   },
   "session": {
-    "maxAge": "/Users/baixing/Downloads/kingKong/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/baixing/Downloads/kingKong/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/baixing/Downloads/kingKong/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/baixing/Downloads/kingKong/node_modules/egg-session/config/config.default.js"
+    "maxAge": "/Users/baixing/project/kingKong/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/baixing/project/kingKong/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/baixing/project/kingKong/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/baixing/project/kingKong/node_modules/egg-session/config/config.default.js"
   },
   "security": {
-    "domainWhiteList": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
+    "domainWhiteList": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
     "csrf": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "useSession": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "ignoreJSON": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "cookieName": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "sessionName": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "headerName": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "bodyName": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "queryName": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "xframe": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "hsts": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.local.js",
-      "maxAge": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "includeSubdomains": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "maxAge": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "dta": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "methodnoallow": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "noopen": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "nosniff": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "xssProtection": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "value": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     },
     "csp": {
-      "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js",
-      "policy": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+      "enable": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
     }
   },
   "helper": {
-    "shtml": "/Users/baixing/Downloads/kingKong/node_modules/egg-security/config/config.default.js"
+    "shtml": "/Users/baixing/project/kingKong/node_modules/egg-security/config/config.default.js"
   },
   "jsonp": {
-    "limit": "/Users/baixing/Downloads/kingKong/node_modules/egg-jsonp/config/config.default.js",
-    "callback": "/Users/baixing/Downloads/kingKong/node_modules/egg-jsonp/config/config.default.js",
-    "csrf": "/Users/baixing/Downloads/kingKong/node_modules/egg-jsonp/config/config.default.js"
+    "limit": "/Users/baixing/project/kingKong/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/baixing/project/kingKong/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/baixing/project/kingKong/node_modules/egg-jsonp/config/config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "/Users/baixing/Downloads/kingKong/node_modules/egg-onerror/config/config.default.js",
-    "appErrorFilter": "/Users/baixing/Downloads/kingKong/node_modules/egg-onerror/config/config.default.js"
+    "errorPageUrl": "/Users/baixing/project/kingKong/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/baixing/project/kingKong/node_modules/egg-onerror/config/config.default.js"
   },
   "i18n": {
-    "defaultLocale": "/Users/baixing/Downloads/kingKong/node_modules/egg-i18n/config/config.default.js",
-    "dirs": "/Users/baixing/Downloads/kingKong/node_modules/egg-i18n/config/config.default.js",
-    "queryField": "/Users/baixing/Downloads/kingKong/node_modules/egg-i18n/config/config.default.js",
-    "cookieField": "/Users/baixing/Downloads/kingKong/node_modules/egg-i18n/config/config.default.js",
-    "cookieMaxAge": "/Users/baixing/Downloads/kingKong/node_modules/egg-i18n/config/config.default.js"
+    "defaultLocale": "/Users/baixing/project/kingKong/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/baixing/project/kingKong/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/baixing/project/kingKong/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/baixing/project/kingKong/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/baixing/project/kingKong/node_modules/egg-i18n/config/config.default.js"
   },
   "watcher": {
-    "type": "/Users/baixing/Downloads/kingKong/node_modules/egg-watcher/config/config.local.js",
+    "type": "/Users/baixing/project/kingKong/node_modules/egg-watcher/config/config.default.js",
     "eventSources": {
-      "default": "/Users/baixing/Downloads/kingKong/node_modules/egg-watcher/config/config.default.js",
-      "development": "/Users/baixing/Downloads/kingKong/node_modules/egg-watcher/config/config.default.js"
+      "default": "/Users/baixing/project/kingKong/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/baixing/project/kingKong/node_modules/egg-watcher/config/config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "defaultCharset": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "fieldNameSize": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "fieldSize": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "fields": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "fileSize": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "files": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "fileExtensions": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js",
-    "whitelist": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart/config/config.default.js"
+    "autoFields": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/baixing/project/kingKong/node_modules/egg-multipart/config/config.default.js"
   },
-  "development": {
-    "watchDirs": "/Users/baixing/Downloads/kingKong/node_modules/egg-development/config/config.default.js",
-    "ignoreDirs": "/Users/baixing/Downloads/kingKong/node_modules/egg-development/config/config.default.js",
-    "fastReady": "/Users/baixing/Downloads/kingKong/node_modules/egg-development/config/config.default.js",
-    "reloadOnDebug": "/Users/baixing/Downloads/kingKong/node_modules/egg-development/config/config.default.js"
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/baixing/project/kingKong/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/baixing/project/kingKong/node_modules/egg-schedule/config/config.default.js"
+    }
   },
   "logrotator": {
-    "filesRotateByHour": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js",
-    "hourDelimiter": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js",
-    "filesRotateBySize": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js",
-    "maxFileSize": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js",
-    "maxFiles": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js",
-    "rotateDuration": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js",
-    "maxDays": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator/config/config.default.js"
+    "filesRotateByHour": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/baixing/project/kingKong/node_modules/egg-logrotator/config/config.default.js"
   },
   "static": {
-    "prefix": "/Users/baixing/Downloads/kingKong/node_modules/egg-static/config/config.default.js",
-    "dir": "/Users/baixing/Downloads/kingKong/node_modules/egg-static/config/config.default.js",
-    "dynamic": "/Users/baixing/Downloads/kingKong/node_modules/egg-static/config/config.default.js",
-    "preload": "/Users/baixing/Downloads/kingKong/node_modules/egg-static/config/config.default.js",
-    "buffer": "/Users/baixing/Downloads/kingKong/node_modules/egg-static/config/config.default.js",
-    "maxFiles": "/Users/baixing/Downloads/kingKong/node_modules/egg-static/config/config.default.js"
+    "prefix": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.prod.js",
+    "maxFiles": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.default.js",
+    "maxAge": "/Users/baixing/project/kingKong/node_modules/egg-static/config/config.prod.js"
   },
   "view": {
-    "root": "/Users/baixing/Downloads/kingKong/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/baixing/Downloads/kingKong/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/baixing/Downloads/kingKong/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/baixing/Downloads/kingKong/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/baixing/Downloads/kingKong/node_modules/egg-view/config/config.default.js"
+    "root": "/Users/baixing/project/kingKong/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/baixing/project/kingKong/node_modules/egg-view/config/config.default.js",
+    "defaultExtension": "/Users/baixing/project/kingKong/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/baixing/project/kingKong/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/baixing/project/kingKong/node_modules/egg-view/config/config.default.js"
   },
-  "env": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "name": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "proxy": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "protocolHeaders": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "ipHeaders": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "hostHeaders": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+  "env": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "name": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
   "pkg": {
-    "name": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "version": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "description": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "private": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+    "name": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "version": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "description": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "private": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
     "dependencies": {
-      "axios": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "egg": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "egg-mysql": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "element-ui": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "js-cookie": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "qs": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "sass-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "vue": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "vue-router": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "vue-schart": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "vuex": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "axios": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "egg": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "element-ui": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "js-cookie": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "qs": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "sass-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "vue": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "vue-router": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "vue-schart": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "vuex": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "autod": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "autod-egg": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "autoprefixer": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "babel-core": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "babel-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "babel-preset-env": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "babel-preset-es2015": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "cross-env": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "css-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "egg-bin": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "egg-ci": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "egg-mock": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "eslint": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "eslint-config-egg": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "extract-text-webpack-plugin": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "file-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "nodemon": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "npm-install-webpack-plugin": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "postcss-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "style-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "stylus": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "stylus-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "uglifyjs-webpack-plugin": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "url-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "vue-loader": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "vue-template-compiler": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "webpack": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "webpack-dev-server": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "webstorm-disable-index": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "autod": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "autoprefixer": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "babel-core": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "babel-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "babel-preset-env": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "babel-preset-es2015": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "css-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "extract-text-webpack-plugin": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "file-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "nodemon": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "npm-install-webpack-plugin": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "postcss-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "style-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "stylus": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "stylus-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "uglifyjs-webpack-plugin": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "url-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "vue-loader": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "vue-template-compiler": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "webpack": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "webpack-dev-server": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "webstorm-disable-index": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "engines": {
-      "node": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "node": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "scripts": {
-      "start": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "stop": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "dev": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "debug": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "test": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "test-local": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "cov": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "lint": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "ci": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "autod": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "client-dev": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "client": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "start": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "stop": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "dev": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "debug": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "test": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "cov": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "lint": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "ci": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "autod": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "client-dev": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "client": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "ci": {
-      "version": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "version": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "repository": {
-      "type": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "url": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "type": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "url": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
-    "author": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "license": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "author": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "license": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   },
-  "baseDir": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "HOME": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "rundir": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+  "baseDir": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
   "dump": {
-    "ignore": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "ignore": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "notFound": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "sitefile": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "middlewares": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "httpClient": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "bodyparser": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   },
   "notfound": {
-    "pageUrl": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "pageUrl": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "/favicon.ico": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   },
   "bodyParser": {
-    "enable": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "formLimit": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "jsonLimit": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "strict": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+    "enable": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "strict": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
     "queryString": {
-      "arrayLimit": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "depth": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "parameterLimit": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "arrayLimit": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "depth": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     }
   },
   "logger": {
-    "dir": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "encoding": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "env": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "level": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "consoleLevel": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "disableConsoleAfterReady": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "outputJSON": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "buffer": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "appLogName": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "coreLogName": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "agentLogName": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "errorLogName": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "coreLogger": {
-      "consoleLevel": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.local.js"
-    },
-    "allowDebugAtProd": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "dir": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "env": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "level": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "coreLogger": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "allowDebugAtProd": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxLength": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-    "dnsCacheMaxAge": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+    "enableDNSCache": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxAge": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
     "request": {
-      "timeout": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "timeout": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "freeSocketKeepAliveTimeout": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "maxSockets": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "maxFreeSockets": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "keepAlive": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "freeSocketKeepAliveTimeout": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     }
   },
-  "coreMiddleware": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-  "workerStartTimeout": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
+  "meta": {
+    "enable": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+    "logging": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
   "cluster": {
     "listen": {
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "port": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js",
-      "hostname": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+      "path": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "port": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
     }
   },
   "clusterClient": {
-    "responseTimeout": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/config.default.js"
+    "responseTimeout": "/Users/baixing/project/kingKong/node_modules/egg/config/config.default.js"
   }
 }

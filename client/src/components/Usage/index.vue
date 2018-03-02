@@ -78,18 +78,18 @@ export default {
             times: [defaultStart, defaultEnd],
             pickerOptions: {      
                shortcuts: [{
-                text: '最近一周',
+                text: '最近7天',
                 onClick(picker) {
                     const end = new Date();
                     const start = new Date();
                     start.setTime(start.getTime() - 3600 * 1000 * 24 * 7);
                     picker.$emit('pick', [start, end]);
                 }}, {
-                text: '最近一个月',
+                text: '最近15天',
                 onClick(picker) {
                     const end = new Date();
                     const start = new Date();
-                    start.setTime(start.getTime() - 3600 * 1000 * 24 * 30);
+                    start.setTime(start.getTime() - 3600 * 1000 * 24 * 15);
                     picker.$emit('pick', [start, end]);
                 }}]
             }    
@@ -138,6 +138,12 @@ export default {
             })
         },
         timeChange(value) {
+            if (new Date(value[1]).getTime() - new Date(value[0]).getTime() > 3600 * 1000 * 24 * 15) {
+                this.$message({
+                     type: 'warning',
+                     message: '日期区间必须在15天以内！'   
+                })
+            }
             this.$store.dispatch(`usage/${types.GET_USAGE_BY_ID_AND_TIME}`, {
                 appId: this.currentApp,
                 startTime: value[0],

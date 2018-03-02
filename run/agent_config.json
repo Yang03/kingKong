@@ -73,10 +73,10 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
-        "default": "/Users/baixing/Downloads/kingKong/node_modules/egg-watcher/lib/event-sources/default",
-        "development": "/Users/baixing/Downloads/kingKong/node_modules/egg-watcher/lib/event-sources/development"
+        "default": "/Users/baixing/project/kingKong/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/baixing/project/kingKong/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "multipart": {
@@ -90,11 +90,11 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "/Users/baixing/logs/kingKong/egg-schedule.log"
+      }
     },
     "logrotator": {
       "filesRotateByHour": null,
@@ -107,15 +107,16 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "/Users/baixing/Downloads/kingKong/app/public",
+      "dir": "/Users/baixing/project/kingKong/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
-      "root": "/Users/baixing/Downloads/kingKong/app/view",
-      "cache": false,
+      "root": "/Users/baixing/project/kingKong/app/view",
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -135,7 +136,7 @@
         "database": "kingKong"
       }
     },
-    "env": "local",
+    "env": "prod",
     "name": "kingKong",
     "keys": "<String len: 8>",
     "proxy": false,
@@ -219,9 +220,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "/Users/baixing/Downloads/kingKong",
+    "baseDir": "/Users/baixing/project/kingKong",
     "HOME": "/Users/baixing",
-    "rundir": "/Users/baixing/Downloads/kingKong/run",
+    "rundir": "/Users/baixing/project/kingKong/run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -251,21 +252,19 @@
       }
     },
     "logger": {
-      "dir": "/Users/baixing/Downloads/kingKong/logs/kingKong",
+      "dir": "/Users/baixing/logs/kingKong",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "kingKong-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -288,6 +287,10 @@
         "maxSockets": 9007199254740991,
         "maxFreeSockets": 256
       }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
     },
     "coreMiddleware": [
       "meta",
@@ -325,13 +328,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/config/plugin.js",
+      "from": "/Users/baixing/project/kingKong/config/plugin.js",
       "key": "kingkong",
       "maxAge": 86400000,
       "httpOnly": true,
       "encrypt": true,
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-session",
-      "version": "3.0.0"
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-session",
+      "version": "3.1.0"
     },
     "security": {
       "enable": true,
@@ -342,8 +345,8 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-security",
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-security",
       "version": "2.0.0"
     },
     "jsonp": {
@@ -355,8 +358,8 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-jsonp",
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -368,8 +371,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-onerror",
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -379,8 +382,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-i18n",
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -390,8 +393,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-watcher",
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -401,23 +404,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-multipart",
-      "version": "2.0.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-development",
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-multipart",
       "version": "2.0.0"
     },
     "schedule": {
@@ -427,9 +415,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-schedule",
-      "version": "3.1.1"
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-schedule",
+      "version": "3.3.0"
     },
     "logrotator": {
       "enable": true,
@@ -440,9 +428,9 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-logrotator",
-      "version": "3.0.1"
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-logrotator",
+      "version": "3.0.2"
     },
     "static": {
       "enable": true,
@@ -451,9 +439,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-static",
-      "version": "2.0.0"
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-static",
+      "version": "2.1.0"
     },
     "view": {
       "enable": true,
@@ -462,9 +450,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/node_modules/egg/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-view",
-      "version": "2.0.0"
+      "from": "/Users/baixing/project/kingKong/node_modules/egg/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-view",
+      "version": "2.1.0"
     },
     "mysql": {
       "enable": true,
@@ -473,8 +461,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/baixing/Downloads/kingKong/config/plugin.js",
-      "path": "/Users/baixing/Downloads/kingKong/node_modules/egg-mysql",
+      "from": "/Users/baixing/project/kingKong/config/plugin.js",
+      "path": "/Users/baixing/project/kingKong/node_modules/egg-mysql",
       "version": "3.0.0"
     }
   }
