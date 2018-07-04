@@ -6,59 +6,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/log/usage",
-    "regexp": "/^\\/api\\/log\\/usage(?:\\/(?=$))?$/",
-    "stack": [
-      "access",
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/log/usageByIdAndTime",
-    "regexp": "/^\\/api\\/log\\/usageByIdAndTime(?:\\/(?=$))?$/",
-    "stack": [
-      "access",
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/user/register",
-    "regexp": "/^\\/api\\/user\\/register(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/user/login",
-    "regexp": "/^\\/api\\/user\\/login(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/user/loginOut",
-    "regexp": "/^\\/api\\/user\\/loginOut(?:\\/(?=$))?$/",
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -70,63 +19,9 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/user/checkEmail",
-    "regexp": "/^\\/api\\/user\\/checkEmail(?:\\/(?=$))?$/",
+    "path": "/__loader_trace__",
+    "regexp": "/^\\/__loader_trace__(?:\\/(?=$))?$/",
     "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/user/session",
-    "regexp": "/^\\/api\\/user\\/session(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/project",
-    "regexp": "/^\\/api\\/project(?:\\/(?=$))?$/",
-    "stack": [
-      "access",
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "POST"
-    ],
-    "paramNames": [],
-    "path": "/api/project",
-    "regexp": "/^\\/api\\/project(?:\\/(?=$))?$/",
-    "stack": [
-      "access",
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/projects",
-    "regexp": "/^\\/api\\/projects(?:\\/(?=$))?$/",
-    "stack": [
-      "access",
       "wrappedController"
     ]
   }
