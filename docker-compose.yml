@@ -1,0 +1,12 @@
+app:
+  build: .
+  volumes:
+    - "./app:/usr/project/app"
+    - "./config:/usr/project/config"
+    - "./logs:/usr/project/logs"
+    - "./test:/usr/project/test"
+    - "./typings:/usr/project/typings"
+    - "./tsconfig.json:/usr/project/tsconfig.json"
+    - "./tslint.json:/usr/project/tslint.json"
+  ports:
+    - "7002:7001"
