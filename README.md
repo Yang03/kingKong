@@ -1,8 +1,8 @@
-# hackernews-async-ts
-
-[Hacker News](https://news.ycombinator.com/) showcase using typescript && egg
-
 ## QuickStart
+### Run
+    docker-compose build
+    docker-compose up
+    open 127.0.0.1/7002
 
 ### Development
 
